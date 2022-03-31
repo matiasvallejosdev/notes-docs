@@ -1,15 +1,18 @@
-**Hypertext markup language**
-
-https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
+## Hypertext markup language
 
 HTML (Hypertext Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. 
 
 ![Image](https://sebastian.expert/wp-content/uploads/2015/01/hierarchy_tags_Siblings.png)
 
+***Useful links***
+
+https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
+
 ***Table of contents:***
-- [Meta](#meta)
-- [Labels](#labels)
-- [Section vs Div vs Article](#section-vs-div-vs-article)
+- [Hypertext markup language](#hypertext-markup-language)
+  - [Meta](#meta)
+  - [Labels](#labels)
+  - [Section vs Div vs Article](#section-vs-div-vs-article)
 
 ### Meta
 They are typcally used to specific character set page descriptions, keywords author of document viewports

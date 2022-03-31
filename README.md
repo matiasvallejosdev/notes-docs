@@ -12,4 +12,4 @@
 
 #### ***Notion guide to markdown files***
 - [web-development/css.md](web-development/WEB-DEVELOPMENT-GUIDE.md)
-- [coding/coding.md](coding/CODING-GUIDE.md)
+- [programming-languages/coding.md](programming-languages/CODING-GUIDE.md)

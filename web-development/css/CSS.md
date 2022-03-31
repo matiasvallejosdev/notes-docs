@@ -1,26 +1,22 @@
-**Cascade Style Sheet**
-
-https://developer.mozilla.org/en-US/docs/Learn/CSS
+## Cascade Style Sheet
 
 CSS can be used for very basic document text styling — for example changing the color and size of headings and links. It can be used to create layout — for example turning a single column of text into a layout with a main content area and a sidebar for related information. It can even be used for effects such as animation. Have a look at the links in this paragraph for specific examples.
 
-***Basic syntax of css:***
-```css
-.body{
-    text-align: left;
-    color: #red;
-}
-```
+***Useful links***
+
+https://developer.mozilla.org/en-US/docs/Learn/CSS
+
 ***Table of contents:***
-- [Selectors](#selectors)
-- [Basic](#basic)
-  - [Pseudoclasses](#pseudoclasses)
-- [Custom Properties](#custom-properties)
-  - [Box Model](#box-model)
-- [Layout](#layout)
-  - [Flexbox](#flexbox)
-  - [Grid](#grid)
-  - [Grid vs Flexbox](#grid-vs-flexbox)
+- [Cascade Style Sheet](#cascade-style-sheet)
+  - [Selectors](#selectors)
+  - [Basic](#basic)
+    - [Pseudoclasses](#pseudoclasses)
+  - [Custom Properties](#custom-properties)
+    - [Box Model](#box-model)
+  - [Layout](#layout)
+    - [Flexbox](#flexbox)
+    - [Grid](#grid)
+    - [Grid vs Flexbox](#grid-vs-flexbox)
 
 ### Selectors
 
@@ -30,6 +26,13 @@ https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors
 
 This are the way that you can define styles to an html element. You can use classes, labels or property.
 You also can combine this types.
+
+```css
+.body{
+    text-align: left;
+    color: #red;
+}
+```
 
 **Universal selector**
 Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.

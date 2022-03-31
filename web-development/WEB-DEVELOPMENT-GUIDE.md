@@ -1,4 +1,4 @@
-## Notion Web Development
+## Notes Web Development
 
 ***Table of contents:***
 

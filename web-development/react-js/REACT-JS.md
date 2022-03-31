@@ -1,14 +1,14 @@
-**React JS**
+## React JS
+
+React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
+
 
 ***Useful links:***
 - https://nextjs.org/docs/
 
 ***Table of contents***
-- [React](#react)
-- [Errors](#errors)
-
-### React
-
+- [React JS](#react-js)
+  - [Errors](#errors)
 
 ### Errors
 
