@@ -1,0 +1,180 @@
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    letter-spacing: 0.12px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+.section{
+    border: 1px solid #818181;
+    margin: 1em;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+}
+
+/* START HEADER */
+
+.container-header{
+    border: 1px solid #9F4BF2;
+    padding: 0;
+    margin-left: 0.1em;
+    margin-right: 0.1em;
+    margin-top: 0.1em;
+}
+
+.header{
+    padding: 1em;
+}
+
+.container-header h3{
+    width: 0 auto;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.container-header h1{
+    width: 0 auto;
+    text-align: center;
+    margin: 0;
+}
+
+.nav-container ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    margin: 0.3em;
+}
+
+.nav-container a{
+    border: 1px solid black;
+    padding: 0.3em;
+    font-size: 0.7em;
+    text-decoration: none;
+    color: #581c1c;
+}
+
+.nav-container a:link{
+    color: #FF4B4B;
+}
+.nav-container a:hover{
+    color: #FF4B4B;
+}
+
+
+/* END HEADER */
+
+/* START FLEXBOX */
+
+.section h1{
+    width: 0 auto;
+    text-align: center;
+}
+
+.box{
+    border: 1px solid blue;
+    width: 100px;
+    height: 100px;
+    background-color: #FF4B4B;
+    margin: 0.3em;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.box span{
+    border: 1px solid rgb(0, 0, 0);
+    color: white;
+    font-weight: bold;
+}
+
+.container-row{
+    border: 1px solid rebeccapurple;
+    width: 35%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container-column{
+    border: 1px solid rebeccapurple;
+    width: 10%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
+
+.container-wr{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.container-wrap{
+    border: 1px solid rebeccapurple;
+    width: 40%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    height: 14em;
+}
+
+.container-no-wrap{
+    border: 1px solid rgb(63, 153, 51);
+    width: 40%;
+    height: 14em;
+    display: flex;
+    flex-flow: row no-wrap;
+    align-items: stretch;
+}
+
+.container-no-wrap .box{
+    background-color: #9F4BF2;
+    height: auto;
+}
+
+.container-parent{
+    border: 1px solid black;
+    width: 0 auto;
+    margin-left: 5em;
+    margin-right: 5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-parent .c1{
+    background-color: #9F4BF2;
+    order: 1;
+    flex-grow: 1;
+}
+.container-parent .c2{
+    background-color: #5ef24b;
+    order: 2;
+}
+.container-parent .c3{
+    background-color: #f24b4b;
+    order: 0;
+}
+
+/* END FLEXBOX */

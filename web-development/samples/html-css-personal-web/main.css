@@ -1,0 +1,606 @@
+
+/* Global CSS*/
+body{
+    background-color: rgb(255, 255, 255);
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    letter-spacing: 0.12px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+/* -- START HEADER SECTION -- */
+
+.container-header{
+    padding: 1em;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    font-weight: 500;
+}
+
+ul{
+    list-style: none;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+ul li a{
+    padding: 0 16px;
+}
+
+p{
+    margin: 0;
+}
+
+#t-header{
+    font-size: 1.35em;
+    color:rgb(32, 32, 32);
+    width: 100%;
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    padding-right: 95px;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+}
+
+.circle{
+    width: 25px;
+    height: 25px;
+    margin-right: 9px;
+}
+
+a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color:rgb(0, 0, 0)
+}
+a:visited {
+    color: inherit;
+}
+a:link{
+    color: black
+}
+a:hover{
+    color: #BA66F2;
+}
+
+.home{
+    color: #BA66F2;
+}
+
+/* -- END HEADER SECTION -- */
+
+/* -- START BANNER SECTION -- */
+
+.container-banner {
+    background-color: rgb(255, 255, 255);
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    gap: 9em;
+    align-content: center;
+    align-items: center;
+    padding-bottom: 6em;
+    margin-left: 9rem;
+    margin-right: 9rem;
+    margin-top: 7rem;
+}
+
+.banner-left{
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-tittle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner-tittle h1,h2,h3,h4,p{
+    width: 450px;
+    margin: 0;
+    padding: 10px;
+}
+
+.banner-tittle h1{
+    color:#301947;
+    font-size: 3.8em;
+}
+
+.banner-tittle h2{
+    color: #6d6a7c;
+    font-size: 1.5em;
+}
+
+.banner-tittle p{
+    color: rgb(109, 106, 124);
+    font-size: 1.3rem;
+    font-style: normal;
+    font-weight: inherit;
+    text-align: left;
+    padding: 10px;
+}
+
+.home-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    width: 25rem;
+    padding: 0;
+    margin: 0;
+}
+
+.home-blob{
+    fill:#BA66F2; 
+}
+
+.my-image{
+    position: absolute;
+    height: 20em;
+}
+
+.banner-icons {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    padding-right: 10em;
+}
+
+.icon{
+    border: inherit;
+    background-color: white;
+    color: #BA66F2;
+}
+
+.icon i:hover{
+    color: #BA66F2;
+    box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.banner-tittle button{
+    margin-top: 2rem;
+}
+
+.button{
+    border: 0px;
+    padding: 1.3rem;
+    border-radius: 0.6rem;
+    background-color:#BA66F2;
+    width: 8rem;
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+.button-flex{
+    transition: all 0.3s ease;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    gap: 1em;
+    width: 9em;
+}
+
+.button:hover{
+    background-color: #9F4BF2;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+}
+
+.button span{
+    color:white;
+    font-weight: bold;
+    font-size: 1.25rem;
+    padding: 0.1rem;
+}
+
+.button i{
+    color: white;
+    margin-left: 0.3em;
+}
+
+/* -- END BANNER SECTION -- */
+
+/* -- START ABOUT ME SECTION -- */
+
+.section{
+    margin: 0;
+    padding-top: 4em;
+    padding-bottom: 1em;
+}
+
+.section h2, p, span{
+    margin: 0 auto;
+    text-align: center;
+    padding: 0;
+}
+
+.section h2{
+    color: #301947;
+    font-size: 3rem;
+}
+
+.section p{
+    font-size: 1.25em;
+    color:rgb(109, 106, 124);
+    padding-top: 0.4rem;
+    margin-bottom: 5rem;
+    text-align: center;
+}
+
+.about-me-container{
+    display: flex;
+    justify-content: center;
+    gap: 9rem;
+}
+
+.about-me-container img{
+    height: 26em;
+    border-radius: 1rem;
+}
+
+.about-me-data{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.about-me-data p{
+    height: auto;
+    margin:0;
+    padding: 0;
+    margin-bottom: 3rem;
+    font-size: 1.25em;
+    text-align: left;
+    color:rgb(109, 106, 124);
+}
+
+.about-me-data a{
+    margin: 0;
+    font-weight: normal;
+}
+
+/* -- END ABOUT ME SECTION -- */
+
+/* -- STRAT INSPIRATION SECTION -- */
+
+.phrase-section{
+    margin: 0;
+    padding-top: 6em;
+}
+
+.phrase-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.phrase-container p{
+    font-size: 1.25em;
+    text-align: center;
+    color:rgb(109, 106, 124);
+    width: 68%;
+    height: 100%;
+}
+
+.phrase-container span{
+    font-size: 1.25em;
+    color: #9F4BF2;
+    width: 68%;
+    text-align: right;
+    padding-top: 1em;
+}
+
+.container-phrase{
+    margin-top: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:royalblue;
+    height: 150px;
+}
+
+.flex-container-phrase{
+    display: flex;
+    flex-direction: column;
+    align-content: space-around;
+}
+
+h4{
+    color: rgb(255, 255, 255);
+    font-size: 1.2em;
+    margin: 10px;
+    width: 50em;
+}
+
+/* -- END INSPIRATION SECTION -- */
+
+/* -- START CONTACT ME */
+
+#contact-me{
+    padding-bottom: 7em;
+}
+
+.contact-me-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+    gap: 1em;
+}
+
+.contact-me-container h3{
+    width: 100%;
+    text-align: center;
+    padding: 0;
+    color: #6d6a7c;
+}
+
+.wrap{
+    padding: 0.3em;
+    background-color: #9F4BF2;
+}
+
+.wrap h2{
+    width: 100%;
+    color: white;
+    color: white;
+}
+
+.wrap h2:hover{
+    color: #9F4BF2;
+
+}
+
+.wrap:hover{
+    background-color: white;
+}
+
+/* -- END CONTACT ME */
+
+/* -- START FOOTER SECTION */
+
+.footer {
+    background-color: #BA66F2;
+    height: 100%;
+    padding-bottom: 2em;
+}
+
+.footer-container{
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15rem;
+    margin-right: 15rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.footer-tittle h3, span{
+    color:white;
+}
+
+
+.footer-tittle h3{
+    font-size: 1.8em;
+    margin: 0;
+    padding: 0;
+    padding-bottom: 3px;
+}
+
+.footer-nav{
+    background-color: inherit;
+    padding: 0;
+    margin: 0;
+}
+
+.footer-nav a{
+    color: white;
+}
+
+.footer-nav a:hover{
+    color: #301947;
+}
+
+.footer-social-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.footer-social-container ul{
+    background-color: inherit;
+}
+
+.footer-social-container a{
+    padding: 0.3em;
+    margin: 0.5em;
+}
+
+.footer-social-container i{
+    color: white;
+}
+
+.footer-social-container i:hover{
+    color: #301947;
+}
+
+.copyright{
+    color: #6d6a7c;
+}
+
+/* -- END FOOTER SECTION */
+
+/* -- START SKILLS SECTION -- */
+
+
+.skills-container{
+    display: grid;
+    grid-template-areas: 'top-left top-right';
+    grid-template-rows: auto;
+    grid-template-columns: 50% 50%;
+    max-width: 1020px;
+    justify-content: center;
+    padding: 0;
+    gap: 1.5rem;
+}
+
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skills-header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    gap: 1em;
+}
+
+.skills-header:hover{
+    cursor: pointer;
+}
+
+.s1{
+    grid-area: top-left;
+}
+
+.s2{
+    grid-area: top-right;
+}
+
+.skills-header i{
+    color: #9F4BF2
+}
+
+.skills-header .fa-angle-down{
+    color: black;
+}
+
+.skills-header .fa-angle-down:hover{
+    color: #9F4BF2;
+    cursor: pointer;
+}
+
+.skills-header-container h1, span{
+    padding: 0;
+    margin: 0;
+}
+
+.skills-header-container h1{
+    color: black;
+    padding-bottom: 0.2em;
+}
+
+.skills-header-container span{
+    color: #6d6a7c;
+    font-size: 1.14em;
+}
+
+.skills-list{
+    display: grid;
+    grid-template-rows: auto;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+.skills-data .skills-tittle{
+    display: flex;
+    align-items: center;
+    align-content: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+
+.skills-tittle span{
+    font-size: 1.3em;color: black;
+}
+
+.skills-data .skills-bar{
+    height: 0.5em;
+    background-color: #9F4BF2;
+    border-radius: 0.5em;
+}
+
+.skills-data i{
+    color: #9F4BF2;
+}
+/* -- END SKILLS SECTION */
+
+/* -- START PROJECTS SECTION -- */
+
+.projects-container{
+    padding: 0;
+    display: grid;
+    max-width: 1020px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.project-card{
+    transition: box-shadow 0.3s ease;
+    background-color: white;
+    border: 0.01rem solid rgba(211, 211, 211, 0.658);
+    margin: 1em;
+    border-radius: 1em;
+    height: 20em;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.project-card:hover{
+    box-shadow: 0 0.1rem 0.4rem rgba(0, 0, 0, 0.3);
+}
+
+.project-card-content{
+    overflow: hidden;
+}
+
+.project-card-content img{
+    width: 200%; 
+    width: 0 auto;
+    object-fit: contain;
+    padding: 0;
+    margin: 0;
+}
+
+.project-card-footer{
+    margin: 1em;
+}
+
+.project-card-footer span{
+    color: black;
+    font-size: 1.2em;
+}
+
+/* -- END PROJECTS SECTION */

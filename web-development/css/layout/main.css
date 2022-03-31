@@ -1,0 +1,80 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+/* START HEADER */
+.header{
+    background-color: red;
+}
+
+.clear::after{
+    clear: both;
+    content: "";
+    display: block;
+}
+
+.header-tittle{
+    color: white;
+    background-color: blueviolet;
+    float: left;
+    height: 4rem;
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.header-tittle h1{
+    margin: 0;
+}
+
+.header-nav{
+    background-color: gold;
+    float: right;
+    position: relative;
+    width: 20rem;
+}
+
+.header-nav ul{
+    text-align: center;
+    list-style: none;
+    height: 4rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header-nav li{
+    text-align: center;
+    width: 100%;
+}
+
+.header-nav a{
+    font-size: 1.2em;
+    text-decoration: none;
+    color: black;
+}
+
+.header-nav a:visited{
+    color: inherit;
+}
+.header-nav a:hover{
+    color: gray;
+}
+
+
+/* END HEADER */
+

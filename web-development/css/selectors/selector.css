@@ -1,0 +1,54 @@
+/* UNIVERSAL SELECTOR */
+*{
+    font-size: 16px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1,h2,h3,h4,h5{
+    padding: 0;
+    margin: 0;
+}
+
+/* ID SELECTOR */
+#tittle{
+    font-size: 2rem;
+    color: red;
+}
+
+/* ELEMENT LABEL SELECTOR */
+h2{
+    font-size: 1.5rem;
+    color: blue;
+}
+
+p{
+    width: 20rem;
+    font-size: 1rem;
+    color: lightgrey;
+}
+
+section{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 980px;
+    background-color: antiquewhite;
+}
+
+/* CLASS SELECTOR */
+.top-container{
+    padding: 1rem;
+    border: 1px solid black;
+}
+
+
+/* MULTISELECT */
+
+.top-section div{
+    padding: 1rem;
+}

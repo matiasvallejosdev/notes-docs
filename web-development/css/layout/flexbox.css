@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+/* START FLEXBOX */
+
+.flexbox{
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1280px;
+}
+
+.flex-container-column{
+    height: 8rem;
+    margin-top: 2rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* align-content: center; */
+    align-items: start;
+    justify-content: center;
+    justify-items: center;
+    gap: 1rem;
+}
+
+.flex-container-row{
+    height: 5rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box{
+    flex-grow: 1;
+}
+
+.box{
+    text-align: center;
+    display: grid;
+    place-items: center;
+}
+
+.b1{
+    background-color:red;
+}
+.b2{
+    background-color: green;
+    align-self: stretch;
+}
+.b3{
+    background-color: blue;
+    align-self: stretch;
+}
+.b4{
+    background-color: yellow;
+}
+
+/* END FLEXBOX */

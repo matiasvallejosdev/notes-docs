@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-size: 16px;
+    font-family: "Poppins";
+}
+
+/* START HEADER NAVBAR */
+
+.header-navbar{
+    background-color: #4f4fac;
+    padding: 1rem;
+    display: flex;
+}
+
+.navbar-link a{
+    transition: color 0.1s ease;
+    color: white;
+    text-decoration: none;
+}
+
+.navbar-link a:hover{
+    color: rgb(48, 48, 48);
+    text-decoration: none;
+}
+
+.header-navbar div{
+    color: white;
+}
+
+.navbar-items{
+    display: flex;
+    flex-direction: row;
+    transition: visibility 0s, opacity 0.5s linear;
+}
+
+.navbar-link{
+    padding-right: 0.6rem;
+}
+
+.navbar-items-right{
+    margin-left: auto;
+}
+
+.navbar-link-toggle{
+    transition: color 0.1s ease;
+    display: none;
+}
+
+.navbar-link-toggle i:hover{
+    color: rgb(48, 48, 48);
+}
+
+
+@media only screen and (max-width: 768px){
+    .header-navbar, .navbar-items{
+        flex-direction: column;
+    }
+    .navbar-items{
+        display: none;
+    }
+    .navbar-items-right{
+        margin-left: 0;
+    }
+    .navbar-link-toggle{
+        align-self: flex-end;
+        display: initial;
+        position: absolute;
+        cursor: pointer;
+    }
+    
+    .navbar-toggle-show{
+        display: flex;
+    }
+    
+    .navbar-link-brand-hide{
+        display: none;
+    }
+}
+
+/* END HEADER NAVBAR */
+
