@@ -1,4 +1,4 @@
-# Notion Coding
+# Notes Coding
 
 #### ***Directory guide***
 - web-development/
