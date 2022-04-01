@@ -1,4 +1,4 @@
-# Notion
+# Notion Docs
 
 Notion helps users schedule tasks, manage files, save documents, set reminders, keep agendas, and organize their work.
 
