@@ -4,6 +4,6 @@ Notion helps users schedule tasks, manage files, save documents, set reminders, 
 
 #### Directory guide
 
-- Developer Documentation
-- Books Documentation
+- [Developer Docs](/developer-docs/DOCS-DEVELOPER.md)
+- [Books Docs](book-docs/DOCS-BOOK.md)
 
