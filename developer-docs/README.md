@@ -4,13 +4,5 @@ A repository of my personal code notes with markdown and samples projects. In th
 
 #### Directory guide
 - [web-development/](web-development/GUIDE-WEB-DEVELOPMENT.md)
-  - css/
-  - html/
-  - samples/
 - [programming/](programming/GUIDE-PROGRAMMING.md)
-  - python/
-  - c-sharp/
-  - javascript/
 - [coding/](coding\GUIDE-CODING.md)
-  - books/
-  - semantic-versioning/
