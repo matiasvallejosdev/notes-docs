@@ -1,16 +1,17 @@
-## React JS
+# React JS
 
 React has been designed from the start for gradual adoption, and you can use as little or as much React as you need. Whether you want to get a taste of React, add some interactivity to a simple HTML page, or start a complex React-powered app, the links in this section will help you get started.
 
+## Useful links
+- [Next JS Docs](https://nextjs.org/docs/)
 
-***Useful links:***
-- https://nextjs.org/docs/
-
-***Table of contents***
+## Directory guide
 - [React JS](#react-js)
+  - [Useful links](#useful-links)
+  - [Directory guide](#directory-guide)
   - [Errors](#errors)
 
-### Errors
+## Errors
 
 **Unable to resolve dependency tree error when installing npm packages**
 

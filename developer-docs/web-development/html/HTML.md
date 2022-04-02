@@ -1,37 +1,33 @@
-## Hypertext markup language
+# Hypertext markup language
 
 HTML (Hypertext Markup Language) is a markup language that tells web browsers how to structure the web pages you visit. It can be as complicated or as simple as the web developer wants it to be. HTML consists of a series of elements, which you use to enclose, wrap, or mark up different parts of content to make it appear or act in a certain way. The enclosing tags can make content into a hyperlink to connect to another page, italicize words, and so on. 
 
 ![Image](https://sebastian.expert/wp-content/uploads/2015/01/hierarchy_tags_Siblings.png)
 
-***Useful links***
+## Useful links
 
-https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started
-
-***Table of contents:***
+- [Developer Mozilla Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
+  
+## Directory guide
 - [Hypertext markup language](#hypertext-markup-language)
+  - [Useful links](#useful-links)
+  - [Directory guide](#directory-guide)
   - [Meta](#meta)
   - [Labels](#labels)
   - [Section vs Div vs Article](#section-vs-div-vs-article)
 
-### Meta
+## Meta
 They are typcally used to specific character set page descriptions, keywords author of document viewports
 
 ```html
 <meta name="author">Matias Vallejos</meta>
 ```
 
-### Labels 
+## Labels 
 
-[<>](basic\index.html)
-
-https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label
+[Basic Code](basic\index.html) / [Mozilla Labels](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/label)
 
 Labels are the main head of label and i could set property. They can be used on css and the property class or id are the most important reference to set.
-- Property:
-  - Id
-  - Class
-  - Style
 
 ```html
 <label property="property">Content Here</label>
@@ -86,10 +82,12 @@ Every style must be applied in css file and it's important to keep clean code an
 <br>
 ```
 
-### Section vs Div vs Article
+## Section vs Div vs Article
 
-https://bitsofco.de/sectioning-content-in-html5/
+[Sectioning Content](https://bitsofco.de/sectioning-content-in-html5/)
 
 **Sections** are more specific elements than divs and has necesseary `<h1>`.
+
 **Divs** are the main head of css and it is an element with a general purpose. It has not a specific meaning.
+
 **Articles** are self contained and it could be use in another part of the page without lost any meaning. It also need h1.
