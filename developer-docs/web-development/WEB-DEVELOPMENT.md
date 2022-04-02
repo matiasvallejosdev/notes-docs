@@ -1,4 +1,4 @@
-# Notes Web Development
+# Web Development
 
 ## Directory guide
 
