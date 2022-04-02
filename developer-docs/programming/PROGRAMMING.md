@@ -1,4 +1,4 @@
-# Notes Programming Development
+# Programming Development
 
 ## Directory guide
 - [python/](python/PYTHON.md)
