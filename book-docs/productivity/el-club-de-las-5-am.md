@@ -76,7 +76,7 @@ debéis avanzar.
 
 Tu entorno moldea realmente aquello que percibes, haces y te inspira. El arte alimenta mi alma. Los buenos libros blindan mi esperanza. Las conversaciones profundas aumentan mi creatividad. La música deliciosa eleva mi corazón. Las vistas hermosas fortalecen mi espíritu.
 
-> La"Y tengo que decir que inspirar a la humanidad es la labor sublime a la que se dedica la élite del 5 % del mundo de los negocios. El auténtico propósito del asunto no es solo ganar tu propia fortuna. La verdadera razón de participar en este juego es poder ser útil a la sociedad. En los negocios, me centro sobre todo en servir. El dinero, el poder y el prestigio no son más que las consecuencias que inevitablemente me he ido encontrando por el camino."
+>"Y tengo que decir que inspirar a la humanidad es la labor sublime a la que se dedica la élite del 5 % del mundo de los negocios. El auténtico propósito del asunto no es solo ganar tu propia fortuna. La verdadera razón de participar en este juego es poder ser útil a la sociedad. En los negocios, me centro sobre todo en servir. El dinero, el poder y el prestigio no son más que las consecuencias que inevitablemente me he ido encontrando por el camino."
 
 _«Por mi parte, no sé nada con certeza, pero la visión de las estrellas me hace soñar»_
 
