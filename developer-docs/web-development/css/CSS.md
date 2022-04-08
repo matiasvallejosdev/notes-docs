@@ -22,7 +22,7 @@ CSS can be used for very basic document text styling — for example changing th
   - [Flexbox](#flexbox)
     - [Flexbox Model](#flexbox-model)
     - [Flex Direction](#flex-direction)
-    - [Flex 555-Wrapping](#flex-555-wrapping)
+    - [Flex Wrapping](#flex-wrapping)
   - [Grid](#grid)
     - [Grid Tracks](#grid-tracks)
     - [Grid Lines](#grid-lines)
@@ -68,26 +68,28 @@ Selects an element based on the value of its id attribute. There should be only 
 In CSS, selectors are used to target the HTML elements on our web pages that we want to style. There are a wide variety of CSS selectors available, allowing for fine-grained precision when selecting elements to style. In this article and its sub-articles we'll run through the different types in great detail, seeing how they work.
 
 **For example:**
-- color
-- border
-- border-styles
-- border-colors
-- backgroud-color
-- opacity
-- background-image
-- height
-- width
-- background-sizes
-- margin
-- paddingg
-- overflow
-- list-style
-- text-align
-- text-colors
-- text-decoration
-- text-shadow
-- font-family
-- display
+```css
+  color
+  border
+  border-styles
+  border-colors
+  backgroud-color
+  opacity
+  background-image
+  height
+  width
+  background-sizes
+  margin
+  paddingg
+  overflow
+  list-style
+  text-align
+  text-colors
+  text-decoration
+  text-shadow
+  font-family
+  display
+```
 
 ### Pseudoclasses
 
@@ -140,7 +142,7 @@ Each technique has its uses, advantages, and disadvantages. No technique is desi
 
 ## Values and units
 
-[Sizing Code]()[CSS Sizing Medium](https://medium.com/@madhum86/css-font-sizing-pixels-vs-em-vs-rem-vs-percent-vs-viewport-units-b1485716afe7) / [CSS Values Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
+[Sizing Code](sizing-values/index.html) / [CSS Sizing Medium](https://medium.com/@madhum86/css-font-sizing-pixels-vs-em-vs-rem-vs-percent-vs-viewport-units-b1485716afe7) / [CSS Values Mozilla](https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/Values_and_units)
 
 The numeric type you will come across most frequently is <length>. For example 10px (pixels) or 30em. There are two types of lengths used in CSS — relative and absolute. It's important to know the difference in order to understand how big things will become.
 
@@ -194,7 +196,7 @@ Flexbox provides a property called flex-direction that specifies which direction
   flex-direction: column;
 ```
 
-### Flex 555-Wrapping
+### Flex Wrapping
 
 One issue that arises when you have a fixed width or height in your layout is that eventually your flexbox children will overflow their container, breaking the layout. 
 
