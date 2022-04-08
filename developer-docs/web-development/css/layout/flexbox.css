@@ -23,21 +23,59 @@ h3{
     max-width: 1280px;
 }
 
+/* 
+Flexbox column
+The flexbox column is used to create a column in the flexbox.
+*/
 .flex-container-column{
     height: 8rem;
     margin-top: 2rem;
     padding: 1rem;
     background-color: antiquewhite;
+    /* 
+    Display flexbox
+    The display property defines the type of 
+    layout-model to use for an element.
+    */
     display: flex;
+    /* 
+    Flex direction
+    The flex-direction property specifies the 
+    direction of the flexible elements.
+    */
     flex-direction: column;
+    /* 
+    Flex wrap 
+    The flex-wrap property specifies whether the flexible elements 
+    are forced into a single line or can wrap onto multiple lines.    
+    */
     flex-wrap: wrap;
     /* align-content: center; */
+    /* 
+    Justify content
+    The justify-content property defines how the browser distributes 
+    space between and around content items along the main-axis of their container.
+    Align content
+    The align-content property defines how the browser distributes.
+    Align items
+    The align-items property defines how the browser aligns.
+    Justify items
+    The justify-items property defines how the browser justifies.
+    */
     align-items: start;
     justify-content: center;
     justify-items: center;
+    /* 
+    Flexbox gap
+    The gap property defines the space between flex items.
+    */
     gap: 1rem;
 }
 
+/* 
+Flexbox row
+The flexbox row is used to create a row in the flexbox.
+*/
 .flex-container-row{
     height: 5rem;
     margin-top: 2rem;

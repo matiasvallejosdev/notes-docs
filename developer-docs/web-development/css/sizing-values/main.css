@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.section{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+/* START SIZING SECTION */
+
+#tittle{
+    padding: 1rem;
+    text-align: center;
+}
+
+.box-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* 
+        Percentage:
+        The percentage value is used to define 
+        the size of the element.
+    */
+    width: 50%;
+}
+
+/* Absolute Length Units */
+.b1{
+    background-color: antiquewhite;
+    /* 
+        CSS Pixels:
+        The CSS pixels unit is used to define the 
+        size of an element in pixels.
+        It's fixed. 
+    */
+    height: 30px;
+}
+
+/* Relative Length Units */
+.b2{
+    background-color: whitesmoke;
+    /* 
+        The REM unit is used to define the
+        size of an element in pixels.
+        It's relative to the root font-size.
+        You can test that by changing the root font-size.
+    */
+    height: 8.5rem;
+}
+
+.b3{
+    background-color: lightcoral;
+    /* 
+        The EM unit is used to define the
+        size of an element in pixels.
+        It's relative to the parent font-size.
+        You can test that changing the font-size below.
+    */
+    font-size: 5px;
+    height: 12.5em;
+}

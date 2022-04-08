@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1{
+    font-size: 2rem;
+}
+h2{
+    font-size: 2rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+
+.section{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* START GRID SECTION */
+
+/* CSS Fundamentals */
+.grid-container{
+    height: 30rem;
+    margin-top: 1rem;
+    /* CSS Grid Definition */
+    display: grid;
+    height: 44rem;
+}
+
+/* GRID Tracks example */
+.grid-container{
+    /* 
+    Define Columns 
+    The grid-template-columns property defines the grid 
+    columns. It takes a list of grid column sizes.   
+    */
+    /*
+    Fraction Units
+    The new fr unit represents a fraction of 
+    the available space in the grid container. 
+    The next grid definition would create three 
+    equal width tracks that grow and shrink 
+    according to the available space.
+    */
+    grid-template-columns: /*25rem auto*/ repeat(3, 1fr);
+    /* 
+        Define Rows
+        The grid-template-rows property defines the grid rows.
+        It takes a list of grid row sizes.
+    */
+    grid-template-rows: 4rem 1fr .5fr .5fr;
+    /* 
+    Gap
+    The grid-gap property defines the gap between grid columns and rows.
+    You can use row-gap or column-gap to define the gap between rows and columns.
+    */
+    column-gap: 1rem;
+    row-gap: 1rem;
+    /* 
+    Css Align Items
+    The align-items property aligns the items 
+    along the cross axis.
+    */
+    justify-content: center;
+    align-items: stretch;
+}
+
+/* GRID Lines Example */
+.box{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(255, 248, 240);
+}
+
+.b1{
+    background-color: #ffbcb9;
+    /* 
+    Grid Column
+    The grid-column property defines 
+    the column space.
+    */
+    grid-column: 2/4;
+}
+
+.b2{
+    background-color: #b9baff;
+    grid-column: 1/-1;
+    grid-row: 1/2;
+}
+
+.b8{
+    background-color: #b9ffd6;
+    grid-row: 2/3;
+    grid-column: 1/2;
+}
+
+.b7{
+    background-color: #fff8b9;
+    grid-column: 1/4;
+    grid-row: 4/5;
+}
+
+/* CONTROL Order Example */
+/* 
+Grid items can occupy the 
+same cell, and in this case we can use 
+the z-index property to control the order in 
+which overlapping items stack.
+*/
+.b6{
+    background-color: #ffb9df8e;
+    grid-column: 1/4;
+    grid-row: 4/5;
+    /* 
+    We can control the order in which items 
+    stack up by using the z-index property 
+    - just like positioned items. 
+    */
+    z-index: 1;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* ALIGN Grid Items */
+.grid-align{
+    background-color: antiquewhite;
+    height: 80%;
+    width: 80%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1rem;
+    /* 
+    Justify-items vs Align-items
+    The justify-items property aligns the items
+    in the horizontal axis or main axis.
+    The align-items property aligns the items
+    in the vertical axis or secondary axis.
+    */
+    justify-items: center;
+    align-items: center;
+}
+
+.b1-1{
+    height: 50%;
+    width: 50%;
+}
+
+/* END GRID SECTION */
