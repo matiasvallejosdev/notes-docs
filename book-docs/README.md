@@ -4,7 +4,7 @@ A repository of the main imporant of every book that i could read. It's importan
 
 ## Directory guide
 
->_directory/book-name + author markdown_
+_directory/book-name + author markdown_
 
 - [business/](business/)
   - [Vendes o vendes - Grant Cardone](business/vendes-o-vendes.md)

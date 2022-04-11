@@ -5,7 +5,7 @@
 - [html/](html/HTML.md)
 - [css/](css/CSS.md)
 - [react-js/](react-js/REACT-JS.md)
-- [flutter/](flutter/FLUTTER.md)
+- [web-design/](web-design/WEB-DESIGN.md)
 
 
 ## Samples
@@ -15,4 +15,4 @@
 - [html-css-header-responsive](samples/html-css-header-responsive/index.html)
 - [html-forms](samples/html-forms/index.html)
 - [html-css-product-grid-flexbox](samples/html-css-product-grid-flexbox/index.html)
-  
+- [html-css-chairs-web](samples/html-css-chairs-web/index.html)

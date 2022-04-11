@@ -71,10 +71,7 @@ _Epicteto, uno de mis filósofos favoritos, escribió: **«Mas un toro no se hac
 
 ## Filosfia de vida
 
-La seducción de la complacencia y de una vida fácil es cien veces más cruel que una vida en la que lo das todo y adoptas una postura inquebrantable para conseguir tus mayores sueños.
-
-El lugar donde reside el mayor de vuestros desasosiegos es a la vez el rincón donde se encuentra vuestra mayor oportunidad. Las creencias que os inquietan, los sentimientos que os amenazan, los proyectos que os enervan y el desarrollo
-de vuestros talentos a los que se resiste esa parte insegura de vosotros mismos son justamente los lugares hacia donde 
+La seducción de la complacencia y de una vida fácil es cien veces más cruel que una vida en la que lo das todo y adoptas una postura inquebrantable para conseguir tus mayores sueños. El lugar donde reside el mayor de vuestros desasosiegos es a la vez el rincón donde se encuentra vuestra mayor oportunidad. Las creencias que os inquietan, los sentimientos que os amenazan, los proyectos que os enervan y el desarrollo de vuestros talentos a los que se resiste esa parte insegura de vosotros mismos son justamente los lugares hacia donde 
 debéis avanzar.
 
 ## Deshacerse de la mediocridad y todo lo ordinario
@@ -85,21 +82,21 @@ Tu entorno moldea realmente aquello que percibes, haces y te inspira. El arte al
 
 _«Por mi parte, no sé nada con certeza, pero la visión de las estrellas me hace soñar»_
 
+_«La mayor victoria se consigue en esas horas tempranas de la mañana, cuando nadie te mira y mientras todos duermen»_
+
 El **sufrimiento** aporta muchas recompensas, como la empatía, la originalidad, el don de gentes y la autenticidad.Elimina la falsedad, el miedo y la arrogancia que provienen del ego.
 
-_«La mayor victoria se consigue en esas horas tempranas de la mañana, cuando nadie te mira y mientras todos duermen»_
 
 >En una cultura de zombis cibernéticos adictos a la distracción y afligidos por la interrupción, el modo más sabio de garantizar la producción de resultados del más alto nivel en las áreas más importantes de vuestra vida profesional y personal es establecer una rutina matinal de gran calidad. La victoria comienza en vuestro principio. Y vuestras primeras horas son el momento en que se forjan los héroes. Declarad la guerra a la debilidad y lanzad una campaña contra el miedo. Podéis levantaros temprano. Hacerlo es una necesidad en vuestra búsqueda formidable de lo legendario. Poned un cuidado excelente a la parte inicial del día, y el resto del día se arreglará por sí solo. Controlad vuestras mañanas, impulsad vuestra vida.
 
 El éxito colosal no depende tanto de la genética heredada como de los hábitos diarios. Y el ritual de la mañana es, con diferencia, el más importante que debéis calibrar.
 
->Levantarse a las 5 de la mañana es sin duda la Madre de todas las rutinas. Unirse al Club de las 5 de la mañana es el único comportamiento humano que se erigirá sobre todos los demás. Este régimen es el motor definitivo que os convertirá en un modelo imbatible de capacidad. El modo en que comienzas el día determina el grado de concentración, energía, entusiasmo y excelencia de los que dispondréi.
+_«Todo cambio es duro al principio, desordenado a la mitad y precioso al final»._
 
 Elevarte como persona es uno de los modos más inteligentes de pasar el resto de tu vida. Cada desafío conlleva la valiosa oportunidad de pasar a un nuevo nivel como líder, persona productiva y ser humano. Los obstáculos no son más que pruebas diseñadas para medir hasta qué punto deseas realmente las recompensas que tu ambición busca. Aparecen para determinar en qué medida estás dispuesto a mejorar para convertirte en el tipo de persona que puede ostentar todo ese éxito.
 
->«Todo cambio es duro al principio, desordenado a la mitad y precioso al final».
 
-_La verdad es esta: la mayoría de la gente del planeta no piensan mucho en ellos mismos, por desgracia. Protegen su identidad con su forma de ser externa. Valoran sus logros a partir de lo que han ganado en lugar de tener en cuenta la personalidad que han cultivado. Se comparan a sí mismos con los ejemplos orquestados (y falsos) de la gente a la que siguen. Miden su valía a partir de lo que vale su red. Y son secuestrados por la falsa idea de que, cualquier cosa que no se haya hecho nunca, no se puede hacer, agotando de este modo las enormes y estimulantes posibilidades que sus vidas están destinadas a brindarles._
+>La verdad es esta: la mayoría de la gente del planeta no piensan mucho en ellos mismos, por desgracia. Protegen su identidad con su forma de ser externa. Valoran sus logros a partir de lo que han ganado en lugar de tener en cuenta la personalidad que han cultivado. Se comparan a sí mismos con los ejemplos orquestados (y falsos) de la gente a la que siguen. Miden su valía a partir de lo que vale su red. Y son secuestrados por la falsa idea de que, cualquier cosa que no se haya hecho nunca, no se puede hacer, agotando de este modo las enormes y estimulantes posibilidades que sus vidas están destinadas a brindarles.
 
 Sed virtuosos. Destacad. Buscad la excepcionalidad. **La élite del 5 % está mucho menos preocupada por la fama, el dinero y la aprobación e invierte mucho más en pelear por encima de su peso, en explotar al máximo sus dones y en crear el tipo de productividad que inspire, y ayude, a millones de personas.** Es por eso que suelen ganar millones. Así que no actuéis sin pensar, de un modo automático. Generad vosotros el cambio.
 
@@ -109,13 +106,7 @@ Mostrad **respeto y compasión** por todo el mundo que ocupa este planeta diminu
 
 ## La cima de la productividad
 
-_Tu tiempo es limitado, no lo malgastes viviendo la vida de
-alguien distinto. No te quedes atrapado en el dogma, eso es
-vivir como otros piensan que deberías vivir. No dejes que los
-ruidos de las opiniones de los demás acallen tu propia voz
-interior. Y, lo que es más importante, ten el coraje para
-seguir a tu corazón y tu intuición. Ellos ya saben de algún
-modo en qué quieres convertirte realmente. **Steve Jobs**_
+Tu tiempo es limitado, no lo malgastes viviendo la vida de alguien distinto. No te quedes atrapado en el dogma, eso es vivir como otros piensan que deberías vivir. No dejes que los ruidos de las opiniones de los demás acallen tu propia voz interior. Y, lo que es más importante, ten el coraje para seguir a tu corazón y tu intuición. Ellos ya saben de algún modo en qué quieres convertirte realmente. _**Steve Jobs**_
 
 
 ### Reglas de exito
@@ -157,40 +148,39 @@ La inspiración se alimenta del aislamiento, lejos de la distracción digital in
 
 ## El club de las 5 am
 
->Tener mucho dinero no te hace diferente, solo te recuerda quién eras antes de hacer dinero.
+_"Tener mucho dinero no te hace diferente, solo te recuerda quién eras antes de hacer dinero"._
 
 Protegerse contra la distracción es algo muy necesario si queréis dominar en vuestro campo y cosechar el éxito en vuestro arte. Los neurocientíficos llaman «fluidez».
 
-_El club de las 5am me permitió convertirme en un pensador visionario. Me dio un espacio de reflexión para desarrollar una vida interior formidable. La disciplina me ayudó a estar excepcionalmente en forma, con todos los hermosos beneficio y las mejoras en el estilo de vida que conlleva tener una buena salud. Levantarme temprano también me convirtió en un líder asombroso. Y me ayudó a convertirme en una mejor persona.Incluso cuando el cáncer de próstata intentó arruinarme, fue mi rutina matinal lo que me aisló._
+El club de las 5am me permitió convertirme en un pensador visionario. Me dio un espacio de reflexión para desarrollar una vida interior formidable. La disciplina me ayudó a estar excepcionalmente en forma, con todos los hermosos beneficio y las mejoras en el estilo de vida que conlleva tener una buena salud. Levantarme temprano también me convirtió en un líder asombroso. Y me ayudó a convertirme en una mejor persona. Incluso cuando el cáncer de próstata intentó arruinarme, fue mi rutina matinal lo que me aisló.
 
 ## Un sistema para la grandeza
 
 El Método de las **5 de la mañana** en vuestra rutina matinal aumentará vuestra productividad, lograréis elevaros por encima de la comunidad de la superficialidad que domina actualmente el planeta y entraréis en la sociedad del nivel de detalle. Este nivel superior de información y consciencia mejorará vuestras decisiones diarias. Y, lógicamente, una vez que toméis las decisiones correctas a diario, aceleraréis enormemente vuestro liderazgo, vuestra realización y vuestro impacto.
 
-_El principio de la transformación es el aumento de la percepción. Cuanto más ves, más puedes materializar. Y cuanto más sabes, más puedes conseguir. Las mujeres y los hombres geniales del mundo —los responsables de las sinfonías mágicas, los movimientos hermosos, los avances de la ciencia y el progreso de la tecnología— comenzaron rediseñando su modo de pensar y reinventando su consciencia. De este modo, entraron en un universo secreto que la mayoría no podía percibir. Y esto, a su vez, les permitió tomar las decisiones diarias que pocos toman. Y estas decisiones les permitieron obtener los resultados diarios que pocos logran._
+El principio de la transformación es el aumento de la percepción. Cuanto más ves, más puedes materializar. Y cuanto más sabes, más puedes conseguir. Las mujeres y los hombres geniales del mundo —los responsables de las sinfonías mágicas, los movimientos hermosos, los avances de la ciencia y el progreso de la tecnología— comenzaron rediseñando su modo de pensar y reinventando su consciencia. De este modo, entraron en un universo secreto que la mayoría no podía percibir. Y esto, a su vez, les permitió tomar las decisiones diarias que pocos toman. Y estas decisiones les permitieron obtener los resultados diarios que pocos logran.
 
 >Aplican una mentalidad que se centra en el nivel de detalle en lugar de en el superficial
 
 La élite del 5 % trabaja grano a grano, con un
-gran nivel de detalle en lugar de aplicar una mentalidad superficial a sus actitudes, sus comportamientos y sus actividades del día a día.
-
-Las pequeñas cosas importan cuando se trata de alcanzar la perfección. 
+gran nivel de detalle en lugar de aplicar una mentalidad superficial a sus actitudes, sus comportamientos y sus actividades del día a día. Las pequeñas cosas importan cuando se trata de alcanzar la perfección. 
 
 >Los maestros de la perfección son extraordinariamente detallistas. Piensan atentamente en lo que hacen.
 
 ![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-1.jpg)
 
+Si mejoráis vuestra consciencia diaria, podéis tomar mejores decisiones cada día, y con mejores decisiones diarias empezarás a obtener mejores resultados regularmente.
+
 Cuando analizas el modo en que las superestrellas, los virtuosos y los genios lograron el éxito, te das cuenta de que fue su elevada consciencia para detectar las oportunidades diarias de grandeza lo que les inspiró para tomar las mejores decisiones a diario que les aportaron los mejores resultados.
 
-_A medida que vayáis tomando consciencia de las nuevas ideas, creceréis como productores y como personas. A medida que elevéis vuestro desarrollo personal y profesional, el nivel al que implementáis y ejecutáis vuestras mayores ambiciones aumentará. Y, por supuesto, vuestra habilidad para hacer realidad vuestros sueños y visiones se incrementará y seréis recompensados con mayores ingresos y con un impacto más alto._
+A medida que vayáis tomando consciencia de las nuevas ideas, creceréis como productores y como personas. A medida que elevéis vuestro desarrollo personal y profesional, el nivel al que implementáis y ejecutáis vuestras mayores ambiciones aumentará. Y, por supuesto, vuestra habilidad para hacer realidad vuestros sueños y visiones se incrementará y seréis recompensados con mayores ingresos y con un impacto más alto.
 
 >Arriésgalo todo por amor, si verdaderamente eres un ser humano. Si no, márchate de esta reunión. Las medias tintas no alcanzan la majestuosidad.
 
-Si mejoráis vuestra consciencia diaria, podéis tomar mejores decisiones cada día, y con mejores decisiones diarias empezarás a obtener mejores resultados regularmente.
+>Pequeñas victorias y repeticiones diarias se van apilando y, a largo plazo, aportan resultados excelentes.
 
 Un perfeccionismo sano, y una firme búsqueda para ser la mejor versión de vosotros mismos; todo eso es lo que os ofrezco a los dos en esta playa asombrosa. La constancia es realmente el ADN de la perfección. Y los pequeños cambios, por insignificantes que parezcan, a la larga dan resultados espectaculares.
 
->Pequeñas victorias y repeticiones diarias se van apilando y, a largo plazo, aportan resultados excelentes.
 
 ## Cuatro enfoques del triunfo
 
@@ -204,7 +194,7 @@ Mostrad gratitud por cada instante de vuestras vidas. No debéis ser tímidos co
 
 ### Capitalización de coeficiente intelectual
 
-Una persona no se hace legendaria por su talento natural innato, sino por su capacidad de materializarlo y capitalizarlo al máximo.
+Una persona no se hace legendaria por su talento natural innato, sino por su capacidad de materializarlo y capitalizarlo al máximo. La consecución de la excelencia es un proceso, no un hecho aislado. Abordar un programa psicológico castrante, basado en afirmaciones tales como «no todas las personas pueden llegar a ser grandes» o «el talento es innato, no se desarrolla»
 
 >«La única manera de lidiar con este mundo sin libertad es volverte tan absolutamente libre que tu mera existencia sea un acto de rebelión».
 
@@ -212,7 +202,6 @@ Una persona no se hace legendaria por su talento natural innato, sino por su cap
 
 >«Las víctimas tienen televisiones enormes. Los líderes poseen grandes bibliotecas».
 
-La consecución de la excelencia es un proceso, no un hecho aislado. Abordar un programa psicológico castrante, basado en afirmaciones tales como «no todas las personas pueden llegar a ser grandes» o «el talento es innato, no se desarrolla»
 
 Nos convertimos en lo que nos rodea. Y tú
 nunca recibirás una influencia positiva en tu campo, ni lograrás que tu vida
@@ -226,19 +215,17 @@ Cada vez que te das cuenta de que has caído en una mentalidad victimista y deci
 
 ### Liberarse de las distracciones
 
-La adicción a la distracción es la muerte de producción creativa.
+La adicción a la distracción es la muerte de producción creativa. Uno de los rasgos más fascinantes de nuestro cerebro primitivo es su sesgo de negatividad. Para mantenernos seguros, está menos interesado en lo que es positivo en nuestro entorno, mientras que se centra de manera más significativa en hacernos saber lo que es malo. Cuando abandonamos nuestra zona de confort, el cerebro primitivo entra en acción. Cuando incrementamos nuestros conocimientos y nuestra experiencia y elevamos nuestro nivel de influencia, se atemoriza ante los inminentes cambios.
 
-Igualmente, desde el punto de vista social, es preferible tener pocos amigos, pero profundizar en la relación con ellos, de forma que esta sea más fecunda. Aceptad pocas invitaciones. Centraros en pocas actividades de ocio y, después de estudiar las posibles opciones, elegid un número de libros limitado, en vez de leer unas cuantas páginas de muchos. La intensa concentración solo en lo que realmente importa es la clave de quienes logran la victoria. Simplificad. Simplificad. Simplificad.
+>Igualmente, desde el punto de vista social, es preferible tener pocos amigos, pero profundizar en la relación con ellos, de forma que esta sea más fecunda. Aceptad pocas invitaciones. Centraros en pocas actividades de ocio y, después de estudiar las posibles opciones, elegid un número de libros limitado, en vez de leer unas cuantas páginas de muchos. La intensa concentración solo en lo que realmente importa es la clave de quienes logran la victoria. Simplificad. Simplificad. Simplificad.
 
-_Uno de los rasgos más fascinantes de nuestro cerebro primitivo es su sesgo de negatividad. Para mantenernos seguros, está menos interesado en lo que es positivo en nuestro entorno, mientras que se centra de manera más significativa en hacernos saber lo que es malo. Cuando abandonamos nuestra zona de confort, el cerebro primitivo entra en acción. Cuando incrementamos nuestros conocimientos y nuestra experiencia y elevamos nuestro nivel de influencia, se atemoriza ante los inminentes cambios._
-
->«La comparación es el ladrón de la felicidad. Siempre hay alguien que tiene más fortuna, más fama o más cosas que tú. Recordad cuando antes hablábamos de lo beneficioso del desapego por los bienes y de ser lo bastante juicioso para saber cuándo lo suficiente es adecuado.»
+_«La comparación es el ladrón de la felicidad. Siempre hay alguien que tiene más fortuna, más fama o más cosas que tú. Recordad cuando antes hablábamos de lo beneficioso del desapego por los bienes y de ser lo bastante juicioso para saber cuándo lo suficiente es adecuado.»_
 
 La soledad, el tipo de soledad al que se puede tener acceso antes de que salga el sol, es una fuerza multiplicadora de la capacidad, el conocimiento y la experiencia y la conexión con el ser humano. Y el proceso de crecimiento y superación requiere aislamiento.
 
 >Las horas que el 95 % del mundo desperdicia son las que la élite del 5 % atesora. Las 5 de la mañana es la hora en la que las distracciones son menores y en la que la paz y la predisposición son mayores.
 
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-8.jpg)
+<img src="images/../../productivity/images/el-club-de-las-5-am-8.jpg" style="height:550px;">
 
 El estado de fluidez es la fase mental de rendimiento óptimo en el que se encuentran todas las personas excepcionales, como los virtuosos del violín, las grandes figuras del deporte, los chefs de élite, los científicos más brillantes, los artífices de grandes emporios empresariales o los líderes más legendarios.
 
@@ -246,21 +233,23 @@ El estado de fluidez es la fase mental de rendimiento óptimo en el que se encue
 
 Cualquier cosa que hacéis en el mundo exterior es consecuencia directa de lo que sucede en vuestro interior. Eso es lo realmente importante en la preparación de la mañana. 
 
-_A medida que aumentáis sistemáticamente vuestra fuerza interior comenzaréis a visualizar una realidad alterativa, que fluye con un sinfín de oportunidades y posibilidades._
+>A medida que aumentáis sistemáticamente vuestra fuerza interior comenzaréis a visualizar una realidad alterativa, que fluye con un sinfín de oportunidades y posibilidades.
 
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-9.jpg)
-
-Esa información fue la que hizo que reuniera mi fortuna. Y me ayudó a alcanzar un consumado sentido de alegría diaria y de paz continuada conmigo mismo. En conjunto, me permitió alcanzar la libertad personal. **Aplica el método según se corresponda mejor** con tus valores, aspiraciones y estilo de vida.
+<img src="images/../../productivity/images/el-club-de-las-5-am-9.jpg" style="height:550px;">
 
 >Vuestra influencia en el mundo es reflejo de la gloria, la nobleza, la vitalidad y la luminosidad a las que hayáis accedido dentro de vosotros mismos.
+
+Esa información fue la que hizo que reuniera mi fortuna. Y me ayudó a alcanzar un consumado sentido de alegría diaria y de paz continuada conmigo mismo. En conjunto, me permitió alcanzar la libertad personal. Aplica el método según se corresponda mejor con tus valores, aspiraciones y estilo de vida.
+
 
 ### Acumulación de días
 
 Todo lo que necesitáis para garantizar una vida plenamente satisfactoria y llena de significado es ser los dueños de vuestros días. Basta con introducir pequeñas correcciones y mejoras.
 
+>Unos pocos cambios en la navegación, en apariencia irrelevantes e infinitesimales realizados de manera sistemática a lo largo de un viaje prolongado.
+
 El Guía llama a estas mejoras personales y profesionales diarias «microvictorias». Si diariamente mejoráis en un 1% cualquier aspecto de vuestra vida, ya sea la rutina matinal, una forma de pensar, un asunto de trabajo o una relación personal, tras un mes conseguiréis mejorar vuestros resultados en un 30%, (sí, sí, ¡un 30%!). Si continuáis con ese mismo programa, en solo un año el nivel de mejora será de al menos un 365 %.
 
->Unos pocos cambios en la navegación, en apariencia irrelevantes e infinitesimales realizados de manera sistemática a lo largo de un viaje prolongado.
 
 ## Navegando por la vida
 
@@ -269,34 +258,30 @@ Una de las cosas más trágicas que conozco de la naturaleza humana es que todos
 
 ## Formula del 20/20/20
 
-La capacidad de levantarse temprano realmente deriva de la aplicación
-diaria de la Fórmula 20/20/20
+La capacidad de levantarse temprano realmente deriva de la aplicación diaria de la Fórmula 20/20/20. El método es simple: 20 minutos por deporte. 20 minutos para reflexionar. 20 minutos para el crecimiento.
 
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-3.jpg)
+<img src="images/../../productivity/images/el-club-de-las-5-am-3.jpg" style="height:550px;">
 
-En términos simples, **un ejercicio intenso** que os haga sudar como primer componente todas las mañanas revolucionará la calidad de vuestros días. La segunda fase os **anima a reflexionar durante los siguientes veinte minutos.** Y terminaréis con vuestra Hora de la victoria para el
-**fortalecimiento personal** con veinte minutos de crecimiento.
+En términos simples, un ejercicio intenso que os haga sudar como primer componente todas las mañanas revolucionará la calidad de vuestros días. La segunda fase os anima a reflexionar durante los siguientes veinte minutos. Y terminaréis con vuestra Hora de la victoria para el
+fortalecimiento personal con veinte minutos de crecimiento.
 
 ## Dormir es imprescindible
 
 Gestionar la última hora de la noche es
-igual de importante si de verdad queréis lograr los mejores resultados.
+igual de importante si de verdad queréis lograr los mejores resultados. Esta es la clave para maximizar el proceso de limpieza adecuada del cerebro y la producción óptima de HGH, que permite ampliar la creatividad, la productividad, la vitalidad y la longevidad, son necesarios cinco ciclos de sueño de noventa minutos completos. Eso es lo que los estudios científicos confirman en la actualidad. Esa cantidad es el equivalente a siete horas y media de sueño cada noche.
 
-Esta es la clave: para maximizar el proceso de limpieza adecuada del cerebro y la producción óptima de HGH, que permite ampliar la creatividad, la productividad, la vitalidad y la longevidad, son necesarios cinco ciclos de sueño de noventa minutos completos. Eso es lo que los estudios científicos confirman en la actualidad. **Esa cantidad es el equivalente a siete horas y media de sueño cada noche.**
+<img src="images/../../productivity/images/el-club-de-las-5-am-4.jpg" style="height:550px;">
 
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-4.jpg)
 
-_«Siguen llegándome la mejor de las suertes y la gran sabiduría. Siempre soy un líder, nunca una víctima. El león, no el ratón. Me gusta mi vida y hago que cada día sea mejor que el anterior. Cuanta más gente ayudo, más feliz soy»._
+>«Siguen llegándome la mejor de las suertes y la gran sabiduría. Siempre soy un líder, nunca una víctima. El león, no el ratón. Me gusta mi vida y hago que cada día sea mejor que el anterior. Cuanta más gente ayudo, más feliz soy».
 
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-5.jpg)
+<img src="images/../../productivity/images/el-club-de-las-5-am-5.jpg" style="height:550px;">
 
 Los pequeños cambios, por insignificantes que parezcan, a la larga dan resultados espectaculares. Las microganancias del día y las mejoras infinitesimales son, en realidad, la forma más segura de tener una vida de la que enorgulleceros cuando llegue nuestro final.
 
 ## Las 10 tacticas del ingenio
 
-_Las 10 tácticas para ser siempre un genio_
-
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-6.jpg)
+<img src="images/../../productivity/images/el-club-de-las-5-am-6.jpg" style="height:550px;">
 
 ### Táctica número 1
 
@@ -404,12 +389,13 @@ Estudia durante al menos sesenta minutos al día. Haz lo que haga falta para bli
 
 Estas son las virtudes a las que todos debemos aspirar para convertirnos en personas que cambian el mundo y héroes en beneficio de una mejor sociedad
 
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-7.jpg)
+<img src="images/../../productivity/images/el-club-de-las-5-am-7.jpg" style="height:550px;">
 
 Cada uno de nosotros, sin importar dónde vivamos, lo que hacemos, lo que nos ha sucedido en el pasado y lo que estamos viviendo en el presente debe liberarse de las esposas de la culpa, las cadenas del odio, los grilletes de la apatía y los barrotes de lo ordinario, que nos mantienen esclavos de las fuerzas oscuras de nuestra naturaleza más vil. Cada uno de nosotros debe levantarse por la mañana (exacto, a las 5 de la mañana) y hacer todo lo que pueda para desarrollar su genialidad y sus dones, profundizar en su carácter y elevar su espíritu.
 
 >Todos debemos liberarnos de nuestras cárceles privadas, que mantienen cautivas nuestra gloria y nuestra nobleza. Recordad que los dones que descuidamos se convierten en penas y maldiciones.
 
+>Liderar es inspirar a los demás a través de vuestra propia manera de vivir. Liderar es caminar a través del fuego de los tiempos más difíciles hasta llegar al perdón. Liderar es impedir que cualquier forma de mediocridad se infiltre en nuestra vida en una celebración deslumbrante de la majestuosidad que es nuestro derecho de nacimiento. Liderar es convertir nuestros terrores en triunfos y traducir nuestras frustraciones en heroísmo. Y, más que nada, liderar es ser una fuerza del bien en este pequeño planeta en que vivimos.
+
 No importa a qué dificultades nos enfrentemos ni qué adversidades suframos. No importa qué ataques, humillaciones y violencia nos inflijan. Debemos persistir. Tenemos que continuar. Debemos ser fuertes. Tenemos que vivir nuestra naturaleza luminosa y magnificar nuestro yo soberano, aunque sintamos que tenemos a todo el mundo en nuestra contra. Esto es lo que nos hace de verdad seres humanos. Aun cuando parezca que la luz nunca romperá la oscuridad, seguid vuestro propio camino hacia la libertad. Haced de modelo de lo soberbio para el resto del mundo. Sed un ejemplo de excelencia para la mayoría. Demostrad vuestro amor real por todos los demás.
 
-_**Liderar es inspirar a los demás a través de vuestra propia manera de vivir. Liderar es caminar a través del fuego de los tiempos más difíciles hasta llegar al perdón. Liderar es impedir que cualquier forma de mediocridad se infiltre en nuestra vida en una celebración deslumbrante de la majestuosidad que es nuestro derecho de nacimiento. Liderar es convertir nuestros terrores en triunfos y traducir nuestras frustraciones en heroísmo. Y, más que nada, liderar es ser una fuerza del bien en este pequeño planeta en que vivimos.**_
