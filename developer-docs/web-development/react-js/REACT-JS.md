@@ -5,10 +5,10 @@ React has been designed from the start for gradual adoption, and you can use as 
 ## Useful links
 - [Next JS Docs](https://nextjs.org/docs/)
 
-## Directory guide
+## Guide
 - [React JS](#react-js)
   - [Useful links](#useful-links)
-  - [Directory guide](#directory-guide)
+  - [Guide](#guide)
   - [Errors](#errors)
 
 ## Errors

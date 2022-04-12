@@ -45,7 +45,7 @@ The test has three different parts.
 
 ### Task 1
 
-The examiner will ask you general questions about yourself and a range of familiar topics, such as home, family, work, studies and interests. This part lasts between 4 and 5 minutes.
+**The examiner will ask you general questions about yourself and a range of familiar topics, such as home, family, work, studies and interests. This part lasts between 4 and 5 minutes.**
 
 Part 1 of the test will start with the examiner asking you to state your name and show your identification.
 
@@ -59,7 +59,7 @@ This part of the test follows a question-answer format focusing on your ability 
 
 ### Task 2
 
-You will be given a task card and the examiner will ask you to talk about a topic. You will have 1 minute to prepare before speaking for up to 2 minutes. The examiner will then ask one or two questions on the same topic to finish this part of the test.
+**You will be given a task card and the examiner will ask you to talk about a topic. You will have 1 minute to prepare before speaking for up to 2 minutes. The examiner will then ask one or two questions on the same topic to finish this part of the test.**
 
 After Part 1, the examiner will give you a topic and will ask you to talk about it for one to two minutes.
 
@@ -99,7 +99,7 @@ In Part 3, you are assessed on your ability to express and justify opinions and 
 
 ### Study tips
 
-1. Recording yourself, wite out your answer to see the type of mistakes you are making.
+1. Recording yourself, write out your answer to see the type of mistakes you are making.
 2. Read and write if you are unsure which individual sounds you are saying incorrectly.
 3. A good way to practice intonation and fluency is by copying the rhythm of native speakers.
 4. Record yourself being interviewed, on video if possible, and try to assess your own performance.
@@ -115,7 +115,7 @@ The Listening module takes **40 minutes**: 30 min for testing and 10 min for tra
 
 You will hear the recording **only once**. You will be given some extra time at the start to prepare.
 
-There are 10 questions in each section. For some types, you need to write words or numbers that you hear. The instructions and the questions will tell you what tpye of information you need to listen for, and the type of answer you need to give.
+There are 10 questions in each section. For some types, you need to write words or numbers that you hear. The instructions and the questions will tell you what type of information you need to listen for, and the type of answer you need to give.
 
 **Types of questions on IELTS Listening:**
 
@@ -153,6 +153,8 @@ You will hear a monologue in an academic context. _(e.g lecture, lecture about e
 5. Sometimes **you will hear two or more potential answers** but only one is correct.
 6. The questions in the listeting are **in the same order** as the information you hear. However, in multiple choice questions the possible answers will be **in random order.**
 7. Make sure that you pay close attention to **any negatives in the options**, as well as **any adjectives**. With multiple choices **pay careful attention to the question** and options.
+8. You should **study the map plan or plan carefully** before you listen. Having a clear image will help you to understand the question.
+9. Before you listen **read maps several times to become familiar** with the options. If you can't decide, write down and decide later.
 
 ### Study tips
 

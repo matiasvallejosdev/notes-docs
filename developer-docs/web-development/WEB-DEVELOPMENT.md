@@ -5,7 +5,10 @@
 - [html/](html/HTML.md)
 - [css/](css/CSS.md)
 - [react-js/](react-js/REACT-JS.md)
-- [web-design/](web-design/WEB-DESIGN.md)
+
+## Concepts guide
+
+- [web-design](concepts/web-design.md)
 
 
 ## Samples

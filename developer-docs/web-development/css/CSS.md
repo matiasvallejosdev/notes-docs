@@ -6,9 +6,9 @@ CSS can be used for very basic document text styling — for example changing th
 
 - [CSS MozillaDocs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [CSS DevDocs](https://devdocs.io/css/)
-## Directory guide
+## Guide
 - [Cascade Style Sheet](#cascade-style-sheet)
-  - [Directory guide](#directory-guide)
+  - [Guide](#guide)
   - [Selectors](#selectors)
   - [Basic](#basic)
     - [Pseudoclasses](#pseudoclasses)

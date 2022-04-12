@@ -1,4 +1,4 @@
-# Book Docs
+# Libray notes
 
 A repository of the main imporant of every book that i could read. It's important to learn, understand and remember that kind of things that the authors tell to me.
 

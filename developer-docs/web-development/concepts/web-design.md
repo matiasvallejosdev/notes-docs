@@ -19,11 +19,11 @@ Web Design is the process of creating a web page that is visually appealing and 
 - [awwwards.com](https://www.awwwards.com/)
 - [docspo.com](https://docspo.com/)
 
-## Table of contents
+## Guide
 
 - [Web Design](#web-design)
   - [Useful](#useful)
-  - [Table of contents](#table-of-contents)
+  - [Guide](#guide)
   - [Good Design](#good-design)
   - [Ingredients](#ingredients)
     - [Typography](#typography)

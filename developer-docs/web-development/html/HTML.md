@@ -8,10 +8,10 @@ HTML (Hypertext Markup Language) is a markup language that tells web browsers ho
 
 - [Developer Mozilla Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
   
-## Directory guide
+## Guide
 - [Hypertext markup language](#hypertext-markup-language)
   - [Useful links](#useful-links)
-  - [Directory guide](#directory-guide)
+  - [Guide](#guide)
   - [Meta](#meta)
   - [Labels](#labels)
   - [Section vs Div vs Article](#section-vs-div-vs-article)
