@@ -15,10 +15,14 @@ CSS can be used for very basic document text styling — for example changing th
   - [Custom Properties](#custom-properties)
   - [Box Model](#box-model)
   - [Layout](#layout)
+    - [Building blocks](#building-blocks)
+    - [Control the position](#control-the-position)
+    - [The display property](#the-display-property)
   - [Values and units](#values-and-units)
     - [Absolute length units](#absolute-length-units)
     - [Relative length units](#relative-length-units)
     - [Percentages units](#percentages-units)
+  - [Float](#float)
   - [Flexbox](#flexbox)
     - [Flexbox Model](#flexbox-model)
     - [Flex Direction](#flex-direction)
@@ -33,6 +37,8 @@ CSS can be used for very basic document text styling — for example changing th
 
 ## Selectors
 
+CSS treats each HTML e XX lement as if it appears inside its own box and uses rules to indicate how that element should look.
+
 [Selectors Code](selectors/index.html) / [Mozilla Selectors](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Selectors)
 
 This are the way that you can define styles to an html element. You can use classes, labels or property.
@@ -45,21 +51,43 @@ You also can combine this types.
 }
 ```
 
-**Universal selector**
-Selects all elements. Optionally, it may be restricted to a specific namespace or to all namespaces.
-*Syntax: '*'
+Universal Selector: Applies to all elements in the
+document.
 
-**Type selector**
-Selects all elements that have the given node name.
-*Syntax: elementname*
+```css
+*{}
+```
 
-**Class selector**
-Selects all elements that have the given class attribute.
-*Syntax: .classname*
-
-**Id selector**
-Selects an element based on the value of its id attribute. There should be only one element with a given ID in a document.
-*Syntax: #idname*
+Type Selector: Matches element names.
+```css
+h1,h2,h3{}
+```
+Class Selector: Matches an element whose class attribute has a value that matches the one specified after the period (or full stop) symbol.
+```css
+.card{}
+.card p{}
+```
+ID Selector: Matches an element whose id attribute has a value that matches the one specified after the pound or hash symbol.
+```css
+#introduction{}
+```
+Child Selector: Matches an element that is a direct child of another.
+```css
+li>a{}
+```
+Descendant Selector: Matches an element that is a descendent of another specified element (not just a direct child of that element).
+```css
+p a{}
+```
+Adjacent Sibling Selector: Matches an element that is the
+next sibling of another
+```css
+h1+p{}
+```
+General Sibling Selector: Matches an element that is a sibling of another, although it does not have to be the directly preceding element.
+```css
+h1~p{}
+```
 
 ## Basic 
 
@@ -129,11 +157,47 @@ Everything in CSS has a box around it, and understanding these boxes is key to b
 
 CSS page layout techniques allow us to take elements contained in a web page and control where they're positioned relative to the following factors: their default position in normal layout flow, the other elements around them, their parent container, and the main viewport/window. The page layout techniques we'll be covering in more detail in this module are:
 
-- Normal flow
-- The display property
-- Flexbox
-- Grid
-- Floats
+### Building blocks
+CSS treats each HTML element as if it is in its own box. This box will either be a block-level box or an inline box.
+
+<img src="http://4.bp.blogspot.com/-TiwOixlooJk/U4UyEnv_XpI/AAAAAAAACFs/NuuLz2IvoZ4/w1200-h630-p-k-no-nu/css-display-block-vs-inline-block.png" style="height:300px">
+
+```html
+<!-- Block level -->
+<h1><p><ul><li>
+<!-- Inline level -->
+<img><b><i>
+<!-- Inline block -->
+<p><a>
+```
+### Control the position
+If one block-level element sits inside another block-level element then the outer box is known as the containing or parent element.
+- Normal flow: all blocks within the same block-level element are known as the "parent" of the other blocks.
+```css
+p{
+  position: static;
+  /* It's the default flow element*/
+  position: relative;
+  /* This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom, or left of where it would have been placed. This does not affect the position of surrounding elements; they stay in the position they would be in in normal flow. */
+}
+```
+- Out flow: all blocks within the same block-level element are known as the "child" of the other blocks.
+```css
+p{
+  position: absoulte;
+}
+/* This positions the element in relation to its containing element. It is taken out of normal flow, meaning that it does not affect the position of any surrounding elements (as they simply ignore the space it would have taken up). Absolutely positioned elements move as users scroll up and down the page. */
+
+```
+
+### The display property
+The main methods for achieving page layout in CSS all involve specifying values for the ```display``` property. This property allows us to change the default way something displays. Everything in normal flow has a default value for ```display```; i.e., a default way that elements are set to behave. For example, the fact that paragraphs in English display one below the other is because they are styled with ```display: block```. If you create a link around some text inside a paragraph, that link remains inline with the rest of the text, and doesn't break onto a new line. This is because the ```<a>``` element is display: inline by default.
+
+In addition to being able to change the default presentation by turning an item from block to inline and vice versa, there are some more involved layout methods that start out as a value of ```display```. However, when using these you will generally need to invoke additional properties. The two values most important for our discussion of layout are ```display: flex``` and ```display: grid.```
+
+- [Flexbox](#flexbox)
+- [Grid](#grid)
+- [Float](#float)
 - Positioning
 - Table layout
 - Multiple-column layout
@@ -168,7 +232,28 @@ Relative length units are relative to something else, perhaps the size of the pa
 
 The thing with percentages is that they are always set relative to some other value. For example, if you set an element's font-size as a percentage, it will be a percentage of the font-size of the element's parent. If you use a percentage for a width value, it will be a percentage of the width of the parent.
 
+## Float
+[Float Layout](layout\index.html) / [Float Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/float) 
 
+The float CSS property places an element on the left or right side of its container, allowing text and inline elements to wrap around it. The element is removed from the normal flow of the page, though still remaining a part of the flow (in contrast to absolute positioning).
+```css
+div{
+  /* Keyword values */
+  float: left;
+  float: right;
+  float: none;
+  float: inline-start;
+  float: inline-end;
+
+  /* Global values */
+  float: inherit;
+  float: initial;
+  float: revert;
+  float: revert-layer;
+  float: unset;
+}
+
+```
 
 ## Flexbox 
 
@@ -195,6 +280,8 @@ Flexbox provides a property called flex-direction that specifies which direction
   flex-direction: row;
   flex-direction: column;
 ```
+
+<img src="https://miro.medium.com/max/1400/1*bw4hK0MYxFXbw7ylW2fR5Q.png" style="height:300px">
 
 ### Flex Wrapping
 

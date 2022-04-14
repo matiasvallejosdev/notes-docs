@@ -9,6 +9,7 @@
 ## Concepts guide
 
 - [web-design](concepts/web-design.md)
+- [ci/cd](concepts/ci-cd.md)
 
 
 ## Samples
@@ -19,3 +20,4 @@
 - [html-forms](samples/html-forms/index.html)
 - [html-css-product-grid-flexbox](samples/html-css-product-grid-flexbox/index.html)
 - [html-css-chairs-web](samples/html-css-chairs-web/index.html)
+- [html-css-components](samples/html-css-components/index.html)

@@ -25,7 +25,8 @@ Web Design is the process of creating a web page that is visually appealing and 
   - [Useful](#useful)
   - [Guide](#guide)
   - [Good Design](#good-design)
-  - [Ingredients](#ingredients)
+    - [Ingredients](#ingredients)
+    - [Personality](#personality)
     - [Typography](#typography)
     - [Colors](#colors)
     - [Images](#images)
@@ -33,9 +34,17 @@ Web Design is the process of creating a web page that is visually appealing and 
     - [Shadows](#shadows)
     - [Borders radios and checkboxes](#borders-radios-and-checkboxes)
     - [Whitespace](#whitespace)
-  - [Personality](#personality)
+    - [Visual hierarchy](#visual-hierarchy)
+    - [User experience (UX)](#user-experience-ux)
+  - [Layout patterns](#layout-patterns)
 
 ## Good Design
+
+[Design Guidelines](archive/all-design-guidelines.pdf)
+
+Consistency is key to UI design as it increases products’ learnability. Good UI design comes from creating a sense of familiarity and ensuring that everything on a screen makes sense and works in ways that the user expects it to work. 
+
+### Ingredients
 
 1. Creates an immediate and lasting good impression of the brand product.
 2. Makes the user trust brand right away.
@@ -45,7 +54,16 @@ Web Design is the process of creating a web page that is visually appealing and 
 6. Text should be readable and not completed black.
 7. Don't make the text too small or to light.
 
-## Ingredients
+
+### Personality
+
+1. Serious / Elegant
+2. Minimalistic / Simple
+3. Plain / Neutral
+4. Bold / Confident
+5. Calm / Peaceful
+6. Startup / Creative
+7. Playful / Fun
 
 ### Typography
 
@@ -167,13 +185,53 @@ Whitespace is important because it creates a space between elements. It create c
 4. Use whitspace between elements.
 5. Follow a rule. (e.g. multiple of 16px)
 
-## Personality
+### Visual hierarchy
 
-1. Serious / Elegant
-2. Minimalistic / Simple
-3. Plain / Neutral
-4. Bold / Confident
-5. Calm / Peaceful
-6. Startup / Creative
-7. Playful / Fun
+Visual hierarchy is about establishing a hierarchy between elements. It's about drawing attention to the important elements. It also define a path for the users them throug the web page. We use a combination of position, size, colors, borders and shadow to make a meaningful hierarchy between elements.
+
+**Rules:**
+1. Position important elements closer to the top the page, where they get more attention 
+2. Use images mindfully, as they draw a lot of attention (larger images get more attention) 
+3. Whitespace creates separation, so use whitespace strategically to emphasize elements 
+4. For text elements, use font size, font weight, color, and whitespace to convey importance 
+5. What text elements to emphasize? Titles, sub-titles, links, buttons, data points, icons.
+6. Emphasize an important component using background color, shadow, or border (or multiple) 
+7. Try emphasizing some component A over component B by deemphasizing component B 
+8. What components to emphasize? Testimonials, call-to-action sections, highlight sections, preview cards, forms, pricing tables, important rows/columns in tables, etc.
+
+### User experience (UX)
+
+Ux is the user experience. It's the way the user interacts with the website. It's the way the user perceives the website. It's the way the user perceives the brand. 
+
+**UI** is graphical interface that makes a interface beautiful. **UX** is experience with interface what makes that useful and functional. It cannot exist without UI.
+
+<img src="https://imaginxp.com/wp-content/uploads/2020/09/Knowing-the-difference-between-UI-and-UX.webp" style="width:450px;">
+
+A website or application exists for a reason. A user has a goal for visiting it, and a business has a goal for creating it.
+
+<img src="https://pbs.twimg.com/media/ETa5W0wXsAA_Xwg.jpg" style="width:450px">
+
+**Rules:**
+
+01. Don’t design complicated layouts. Don’t reinvent the wheel.Use patterns that users know 
+02. Make your call-to-action the most prominent element, and make the text descriptive
+03. Use blue text and underlined text only for links! 
+04. Animations should have a purpose and be fast: between 200 and 500 .milliseconds 
+05. In forms, align labels and fields in a single vertical line, to make the form easier to scan.
+06. Offer users good feedback for all actions: form errors, form success, etc. [web apps] 
+07. Place action buttons where they will create an effect (law of locality) [web apps] 
+08. Use a descriptive, keyword-focused headline on your main page. Don’t be vague or fancy! 
+09. Only include relevant information, efficiently! Cut out fluff and make the content 100% clear. 
+10. Use simple words! Avoid technical jargon and “smart-sounding” words.
+11. Break up long text with sub-headings, images, block quotes, bullet points, etc.
+
+
+
+
+
+## Layout patterns
+
+1. Use common elements adn components to convey your web design.
+2. Combine components into layouts using common layout patterns.
+3. Take all the elements and put them into a layout.
 
