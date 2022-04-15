@@ -111,7 +111,7 @@ Tu tiempo es limitado, no lo malgastes viviendo la vida de alguien distinto. No 
 
 ### Reglas de exito
 
->  EL liderazgo consiste en resistir a la tiranía de lo ordinario, en impedir que la negatividad se apropie de vuestra capacidad de asombro y en evitar que cualquier forma de esclavitud de la mediocridad infeste vuestras vidas. El liderazgo consiste en marcar la diferencia justo desde donde estáis. El verdadero liderazgo consiste en aportar al mundo un trabajo valiente de genialidad ejemplar, con un alcance, una innovación y una ejecución que pongan todo vuestro mundo patas arriba, y que sea tan asombrosamente sublime que sobreviva a la prueba del tiempo.
+EL liderazgo consiste en resistir a la tiranía de lo ordinario, en impedir que la negatividad se apropie de vuestra capacidad de asombro y en evitar que cualquier forma de esclavitud de la mediocridad infeste vuestras vidas. El liderazgo consiste en marcar la diferencia justo desde donde estáis. El verdadero liderazgo consiste en aportar al mundo un trabajo valiente de genialidad ejemplar, con un alcance, una innovación y una ejecución que pongan todo vuestro mundo patas arriba, y que sea tan asombrosamente sublime que sobreviva a la prueba del tiempo.
 
 
 #### REGLA N.º 1
@@ -167,7 +167,7 @@ gran nivel de detalle en lugar de aplicar una mentalidad superficial a sus actit
 
 >Los maestros de la perfección son extraordinariamente detallistas. Piensan atentamente en lo que hacen.
 
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-1.jpg)
+<img src="images/../../productivity/images/el-club-de-las-5-am-1.jpg" style="height:350px;">
 
 Si mejoráis vuestra consciencia diaria, podéis tomar mejores decisiones cada día, y con mejores decisiones diarias empezarás a obtener mejores resultados regularmente.
 
@@ -190,7 +190,7 @@ Pensar en la muerte ayuda a focalizar con mayor exactitud aquello que realmente 
 
 Mostrad gratitud por cada instante de vuestras vidas. No debéis ser tímidos con respecto a vuestras ambiciones. Dejad de perder el tiempo o de dedicarlo a trivialidades sin sentido. Vuestra prioridad debe ser aprovechar la creatividad, ese fuego y ese potencial que están latentes dentro de cada uno.
 
-![El club de las 5am.jpg](images/../../productivity/images/el-club-de-las-5-am-2.jpg)
+<img src="images/../../productivity/images/el-club-de-las-5-am-2.jpg" style="height:350px">
 
 ### Capitalización de coeficiente intelectual
 
@@ -211,15 +211,15 @@ Las personas que consiguen grandes resultados y que contribuyen a construir el m
 
 Asumimos así el paradigma de la víctima. Creamos escusas y las repetimos una y otra vez hasta convencer a nuestro subconsciente de que son ciertas. Culpamos a otras personas o a las condiciones externas de nuestras dificultades y atribuimos a episodios pasados la responsabilidad de nuestras batallas personales.
 
-Cada vez que te das cuenta de que has caído en una mentalidad victimista y decides optar por una decisión más valiente, _estás reescribiendo tu historia. Así mejoráis vuestra identidad, aumentáis el respeto que os tenéis y enriquecéis la confianza en vosotros mismos._ Cada vez que votáis por el ser superior que hay en vosotros aplacáis vuestro lado más débil y alimentáis vuestra capacidad intrínseca. Y cuando lo hagáis con la uniformidad que demandan la experiencia y el dominio de las situaciones, vuestra **«Capitalización de coeficiente intelectual», es decir, la capacidad para materializar cualquiera de los dones con los que habéis nacido, no hará más que aumentar.**
+Cada vez que te das cuenta de que has caído en una mentalidad victimista y decides optar por una decisión más valiente, estás reescribiendo tu historia.**Así mejoráis vuestra identidad, aumentáis el respeto que os tenéis y enriquecéis la confianza en vosotros mismos.** Cada vez que votáis por el ser superior que hay en vosotros aplacáis vuestro lado más débil y alimentáis vuestra capacidad intrínseca. Y cuando lo hagáis con la uniformidad que demandan la experiencia y el dominio de las situaciones, vuestra **«Capitalización de coeficiente intelectual», es decir, la capacidad para materializar cualquiera de los dones con los que habéis nacido, no hará más que aumentar.**
 
 ### Liberarse de las distracciones
 
 La adicción a la distracción es la muerte de producción creativa. Uno de los rasgos más fascinantes de nuestro cerebro primitivo es su sesgo de negatividad. Para mantenernos seguros, está menos interesado en lo que es positivo en nuestro entorno, mientras que se centra de manera más significativa en hacernos saber lo que es malo. Cuando abandonamos nuestra zona de confort, el cerebro primitivo entra en acción. Cuando incrementamos nuestros conocimientos y nuestra experiencia y elevamos nuestro nivel de influencia, se atemoriza ante los inminentes cambios.
 
->Igualmente, desde el punto de vista social, es preferible tener pocos amigos, pero profundizar en la relación con ellos, de forma que esta sea más fecunda. Aceptad pocas invitaciones. Centraros en pocas actividades de ocio y, después de estudiar las posibles opciones, elegid un número de libros limitado, en vez de leer unas cuantas páginas de muchos. La intensa concentración solo en lo que realmente importa es la clave de quienes logran la victoria. Simplificad. Simplificad. Simplificad.
+Igualmente, desde el punto de vista social, es preferible tener pocos amigos, pero profundizar en la relación con ellos, de forma que esta sea más fecunda. Aceptad pocas invitaciones. Centraros en pocas actividades de ocio y, después de estudiar las posibles opciones, elegid un número de libros limitado, en vez de leer unas cuantas páginas de muchos. La intensa concentración solo en lo que realmente importa es la clave de quienes logran la victoria. Simplificad. Simplificad. Simplificad.
 
-_«La comparación es el ladrón de la felicidad. Siempre hay alguien que tiene más fortuna, más fama o más cosas que tú. Recordad cuando antes hablábamos de lo beneficioso del desapego por los bienes y de ser lo bastante juicioso para saber cuándo lo suficiente es adecuado.»_
+>«La comparación es el ladrón de la felicidad. Siempre hay alguien que tiene más fortuna, más fama o más cosas que tú. Recordad cuando antes hablábamos de lo beneficioso del desapego por los bienes y de ser lo bastante juicioso para saber cuándo lo suficiente es adecuado.»
 
 La soledad, el tipo de soledad al que se puede tener acceso antes de que salga el sol, es una fuerza multiplicadora de la capacidad, el conocimiento y la experiencia y la conexión con el ser humano. Y el proceso de crecimiento y superación requiere aislamiento.
 
@@ -235,7 +235,7 @@ Cualquier cosa que hacéis en el mundo exterior es consecuencia directa de lo qu
 
 >A medida que aumentáis sistemáticamente vuestra fuerza interior comenzaréis a visualizar una realidad alterativa, que fluye con un sinfín de oportunidades y posibilidades.
 
-<img src="images/../../productivity/images/el-club-de-las-5-am-9.jpg" style="height:550px;">
+<img src="images/../../productivity/images/el-club-de-las-5-am-9.jpg" style="height:350px;">
 
 >Vuestra influencia en el mundo es reflejo de la gloria, la nobleza, la vitalidad y la luminosidad a las que hayáis accedido dentro de vosotros mismos.
 
@@ -275,7 +275,7 @@ igual de importante si de verdad queréis lograr los mejores resultados. Esta es
 
 >«Siguen llegándome la mejor de las suertes y la gran sabiduría. Siempre soy un líder, nunca una víctima. El león, no el ratón. Me gusta mi vida y hago que cada día sea mejor que el anterior. Cuanta más gente ayudo, más feliz soy».
 
-<img src="images/../../productivity/images/el-club-de-las-5-am-5.jpg" style="height:550px;">
+<img src="images/../../productivity/images/el-club-de-las-5-am-5.jpg" style="height:750px;">
 
 Los pequeños cambios, por insignificantes que parezcan, a la larga dan resultados espectaculares. Las microganancias del día y las mejoras infinitesimales son, en realidad, la forma más segura de tener una vida de la que enorgulleceros cuando llegue nuestro final.
 

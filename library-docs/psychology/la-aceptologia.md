@@ -1,1 +1,324 @@
 # La aceptologia - Gerardo Schmelding Torres
+
+>No se preocupen porque en algún momento la mente rechace una información nueva; eso es absolutamente normal, eso no tiene ningún problema. Poco a poco vamos a ir verificando realidades a través de la experiencia personal y les pido que no me crean nada, porque si me llegan a creer, se llenan de más creencias. Solamente verifiquen el orden del universo a través de sus acciones y de los resultados que obtienen con ellas... Entonces sabrán de qué estamos hablando.
+
+## ¿Porque la aceptologia es una ciencia?
+
+Aceptología, llamamos a la nueva ciencia que libera del sufrimiento. La aceptación, que es una de las herramientas del amor, vamos a desarrollarla como una ciencia. Cuando hablamos de ciencia estamos hablando de algo que puede medirse, que puede verificarse -algo en lo cual no es necesario creer-, algo que comprenderemos solamente a través de verificar en la realidad la presencia de un orden, que podemos reconocer a cada instante.
+
+>Aquello que no soy capaz de aceptar es la única causa del sufrimiento.
+
+A aceptar que idealizar significa no aceptar la realidad del universo, y cuando yo no acepto algo, el resultado de la no aceptación tiene un solo nombre: Sufrimiento, Culpa, Angustia, Agresión. Ni los demás son culpables ni yo tampoco, hay algo más simple que eso: no sé cómo ser feliz y como no sé cómo ser feliz, trato de cambiar lo de afuera para sentirme feliz pero me estrello porque no puedo cambiarlo, porque lo que quiero no es el orden del universo. Ahí LA LEY aparece.
+
+### ¿A que vinimos?
+
+A dos cosas: a algo interno que se llama Aprender a Ser Feliz por Mí Mismo. La parte externa es a Aprender a Amar a los demás y a Servirles así como son, sin tratar de cambiarlos, porque si yo trato de cambiar a alguien no lo estoy amando, lo estoy rechazando, entonces son solamente dos propósitos los del Universo: Ser feliz por mí mismo y aprender a Amar y a Servir.
+
+> No hay ninguna persona que te pueda hacer feliz a ti, a menos que seas tú mismo.
+
+Por lo tanto, mientras yo no acepto la realidad de la vida como un orden perfecto, no puedo ser feliz, y el problema está dentro de mí, no está afuera. Yo no acepto lo que sucede y ese es el principio fundamental en que se basa esta nueva ciencia, la Aceptología.
+
+Una persona que no es capaz de ser feliz por sí misma es un verdadero peligro social, porque cuando yo no soy capaz de ser feliz por mí mismo, entonces yo supongo que los demás son los que me van a hacer feliz. Los demás pueden llamarse pareja, hijos, padres, gobierno, compañeros, amigos, vecinos, circunstancias de la vida... Esas expectativas no se cumplen porque la felicidad no la voy encontrar afuera **sino adentro**, ese es mi primer error.
+
+> El sufrimiento produce una situación que se llama saturación de sufrimiento. Cuando te saturas del sufrimiento, de la angustia, y dices, “¡No quiero sufrir más!”, entonces el Padre vuelve y te dice, “NADIE PUEDE HACERTE FELIZ A MENOS QUE TÚ MISMO LO HAGAS”.
+
+### Valora tu capacidad de ser feliz por ti mismo
+
+> Valora todo lo que la vida te ha dado porque eso es suficiente para ser feliz.
+
+Mientras yo no haya obtenido un resultado para mí, verificado por mí mismo, no sé nada. Noten que es mejor tener la incertidumbre que me permite descubrir la verdad, que la certeza de la ignorancia... “Yo creo que sé”, es grave... porque implica que la persona no está dispuesta a cambiar. Dice, “Yo creo que ese es mi camino”, y se va por allí sin escuchar a la vida que le está diciendo que no.
+
+La persona actúa con un propósito de descubrir su camino, no de ser terco. El resultado le muestra si ese es el camino o no. A lo que no funciona, ¿cómo lo llamamos? Lo llamamos fracaso... y lo llamamos problemas... ustedes pueden verificar resultados en problemas de las relaciones. Ese es un resultado. Los problemas de salud, económicos, de ubicación, son otros resultados. Si yo obtengo esos resultados, estoy usando ignorancia e ideales. Si mis resultados son que no tengo problemas de relaciones, de salud, económicos, ni de educación, esos resultados me indican que estoy usando sabiduría.
+
+> Si tú quieres cambiar a alguien, no lo amas. Si le das herramientas para que él cambie, sin generar expectativas, sí lo amas.
+
+Idealizar es no aceptar la realidad. ¿Qué es lo que idealizas? Pues lo que no está sucediendo. Necesito renunciar a idealizar y empezar a trabajar con la realidad del universo, con mi propia realidad.
+
+**Creer en el Orden Universal:** Al iniciar las experiencias en nuestras vidas, como no sabemos, lo primero que hacemos es creer y de ahí viene la fuerza de la creencia y la necesidad de las religiones
+
+**Ciencia:** Ya no es creer, sino saber ciertas cosas del Orden Universal. Decimos ciertas cosas, porque a la ciencia todavía le falta muchísimo por descubrir del Orden Universal.
+
+**Sabiduría:** Es saber vivir de acuerdo con el Orden Universal. Seguir el Orden del Universo significa que tengo un nivel de sabiduría. Soy capaz de orientarme por la realidad de la vida y no por mis creencias, y tampoco es saber ciertas cosas que son parciales, sino algo más global
+
+> Si eres feliz y sabes amar, el éxito es inevitable, la prosperidad es inevitable.
+
+**Aceptología:** No es suficiente que yo siga el orden del Universo, necesito respetarlo. Entonces la aceptación es un punto muy avanzado, porque es cuando yo aprendo a respetar el orden del universo.
+
+> La Aceptología consiste en que tú te das cuenta que caminas un camino que para ti muy satisfactorio, pero que otras personas no lo hacen y no tratas de sacarlos a ellos del suyo.
+
+Tú vas a tomar un camino y la vida te pone obstáculos. Puede ser que tú no sepas la razón, lo que sí sabes es que si hay obstáculos ese camino, entonces no es el tuyo. Esa es la Sabiduría. La Aceptología consiste en que tú te das cuenta que caminas un camino que para ti muy satisfactorio, pero que otras personas no lo hacen y no tratas de sacarlos a ellos del suyo.
+
+¿Qué es lo que hace la ciencia? La ciencia mide. La religión nos da una fuerza interior para avanzar, aun en medio de lo que no conocemos. ¿Cómo me muevo dentro de aquello que no conozco? Necesito tener una creencia fuerte y esa creencia se llama LA FE.
+
+Y la sabiduría combinada con la aceptación, repito, es la que nos va a dar la Maestría. La Maestría tiene una capacidad superior, porque no es solamente tener la capacidad de ser feliz por mí mismo, sino la de respetar las experiencias de los demás, aunque ellos no sean felices. Ahí, entramos en maestría.
+
+> Aceptar que el universo ya tiene un orden y que yo no necesito cambiarlo sino aprovecharlo.
+
+A una persona le puede faltar una pierna sin que ello sea un obstáculo para que sea feliz, mientras que otra persona puede aparentemente tener todo y no ser capaz de ser feliz. La felicidad no depende de lo que está pasando afuera, sino de la forma como yo observo, tomo y evalúo las situaciones.
+
+>“Todas las personas tienen lo necesario para ser felices...” -sin excepción, todas– “... muy pocas personas saben ser felices con lo que tienen”.
+
+### ¿Que es la realidad?
+
+**La realidad no es ni buena ni mala, es neutra.**
+
+La realidad externa es neutra. La realidad interna, si la miro desde amor, tiene una dualidad: es una realidad de sufrimiento o es una realidad de satisfacción. Suponemos que lo que está afuera es lo que tiene dualidad, mas no es así. Lo que tiene dualidad es lo que yo tengo adentro.
+
+Aquí viene la afirmación científica. La interpretación que yo hago de la realidad puede ser engañosa; por lo general lo es, a menos que la mire desde sabiduría. Pero la realidad como tal, no es engañosa; es un resultado verificable, está presente; no es bueno ni malo, es neutro. ¿Qué es bueno o malo? La interpretación mental que yo hago de un hecho cualquiera puede ser buena o mala; por eso es engañosa. Pero el hecho es concreto; no es ni bueno ni malo, es real.
+
+**La realidad no es cambiable. Cambia la interpretación mas no ella en sí misma.**
+
+Lo que podemos es generar una nueva realidad, haciendo un cambio interno. Mientras no haga un cambio interno, la realidad que se me presenta será la misma.
+
+>Si yo siempre sigo el mismo método, siempre obtengo el mismo resultado
+
+Si mi interpretación del hecho me trae sufrimiento, ¿qué tipo de interpretación hice?... Una que hice desde la ignorancia; desde la falsedad de mis conceptos. Si la interpretación del hecho me deja paz en mi interior, o me trae armonía y satisfacción, hice una interpretación verdadera del hecho.
+
+> Lo importante es que comprendamos que cada uno de nosotros vive inmerso en una realidad correspondiente con sus estados mentales. En la medida en que yo cambio mis estados mentales internos, las realidades que la vida va a ofrecerme son nuevas porque yo cambio la correspondencia interna con la externa.
+
+Al reconocer un valor interno, me ubiqué en un lugar correspondiente con el valor correspondiente al que reconocí. Mientras yo no reconozco mis valores sino mis limitaciones vivo en una realidad correspondiente con las limitaciones que yo expreso, manifiesto y mantengo en mi mente.
+
+> “Yo cambié la realidad porque ahora yo ya no sufro con nada de lo que pasa”
+
+> La palabra IMPOSIBLE no existe en la mente de un maestro, mucho menos en Dios. Es preferible utilizar esta expresión: “Aún no sé cómo puede hacerse”. No es que sea imposible... Es que yo no sé cómo hacerlo, aún.
+
+Mientras yo crea que puedo cambiar la realidad no acepto el orden del universo y mientras yo no acepte el orden del universo, lucho contra el orden perfecto y encuentro toda clase de obstáculos en mi vida que se manifiestan como lo que llamamos “problemas”.
+
+¿Por qué tenemos problemas los seres humanos? ¿Por qué las cuatro clases de problemas? No tienen sino un sólo origen: No acepto el Orden Perfecto del Universo, la Voluntad del Padre.
+
+> “Yo no voy a responder a la violencia con violencia, ni a la agresión con agresión. Yo voy a responder a la violencia con amor y voy a responder a la agresión con sabiduría; y voy a respetar a todas las personas como son, en la experiencia que viven”.
+
+Un cambio interior. En ese momento, ella se hace correspondiente con un lugar donde sí hay paz, donde sí hay respeto, donde sí hay sabiduría y cambia de lugar -no cambia el lugar. La realidad anterior sigue existiendo pero no para él. Él hizo un cambio interior y generó una nueva correspondencia. Lo único que cambió estaba dentro de él. Esa es la ciencia de la Aceptología.
+
+### La realidad interna no es fisica, es mental.
+
+Sirve para la transformación interior. No puedo hacer una transformación interior a menos que yo acepte la realidad presente en cualquier dimensión donde me encuentre y es, fundamentalmente, la de la tercera dimensión, porque las otras dos dimensiones son proyecciones mentales que yo adquirí en la tercera dimensión.
+
+Fíjense lo sencillo: si yo estoy ahora en este lugar, para mí es real, en este momento, esta casa, este salón que esta situado en la ciudad de Cali en donde me encuentro en este instante con todos mis sentidos físicos. Cualquier otro lugar, diferente a éste, está en mi mente; por lo tanto, estoy imaginando cualquier otro lugar del universo que no sea éste... Entonces Francia es real para los que viven en Francia en este instante. Para los que viven en Francia, este lugar es imaginario.
+
+Para no equivocarnos y poder trabajar Aceptología: lo imaginario sucede en un lugar donde no estás; y como no estás, necesitas imaginarlo. Y lo real, sucede en todos lo lugares donde tú estás presente. Y estás presente en cuarenta dimensiones donde solamente tres son físicas.
+
+> LA VIDA ES UNA MARAVILLOSA OPORTUNIDAD PARA APRENDER A SER FELICES Y PARA APRENDER A AMAR.
+
+Entonces, cuando ves la vida como la vida es, te sientas totalmente feliz. Cuando seas capaz de estar en paz y ser feliz por ti mismo, estarás viendo la vida como es. Cuando seas capaz de amar y respetar a todos lo seres del universo, sin excepción, viéndolos como creaciones perfectas de Dios en funciones correspondientes con cada uno de ellos, estarás viendo la vida como es. ¡Eso se llama despertar!
+
+> Aceptándola como una oportunidad perfecta para aprender a amar y aprender a ser felices.
+
+> El propósito de la vida es aprender a tener paz, aprender a ser feliz por mí mismo, aprender a amar a los demás.
+
+
+### El ego
+
+El ego es una estructura mental conformada por creencias falsas, necesarias e importantes para poder llegar a conocer la verdad. No puedo pasar de la inocencia (ausencia de información) a sabiduría (información de la verdad), sin haber pasado por el ego (ignorancia aprendida), porque no hay con qué comparar la verdad. Si no puedes medir la verdad, no puedes verificarla. Para medir la verdad tienes que medirla con lo que no es verdad; para eso sirve el ego. El ego es necesario hasta cuando reconozco la verdad. Cuando ya reconozco la verdad, el ego se vuelve un estorbo. Por eso tiene un límite. Estoy seguro de que nosotros al estar aquí buscando un desarrollo espiritual, ya llegamos al límite del ego, o esto no nos interesaría a nosotros para nada. Por eso es que ahora podemos empezar a ser felices y caminar el resto del camino de la evolución disfrutando cada paso que demos y no sufriéndolo... Si ya sufrí suficiente... Esperemos que sí.
+
+El idealismo es una situación del Ego que la vamos a remplazar por algo más simple y practico: aprovechar la realidad presente para generar una nueva realidad mucho más satisfactoria que la anterior. Por lo tanto, el idealismo se hace innecesario
+
+### ¿Cómo hago para aprender a tener paz?
+
+>La imaginación es lo que los maestros llaman LA SEMILLA QUE FECUNDA LA MENTE.
+
+¡Viviendo en un lugar donde no hay paz! ¿Cómo hago para aprender a ser feliz? ¡Voy a un lugar donde no es feliz la gente, donde la gente sufre! ¿Cómo hago para aprende a amar? Yendo a un lugar donde nadie me respeta, donde nadie se ama, donde todo el mundo se arremete... Allí es donde puedo aprender. Eso se llama aprovechar la realidad. Si tú vas a un lugar donde todo es armonía, convivencia y respeto mutuo, no aprendes nada porque no te puedes conocer a ti mismo, no sabes cuáles son tus limitaciones, no sabes con qué eres afectable y herible.
+
+Imagina y piensa siempre lo mejor, y tu mente se llenará con semillas de amor que se transformarán en tu interior en un potencial de acción de amor, que traerá un resultado satisfactorio para tu vida, ese es el uso correcto de la imaginación.
+
+**El pasado no existe. El futuro tampoco existe. Existe un sólo momento, la realidad presente en el lugar donde yo estoy y donde puedo actuar. De manera que, ¿para qué me preocupo por lo que no existe? El futuro se crea solito, se crea automáticamente desde lo que tú haces aquí y ahora en la realidad presente.**
+
+> El Maestro Jesús dijo frases demasiado sencillas y supremamente sabias: La Verdad os hará Libres... ¡Libre de todo! Entonces, ¿cómo conozco la verdad? A través de los resultados. Buscad el Reino de Dios dentro de Vosotros y lo demás se os dará por añadidura.
+
+El Maestro Jesús nació Maestro; los otros no. Nosotros como no somos maestros, necesitamos pasar por todos los sufrimientos para poder aprender. Los maestros no nacen para aprender, nacen para enseñar.
+
+>No hay nada que deje de suceder en el universo por el hecho de que yo no lo haga o que no me corresponda.
+
+### Correspondecia vs Indiferencia
+
+- **Indiferencia:** ”A mí no me importa lo que a los demás les pase”.
+- **Correspondencia:** “Yo no sufro por lo que los demás necesitan aprender a través de una experiencia”. Es no sufrir por lo que los demás necesitan aprender o por lo que yo necesito aprender. No se llama indiferencia sino sabiduría
+
+No hay nada que deje de suceder en el universo por el hecho de que yo no lo haga o que no me corresponda.
+
+> Yo no sufro por lo que los demás necesitan aprender a través de una experiencia.
+
+Sufrir por los demás o sufrir con los demás se llama ignorancia, y no importarme los demás es un nivel profundo de egoísmo. Un maestro no interfiere, no porque no le importa, sino porque comprende que lo que la persona está viviendo es importante y es necesario.
+
+Hagamos una reflexión: sólo aquél que acepta la realidad presente como una oportunidad para el cambio interior personal, podrá vivir en una nueva realidad de paz y armonía. Mientras yo no acepto la realidad presente, mi posibilidad personal de tener paz y armonía no existe.
+
+> LA PAZ SE CONSIGUE SOLAMENTE DESDE UNA ACEPTACIÓN SUSTENTADA EN UNA COMPRENSIÓN DE AMOR DEL ORDEN DEL UNIVERSO Y DE LO NECESARIO DE LOS PROCESOS.
+
+### Reflexion
+
+La ciencia de la aceptología la podemos determinar en tres pasos muy sencillos: Mantener la paz interior, a pesar de lo que afuera pueda suceder. Eso se llama ser feliz por mí mismo; eso genera una realidad externa. 
+
+Actuar dentro de la realidad entrena la firmeza la paz y la serenidad frente al medio externo. Ocúpate de actuar donde tú estás y donde estés, haz lo mejor que puedas.
+
+> Usar la imaginación: IMAGINA y PIENSA LO MEJOR PARA FECUNDAR TU MENTE CON LA SEMILLA DEL AMOR.
+
+## ¿Que es lo que no acepto?
+
+Cuando se encuentren sufriendo ante cualquier tipo de situación háganse esta pregunta, ¿Qué es lo que yo no estoy aceptando? Al hacernos esta pregunta encontraremos instantáneamente la causa del sufrimiento. **Aquello que no soy capaz de aceptar es la única causa del sufrimiento.**
+
+¿Qué es lo que no estás aceptando? Cualquier sufrimiento angustia o nivel de miedo que encuentren en su interior esta originado en una incapacidad de aceptar algo. Vamos a tratar de descubrir que cosa es ese algo.
+
+¿Cómo puedo yo aceptar eso? Conociendo la ley que lo rige y ¿cómo puedo aprender a aceptar eso? Comprendiendo que la limitación está en tu mente y no en ninguna otra parte. Mientras yo no haya comprendido que la limitación es interna, no tengo posibilidad de solucionar el problema, porque el problema del ser humano no está afuera. Está adentro, y la solución también.
+
+>Todo sufrimiento, y toda angustia, y todo malestar interior, se origina en algo que yo no soy capaz de aceptar.
+
+No hay nada inaceptable, lo que pasa es que no soy capaz de comprender la ley que lo rige. Para poder aceptar algo yo necesito conocer la ley que rige el proceso. Entonces ahí necesito comprender algo sencillo: **la limitación que origina el sufrimiento está en mi propia mente y no en ninguna otra parte.**
+
+>No puedo perder nada de lo que necesito como tampoco puedo conseguir nada que no necesite.
+
+Lo que existe es la libertad de pensar y de decidir ser feliz, y la decisión de respetar a los demás para que yo, a mi vez, pueda ser respetado por ellos. Eso sí existe.
+
+Definitivamente, cuando tengo ira, tristeza, angustia, estrés, miedo, apego, es porque hay algo que yo no acepto. Cuando me siento obligado a hacer algo, hay algo que no acepto. Entonces todo sufrimiento ante algo externo, es una limitación mental que yo tengo, limitación que no me permite aceptar la realidad.
+
+>“Tienes derecho, tienes libre albedrío, pero, ¡asume el resultado de tu decisión!”
+
+> Ante la aceptación desaparece la posibilidad de sufrimiento.
+
+Mientras yo no acepte algo, me hago correspondiente con la situación que me enseña a aceptarlo. Cuando lo acepto, esa situación ya no es necesaria. Entonces la persona que lucha contra algo, cada vez se hace más correspondiente con mantener esa situación. “Todo aquello a lo que tú le hagas resistencia, se manifestará con más fuerza contra ti”, porque esa es una ley del Universo. Deja de hacerle resistencia a la vida, y ninguna fuerza podrá ir en contra tuya, ese es el secreto de la aceptación.
+
+- Cuando yo me preocupo por algo, ¿qué no estoy aceptando? ¿Qué puedo perder? Algo que yo ya no necesito. Ese es el motivo de la preocupación; no has comprendido que jamas podrás perder lo que necesitas, y que si alguien se lleva algo es porque tú ya no lo necesitas, o lo que necesitas es la experiencia del desapego.
+- Cuando criticamos a los demás, no estamos aceptando las costumbres, las ideas y las decisiones de los demás... es decir, no los estoy respetando.
+
+> La persona con capacidad de aceptación es la persona que es capaz de ser feliz por sí misma.
+
+> Cuando no acepto algo me hago correspondiente con aprenderlo y ese es el lugar perfecto para eso.
+
+El destino es un diseño pedagógico mediante el cual vamos a desarrollar la sabiduría a través de experiencias directas con la vida; por supuesto, son excelentes oportunidades.
+
+### El universo
+
+- Creación: Es la función de Dios.
+- Administración: Es la función de los Maestros.
+- Pedagogía: Es también la función de los Maestros de Ley.
+
+
+Reconozco que experimento: | Esto es lo que no estoy aceptando:
+---------|-----------
+Rechazo a la Vida | La oportunidad de aprendizaje que ofrecen las dificultades 
+Sobreprotección | La experiencia de destino y misión que cada persona trae 
+Perfeccionismo | Que existen diferentes formas de organización y manejo Preocupación Que puedo perder algo que ya no necesito
+Fanatismo |  Otras formas, caminos, creencias, opciones diferentes a las mías 
+Mal Genio | Lo que otros hacen o dicen, o lo que está sucediendo 
+Ganas de Condenar | Comportamientos y actitudes diferentes a los míos 
+Rebeldía | La necesidad de adaptarme al medio que me correspondió Angustia | Que perdiendo algo, puedo vivir de otra manera
+Tristeza | La experiencia y comportamientos de otros
+Ganas de Criticar | Las costumbres, ideas y decisiones de los demás Rencor | Que los demás no tienen la culpa de mis propias experiencias
+Ganas de Juzgar | Que cada quien hace lo correspondiente con lo mejor que sabe 
+Apegos | Que nada ni nadie me pertenece y que siempre tengo todo lo necesario
+Estrés | Que las cosas pueden salir de otra manera y solo doy lo que puedo
+Miedo | La posibilidad de perder lo que tengo, o de no lograr lo que quiero
+Celos | Que no soy dueño de nadie y que solo el amor puede unirnos
+Culpa | Que yo no tengo la culpa de las experiencias de los demás
+Enfermedad | Que el problema no está en mi cuerpo sino en mi mente
+
+Para ver la realidad, necesito verla neutra. Quiere decir que no es ni bueno ni malo, ni peligroso ni seguro, ni feo ni bonito... simplemente es algo que esta ahí. Sí, la realidad es eso, pero mi sensación interna es completamente diferente a lo que es la realidad.
+
+> Sólo aquello con lo que me siento mal, me está mostrando una limitación en mi mente para comprenderlo o para aceptarlo.
+
+Esas situaciones se presentan necesariamente porque mientras yo estoy aprendiendo, necesito tareas, y esas tareas es lo que los profesores llaman problemas, pero el nombre correcto es: oportunidades de aprendizaje.
+
+>Mientras yo no sea capaz de aceptar algo, evidentemente voy a complicar mi situación.
+
+### Correspondencia
+
+Las personas tenemos derecho a decidir cualquier cosa, lo que no podemos hacer es tomar una decisión y después decir, “No quiero el resultado que se origina en mi decisión”. Eso si no puedo hacerlo, porque eso sí ya está en contra del orden del universo.
+
+- **Un proceso de correspondencia:** Defensa | Ciento por ciento fuerza o resistencia
+- **Un proceso de amor:** Amor | Cero resistencia
+
+La decisión que yo tomo a nivel personal con respecto al entorno, va a generar inmediatamente una correspondencia con mi propia decisión. Entonces voy a partir del punto que tú dices. Es muy importante tenerlo claro para nosotros.
+
+Nosotros en la vida no tenemos problemas; tenemos oportunidades. Si las llego a ver como problemas, ya me equivoqué. Y si yo digo que los demás tienen un problema, y que yo se los voy a resolver, estoy jugando a la interferencia de un proceso pedagógico.
+
+> Necesito aceptar la realidad de la vida, tanto de la mía como la de los demás. Aceptar la realidad significa aceptar la Voluntad del Padre y no la mía, y necesito aceptar las experiencias propias y ajenas, no interferirlas. Eso se llama no tener miedo a nada. Aceptar la Voluntad del Padre. Mientras yo tenga miedo, no estoy aceptando nada.
+
+Quien comprende, acepta y obedece la voluntad del Padre, ya nada más tiene que aprender del sufrimiento. Por eso es que se puede trascender el sufrimiento con la aceptación. Cuando tú aceptas la realidad tal cual es, sin sufrir ante ella, tú ya no tienes nada más que aprender del sufrimiento. Puedes continuar el resto de tu vida en paz y en armonía y entonces te llamas Maestro Humano en Sabiduría. Ese es el título que otorga la vida. Mientras yo sufra, no he terminado de aprender.
+
+## Diferentes formas de luchar contra la vida
+
+Inconscientemente cada uno de nosotros lucha contra el orden del universo porque no lo conoce, luchamos contra la vida, las experiencias, contra las situaciones que enfrentamos; tratamos de modificar lo que no necesita ser modificado, y por supuesto, cuando tratamos de modificar lo que ya es perfecto nos encontramos inmediatamente con unos bloqueos que se originan en las leyes que 
+rigen ese orden.
+
+> Vamos a decir que felicidad es exactamente igual a cero sufrimiento. Cuando una persona en su interior tiene cero sufrimiento, significa que esa persona es ciento por ciento feliz, porque la no felicidad es el sufrimiento ante ciertas situaciones externas. Si yo no tengo ningún sufrimiento, ni sufro ante nada, ya soy feliz. Por eso, los maestros son felices y tienen paz en su interior. En cuanto a la parte externa, lo que tiene que ver con nuestras relaciones, y con las personas, y con todos los seres vivientes, también es igual a cero. A cero resistencia.
+
+
+Para cambiar las correspondencias necesito cambiar la forma de pensar, la forma de sentir, la forma de ver la vida. Entonces yo cambio las correspondencias. Pero no cambio el universo, cambio mis correspondencias. Eso es lo importante de comprender en Aceptología: que no vamos a cambiar el universo porque la realidad no es cambiable, lo que es cambiable es la experiencia individual.
+
+**¿Cuáles realidades te gustaría cambiar?** La realidad no me afecta; yo me afecto con la realidad. Lo hago por una razón muy sencilla: porque la realidad me está mostrando una correspondencia con mi interior. Si yo aprovecho la realidad, aprendo lo que ella me enseña. Si yo quiero cambiarla, es porque no la acepto.
+
+> Necesito cambiar mi ego y mis creencias para acomodarlas al Orden del Universo. 
+
+> Yo entro a una realidad correspondiente con lo que yo mismo decido hacer
+
+**Mientras una situación pueda enseñarte algo, la necesitas. ¿Cómo sé que esa situación ya no puede enseñarme nada? Cuando ya no sufro ante ella. Entonces esa situación desaparece de mi vida. Eso es lo que llamamos “La Magia”.**
+
+Mientras una situación pueda enseñarte algo, la necesitas. ¿Cómo sé que esa situación ya no puede enseñarme nada? Cuando ya no sufro ante ella. Entonces esa situación desaparece de mi vida. Eso es lo que llamamos “La Magia”.
+
+>Necesito comprender que todo lo que sucede en el universo es perfecto y es necesario.
+
+### La renovacion de vida
+
+1. Observo ante qué estoy sufriendo.
+2. Busco comprender qué es lo que yo no estoy aceptando.
+3. Una vez ubicado, busco la información para comprender por qué razón suceden esas situaciones que yo no acepto. Si logro comprender por qué suceden, y les veo el valor y el propósito que tienen, entonces las acepto.
+4. Al aceptarlas, mi sufrimiento desaparece totalmente y entro a una nueva experiencia de vida.
+
+> No tengo que culpar a nadie por las decisiones que yo tomo.
+
+## El poder magico de la renuncia
+
+No vayan a confundir la renuncia con la resignación, ni la aceptación con la resignación. Es simplemente que la renuncia tiene un poder mágico sobre nosotros en la medida en que cuando renuncio a aquello que no me corresponde, y a aquello que no necesito, obtengo una liberación extraordinaria.
+
+> Para el amor no hay una persona más importante que otra. Si hay veinte ciegos y yo le voy a devolver la vista a un ciego no es por que uno de esos ciegos sea más o menos importante para mí, sino porque yo quiero mostrar que esa limitación puede salvarse desde un proceso de comprensión profunda. Esa es la enseñanza del Maestro Jesús.
+
+El ego a veces cree cosas que no son, cree que esta haciendo algo por otro y no es así. Cada quien lo hace por si mismo, nadie le da nada a nadie. Cada quien genera su propia correspondencia dentro del universo.
+
+> Si entendemos como está organizado el universo, no tendremos que luchar contra él.
+
+La idea es: no luchen contra ninguna cosa; ni contra lo que hacen ni contra lo que quisieran hacer. Lo que hacemos es lo que corresponde con nosotros. Disfrútenlo. No se quejen de ello. No luchen contra eso. Y lo otro, lo que no pueden hacer, es porque no corresponde con ustedes; por lo tanto no sufran ni luchen contra eso.
+
+> El universo todo es necesario y todas las funciones son importantes pero no todas las funciones son para las mismas personas.
+
+_**“A cualquier cosa que tú hagas ponle lo mejor que tienes”.**_
+
+_**“Da siempre lo mejor de ti y ábrete a recibir los resultados, jamás te cierres a recibir lo que la vida tiene para ti.”**_
+
+Para el universo no... Para mí sí soy importantísimo, para mí soy fundamental... Para mi felicidad soy indispensable porque nadie puede hacerme feliz, no puedo ser feliz a menos que yo mismo lo haga. No vayan a confundir el contexto universal con la experiencia individual y particular; son dos cosas muy diferentes.
+
+Mientras yo tenga preocupaciones o sufrimientos no estoy amando, y no tengo sufrimientos cuando comprendo cuál es la función de un ser humano para así mismo aprender dos cosas: ser feliz y amar
+
+Mientras no dejes los rencores y no dejes las culpas, y no dejes las agresiones hacia los demás, tú no te vas a sanar ni física ni espiritualmente, por el efecto que la forma de pensar tiene sobre ti.
+
+## El índice de desempleo es igual al índice de restricción mental
+
+El ejercicio es que precisamente cuando alguien no me guste, es cuando con mayor fuerza tengo que impulsar mi pensamiento, con la fuerza de voluntad, hacia el amor. Por eso dijo el Maestro Jesús: “Amad a tus enemigos bendecid a quienes os persiguen y calumnian...” De lo contrario, yo no voy a desarrollar el poder del amor dentro de mí. Ahí es donde está el poder de la aceptación. Está en el amor. El poder de la aceptación es el principio profundo de amor en nosotros.
+
+> Si tú aceptas a las personas te puedes hacer amigo de todo el mundo, aún de las personas que están en lo que llamamos el delito. Si no lo aceptas, serás enemigo de cualquier persona por “santa” que sea.
+
+Yo puedo tener mucha capacidad de generar y de retener pero si a mí se me ocurre el error simple de interferir o de tratar de solucionar un problema donde el problema no está, la vida me va a responder de esta manera: “Mire señor, usted quiere desordenar un proceso pedagógico, pero para que no lo haga, le vamos a quitar los recursos, porque no está permitido hacer eso por el universo”.
+
+## ¿Como hago para no tener paz interior?
+
+A cada ser humano el Padre le da algo, puede ser que a muchas personas les de inteligencia, ustedes deben haber conocido a un físico inglés famoso que se llama Stephen Hawking. El Padre le dio una inteligencia muy grande con un físico muy limitado. También pueden ver personas a las que el Padre le dio una condición física excelente para ser un campeón en atletismo o en alguna disciplina deportiva, y a la vez de pronto tiene poca habilidad mental o poco de otras cosas, pero tiene una virtud.
+
+**Fracasar es muy sencillo:**
+
+- No acepto la vida y fracaso en salud.
+- No acepto a los demás y fracaso en relaciones.
+- No acepto el destino y fracaso en economía.
+- No acepto lo que sucede y fracaso en mi paz interior.
+
+> “Fracasado es aquél que se la pasa luchando contra lo que la vida le da”
+
+> “Persona de éxito es la que aprovecha todas las oportunidades que tiene para servir y es capaz de ser feliz con lo que tiene y siempre tiene lo necesario para ser feliz”
+
+El éxito se da por la aplicación de tres cosas simultáneamente: servicio, buenas relaciones y experticia. Servir es poner en lo que hago el 100% de mí, con alegría y entusiasmo. Las buenas relaciones son el resultado de aceptar a los demás, y la experticia se produce por el continuo desarrollo y perfeccionamiento del arte que manejo, de mi especialidad.
+
+> El miedo no es una advertencia, el miedo es una limitación muy grande que necesitamos vencer.
+
+La aceptación de la realidad tal cual están las cosas. Las acepto; no tengo por qué sufrir. A nadie la pasa nada que no le corresponda y no tengo por qué cambiar nada, porque el universo tiene un orden perfecto. Hago lo que me corresponda hacer con lo mejor que tengo y eso es todo lo que necesito aceptar.
+
+Cuando tengo miedo yo estoy haciendo una asociación equivocada: no acepto lo que está pasando porque me da miedo de lo que a mí me podría pasar, no de lo que está pasando. Es una realidad correspondiente con una situación evolutiva tanto del planeta y el país como con personas específicas que necesitan en un momento dado aprender de ciertas experiencias. Si no acepto eso, y me lleno de miedos, angustias y de deseos de lucha o de venganza, ahí se genera la situación de no poder estar en paz porque lo que no tengo es paz.
+
+> “Cuando no puedes hacer lo que quieres entonces dedícate a querer lo que haces”. Así lo convertirás en una misión y si ves todo lo que hagas como una misión, tendrás éxito en lo que haces... Si lo rechazas porque no lo aceptas, fracasarás.
+
