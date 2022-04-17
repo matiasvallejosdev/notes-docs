@@ -6,6 +6,5 @@ Taking good notes while reading is an important part of success. Most courses re
 ## Directory guide
 
 - [Developer Docs/](/developer-docs/README.md)
-- [Books Docs/](book-docs/README.md)
-- [Maths Docs/](book-docs/README.md)
+- [Books Docs/](library-docs/README.md)
 
