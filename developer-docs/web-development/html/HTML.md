@@ -4,13 +4,12 @@ HTML (Hypertext Markup Language) is a markup language that tells web browsers ho
 
 ![Image](https://sebastian.expert/wp-content/uploads/2015/01/hierarchy_tags_Siblings.png)
 
-## Useful links
+**Useful links**
 
 - [Developer Mozilla Docs](https://developer.mozilla.org/en-US/docs/Learn/HTML/Introduction_to_HTML/Getting_started)
   
 ## Guide
 - [Hypertext markup language](#hypertext-markup-language)
-  - [Useful links](#useful-links)
   - [Guide](#guide)
   - [Meta](#meta)
   - [Labels](#labels)
