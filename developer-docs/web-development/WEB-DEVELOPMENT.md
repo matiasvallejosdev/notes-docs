@@ -21,3 +21,4 @@
 - [html-css-product-grid-flexbox](samples/html-css-product-grid-flexbox/index.html)
 - [html-css-chairs-web](samples/html-css-chairs-web/index.html)
 - [html-css-components](samples/html-css-components/index.html)
+- [html-css-email-page-layout](samples/html-css-email-page-layout/index.html)
