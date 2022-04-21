@@ -7,8 +7,8 @@
 
 ## Library guide
 
-- [books/](books/)
-  - [backend](backend/)
+- books/
+  - backend/
     - [Building Microservices - Paul Newman](books/backend/building-microservices.md)
-  - [code/](code/)
+  - code/
     - [Principios Solid -Antonio Leiva](books/code/principios-solid.md)

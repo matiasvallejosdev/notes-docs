@@ -1,0 +1,195 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #e5e5e5;
+}
+
+main{
+    max-width: 980px;
+    width: 90%;
+    margin: auto;
+    padding: 40px;
+}
+
+/* START PROFFESSIONAL FORMS */
+
+.form{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: auto;
+    gap: 1rem;
+    justify-content: center;
+}
+
+.form__label{
+    display: block;
+    font-weight: 700;
+    font-size: 1.05rem;
+    padding: 1rem;
+    cursor: pointer;
+}
+
+.form__group-input{
+    position: relative;
+}
+
+.form__input{
+    width: 100%;
+    background-color: white;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+}
+
+.form__input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.form__input-error{
+    font-size: .9rem;
+    margin-bottom: 0;
+    display: none;
+}
+
+.form__input-error--active{
+    display: block;
+}
+
+.form__validation-state{
+    position: absolute;
+    right: 10px;
+    bottom: 13px;
+    z-index: 2;
+    font-size: 16px;
+    opacity: 0;
+}
+
+.form__checkbox{
+    margin-right: .5rem;  
+}
+
+.form__checkbox-label{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.form__checkbox-label a:link, .form__checkbox-label a:visited{
+    color: #002b5c;
+    text-decoration: none;
+    transition: all .3s ease;
+}
+
+.form__checkbox-label a:hover{
+    color: #0075ff;
+    text-decoration: underline;
+}
+
+
+.form__group-terms,
+.form__message,
+.form__group-btn-send{
+    grid-column: span 2;
+}
+
+.form__message{
+    height: 2.5rem;
+    line-height: 2.5rem;
+    background-color: #f66060;
+    padding: 0 15px;
+    border-radius: 3px;
+    display: none;
+}
+
+.form__message p{
+    margin: 0;
+}
+
+.form__message--active{
+    display: block;
+}
+
+.form__group-btn-send{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form__btn-send{
+    font-size: 1rem;
+    height: 3rem;
+    line-height: 3rem;
+    width: 30%;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.form__btn-send:hover{
+    background-color: #0075ff;
+    box-shadow: 2px 0px 15px rgba(163, 163, 163, 1);
+}
+
+.form__message-success{
+    font-size: 1rem;
+    color: #119200;
+    display: none;
+}
+
+/* END PROFFESSIONAL FORMS */
+
+/* VALIDATION STYLES */
+
+.form__message-success-active{
+    display: block;
+}
+
+.form__group-correct .form__validation-state{
+    color: #1ed12d;
+    opacity: 1;
+}
+
+.form__group-error .form__validation-state{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.form__group-error .form__label{
+    color: #bb2929;
+    opacity: 1;
+}
+
+.form__group-error .form__input{
+    border: 3px solid #bb2929;
+}
+
+/* MEDIAQUERIES */
+
+@media screen and (max-width: 800px) {
+    .form{
+        grid-template-columns: 1fr;
+    }
+
+    .form__group-terms,
+    .form__message,
+    .form__group-btn-send{
+        grid-column: span 1;
+    }
+
+    .form__btn-send{
+        width: 100%;
+    }
+}
