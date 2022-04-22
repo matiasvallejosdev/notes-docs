@@ -15,6 +15,7 @@ _directory/book-name + author markdown_
   - [The complete guide of IELTS - Pauline Cullen](english/the-complete-guide-of-ielts.md)
 - finance/
   - [La via rapida del millonario - M.J. De Marco](finance/la-via-rapida-del-millonario.md)
+  - [Los secretos de la mente millonaria - T. Harv Eker](finance/los-secretos-de-la-mente-millonaria.md)
 - marketing/
   - [Diseñando una propuesta de valor - Oster Wallder](marketing/diseñando-una-propuesta-de-valor.md)
   - [La vaca purpura - Seth Godin](marketing/la-vaca-purpura.md)
