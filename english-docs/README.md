@@ -14,6 +14,7 @@ A repository of English   My english are not good enough to write this. I will t
   - [Phonetic guide](notion/pronunciation/phonetic-guide.md)
 - Others
   - [Interview guide](notion/others/interview-guide.md)
+  - [IELTS guide](notion/others/ielts-preparation.md)
 ## Library guide
 
 - grammar/
