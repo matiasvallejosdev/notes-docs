@@ -1,0 +1,52 @@
+# Prononouns
+
+When we have to introduce any person in a sentence more than once, then repetition of the same name in a single sentence looks unusual, that time we replace all other nouns with a pronoun.
+
+## Guide
+
+- [Prononouns](#prononouns)
+  - [Guide](#guide)
+  - [Structure](#structure)
+  - [Usage](#usage)
+  - [Type of pronoun:](#type-of-pronoun)
+
+## Structure
+
+Pronouns are short words and function the same as that the noun does in a sentence. It may be functioning at any place in a sentence like the first person, second person, or third person, respectively.
+
+It can function as a subject, object (direct/indirect), place, animal, thing, etc.
+
+Some common pronouns used most commonly in a sentence are- He, She, It, They, We, Us, I, You, Them, anyone, Something, Nobody, etc.
+
+<img src="https://i0.wp.com/onlymyenglish.com/wp-content/uploads/2020/11/english-pronouns-min.png?resize=1024%2C819&ssl=1" style="width:500px;">
+
+## Usage
+
+The naming word for representing any male person, and for first, second or third person, we use **“He, his, him, himself” as a pronoun.**
+
+**For example,** 
+
+- James, Jonathan, Robert, Andrew, David, Dwane Johnson, etc. – He, his, him, himself respectively.
+
+Similarly, for representing the naming word for a female person, and for the first, second, or third person, the **“She, her, hers, herself”** pronoun is used in a sentence.
+
+**For example,**
+
+- Sara, Stephney, Lisa, Malina, Agatha, Martha, Julia, Abella, Senorita, etc. – She, her, hers, herself respectively.
+
+And for representing any objects or things like tea, coffee, box, chair, shoes, etc. – the pronoun “It, itself” is used in a sentence or a phrase or a clause.
+
+For Plural words or common from gender, more number of persons, places, objects, first and third person, etc. pronouns like **I, you, us, we, they, them, their, theirs, themself, themselves, etc.** can be used in a sentence.
+
+## Type of pronoun:
+
+There are eight sub [types of pronoun](https://onlymyenglish.com/pronoun/):
+
+- Personal pronoun
+- Possessive pronoun
+- Reflexive / Intensive pronoun
+- Reciprocal pronoun
+- Demonstrative pronoun
+- Indefinite pronoun
+- Relative pronoun
+- Interrogative pronoun.
