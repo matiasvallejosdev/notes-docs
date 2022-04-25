@@ -155,6 +155,7 @@ You will hear a monologue in an academic context. _(e.g lecture, lecture about e
 7. Make sure that you pay close attention to **any negatives in the options**, as well as **any adjectives**. With multiple choices **pay careful attention to the question** and options.
 8. You should **study the map plan or plan carefully** before you listen. Having a clear image will help you to understand the question.
 9. Before you listen **read maps several times to become familiar** with the options. If you can't decide, write down and decide later.
+10. For matching tasks like this , the topics in the questions will be discussed in the same order as they are listed. But in box you will hear different options in random order.
 
 ### Study tips
 
