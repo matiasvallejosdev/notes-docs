@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: #e9ecf4;
+    color: #001;
+    font-family: 'Roboto' sans-serif;
+}
+
+/* GRID RESPONSIVE SAMPLE */
+
+.container{
+    width: 90%;
+    max-width: 980px;
+    margin: 20px auto;
+    display: grid;
+    grid-gap: 1rem;
+    /* grid-template-columns: repeat(3, 1fr); */
+    grid-template-rows: repeat(4, auto);
+    grid-template-areas:    "header header header"
+                            "content content sidebar"
+                            "widget widget sidebar"
+                            "news news news"
+                            "footer footer footer";
+}
+
+.container > div, 
+.container .header-container,
+.container .content-container,
+.container .sidebar-container,
+.container .footer-container{
+    background: #fff;
+    padding: 1rem;
+    border-radius: 4px;
+}
+
+.container .header-container{
+    background: #12203e;
+    color: #fff;
+    grid-area: header;
+    /* grid-column: span 3; */
+}
+
+.container .content-container{
+    /* grid-column: span 2; */
+    grid-area: content;
+}
+
+.container .sidebar-container{
+    /* grid-column: 3/4; */
+    /* grid-row: span 2; */
+    grid-area: sidebar;
+    background: #fAA43D;
+    min-height: 6.25rem;
+    min-width: 12rem;
+}
+
+.container .news-container{
+    /* grid-column: span 3; */
+    grid-area: news;
+}
+
+.container .footer-container{
+    grid-area: footer;
+    /* grid-column: span 3; */
+    background: #12203e;
+    color: #fff;
+    height: 3.125em;
+}
+
+.container .widget{
+    background: #55a8fd;
+    color: #fff;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+.widget-container{
+    grid-area: widget;
+    display: grid;
+    grid-auto-rows: 6.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+    grid-gap: 1rem;
+}
+
+.featured{
+    grid-column: span 1;
+}
+
+/* MEDIA QUERIES */
+
+@media screen and (max-width: 768px) {
+    /* It's a optimal practice to handle with column grids */
+    /* 
+    .container .content-container {
+        grid-column: 1 / -1;
+    }
+    .container .sidebar-container{
+        grid-column: 1 / -1;
+    }
+    .container .widget-1{
+        grid-column: span 3;
+    }
+    .container .widget-2{
+        grid-column: span 3;
+    } 
+    */
+    /* Optimal grid template areas */
+    .container{
+        grid-template-areas:    "header header header"
+                                "content content content"
+                                "sidebar sidebar sidebar"
+                                "widget widget widget"
+                                "news news news"
+                                "footer footer footer";
+    }
+}
+
+/* END MEDIA QUERIES */
+
+/* START NEWS SECTION */
+
+.card{
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 1rem;
+}
+.news-container{
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-rows: 15rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr))
+}
+
+/* END NEWS SECTION */

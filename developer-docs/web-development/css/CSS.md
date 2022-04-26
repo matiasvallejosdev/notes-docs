@@ -11,9 +11,14 @@ CSS can be used for very basic document text styling — for example changing th
   - [Guide](#guide)
   - [Selectors](#selectors)
   - [Basic](#basic)
-    - [Pseudoclasses](#pseudoclasses)
+    - [Pseudo-classes](#pseudo-classes)
+    - [Pseudo-elements](#pseudo-elements)
   - [Custom Properties](#custom-properties)
   - [Box Model](#box-model)
+  - [Text model](#text-model)
+  - [Styling links](#styling-links)
+    - [Link states](#link-states)
+  - [Stling lists](#stling-lists)
   - [Layout](#layout)
     - [Building blocks](#building-blocks)
     - [Control the position](#control-the-position)
@@ -24,9 +29,11 @@ CSS can be used for very basic document text styling — for example changing th
     - [Percentages units](#percentages-units)
   - [Float](#float)
   - [Flexbox](#flexbox)
+    - [Flexbox property](#flexbox-property)
     - [Flexbox Model](#flexbox-model)
     - [Flex Direction](#flex-direction)
     - [Flex Wrapping](#flex-wrapping)
+    - [Flexbox property](#flexbox-property-1)
   - [Grid](#grid)
     - [Grid Tracks](#grid-tracks)
     - [Grid Lines](#grid-lines)
@@ -34,6 +41,23 @@ CSS can be used for very basic document text styling — for example changing th
     - [Uniqueness In Grid And Flexbox](#uniqueness-in-grid-and-flexbox)
     - [Difference Between Grid and Flexbox](#difference-between-grid-and-flexbox)
   - [Justify-items vs Align-items](#justify-items-vs-align-items)
+  - [Center elements](#center-elements)
+    - [Margin Auto](#margin-auto)
+    - [Textalign Center](#textalign-center)
+    - [Position absolute](#position-absolute)
+    - [Flexbox center](#flexbox-center)
+    - [Grid centered](#grid-centered)
+  - [Responsive Design](#responsive-design)
+    - [Media Queries](#media-queries)
+    - [Using min- and max- to match value ranges](#using-min--and-max--to-match-value-ranges)
+    - [Flexible grids](#flexible-grids)
+    - [Modern layout technologies](#modern-layout-technologies)
+      - [Flexbox](#flexbox-1)
+      - [Grid](#grid-1)
+    - [Responsive Images](#responsive-images)
+  - [Good practices](#good-practices)
+    - [BEM Naming Convetion](#bem-naming-convetion)
+    - [Normalize CSS](#normalize-css)
 
 ## Selectors
 
@@ -119,7 +143,7 @@ In CSS, selectors are used to target the HTML elements on our web pages that we 
   display
 ```
 
-### Pseudoclasses
+### Pseudo-classes
 
 [Mozilla Pseuodoclasses](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-classes)
 
@@ -133,6 +157,34 @@ button:hover {
 }
 ```
 
+### Pseudo-elements
+A [CSS pseudo-element](https://developer.mozilla.org/en-US/docs/Web/CSS/Pseudo-elements) is a keyword added to a selector that lets you style a specific part of the selected element(s). For example, ::first-line can be used to change the font of the first line of a paragraph.
+
+```css
+/* Syntax */
+selector::pseudo-element {
+  property: value;
+}
+
+/* First line or Selection*/
+.dialog p::selection{
+  background: #f21a;
+}
+
+/* After */
+.dialog::after{
+  content: '';
+  display: block;
+  background: #000;
+  position: absolute;
+  bottom: -40px;
+  border-top: 20px solid #000;
+  border-bottom: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-left: 20px solid transparent;
+  right: calc(50% - 20px);
+}
+```
 ## Custom Properties
 
 [Custom Properties Code](custom-property/index.html)
@@ -149,6 +201,123 @@ Custom properties are scoped to the element(s) they are declared on, and partici
 Everything in CSS has a box around it, and understanding these boxes is key to being able to create layouts with CSS, or to align items with other items. In this lesson, we will take a proper look at the CSS Box Model so that you can build more complex layout tasks with an understanding of how it works and the terminology that relates to it.
 
 <img src="https://developer.mozilla.org/en-US/docs/Learn/CSS/Building_blocks/The_box_model/box-model.png" style="height:300px">
+
+```css
+.container{
+  margin: 10px;
+  padding: 10px;
+  overflow: hidden; /* You could put image inside of a box hidden the rest*/
+}
+
+```
+
+## Text model
+
+This pattern repeats until all the content has been placed in the box. Text content effectively behaves like a series of inline elements, being laid out on lines adjacent to one another, and not creating line breaks until the end of the line is reached, or unless you force a line break manually using the <br> element.
+
+The CSS properties used to style text generally fall into two categories, which we'll look at separately in this article:
+
+- **Font styles:** Properties that affect a text's font, e.g., which font gets applied, its size, and whether it's bold, italic, etc.
+- **Text layout styles:** Properties that affect the spacing and other layout features of the text, allowing manipulation of, for example, the space between lines and letters, and how the text is aligned within the content box.
+
+```css
+.p{
+  font-size: 20px;
+  font-family: 'Roboto', sans-serif;
+  color: #333;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  text-decoration: none;
+  text-shadow: none;
+}
+
+```
+
+## Styling links
+
+[Mozilla Links](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_links#lets_look_at_some_links)
+
+When styling links, it's important to understand how to make use of pseudo-classes to style their states effectively. It's also important to know how to style links for use in common interface features whose content varies, such as navigation menus and tabs. We'll look at both these topics in this article.
+
+### Link states
+The first thing to understand is the concept of link states — different states that links can exist in. These can be styled using different pseudo-classes:
+
+- Link: A link that has a destination (i.e., not just a named anchor), styled using the :link pseudo class.
+- Visited: A link that has already been visited (exists in the browser's history), styled using the :visited pseudo class.
+- Hover: A link that is hovered over by a user's mouse pointer, styled using the :hover pseudo class.
+- Focus: A link that is focused (e.g., moved to by a keyboard user using the Tab key or something similar, or programmatically focused using HTMLElement.focus()) — this is styled using the :focus pseudo class.
+- Active: A link that is activated (e.g., clicked on), styled using the :active pseudo class.
+
+**The default styles can be turned off/changed using the following CSS properties:**
+
+- color for the text color.
+- cursor for the mouse pointer style — you shouldn't turn this off unless you've got a very good reason.
+- outline for the text outline. An outline is similar to a border. The only difference is that a border takes up space in the box and an outline doesn't; it just sits over the top of the background. The outline is a useful accessibility aid, so should not be removed without adding another method of indicating the focused link.
+
+Now let's add some more information to get this styled properly:
+
+```css
+body {
+  width: 300px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: sans-serif;
+}
+
+p {
+  line-height: 1.4;
+}
+
+a {
+  outline: none;
+  text-decoration: none;
+  padding: 2px 1px 0;
+}
+
+a:link {
+  color: #265301;
+}
+
+a:visited {
+  color: #437A16;
+}
+
+a:focus {
+  border-bottom: 1px solid;
+  background: #BAE498;
+}
+
+a:hover {
+  border-bottom: 1px solid;
+  background: #CDFEAA;
+}
+
+a:active {
+  background: #265301;
+  color: #CDFEAA;
+}
+
+```
+
+## Stling lists
+
+[Mozilla lists](https://developer.mozilla.org/en-US/docs/Learn/CSS/Styling_text/Styling_lists)
+
+Lists behave like any other text for the most part, but there are some CSS properties specific to lists that you need to know about, as well as some best practices to consider.
+
+```css
+.ul{
+  background-color: #eee;
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+```
 
 
 ## Layout 
@@ -261,6 +430,14 @@ div{
 
 Flexbox is a one-dimensional layout method for arranging items in rows or columns. Items flex (expand) to fill additional space or shrink to fit into smaller spaces. This article explains all the fundamentals. It's useful to elements inner boxes.
 
+### Flexbox property
+
+**flex**
+
+The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container.
+
+<img src="https://ishadeed.com/assets/flex-css/flex-grow-5.png" style="height:300px;"> 
+
 ### Flexbox Model
 
 When elements are laid out as flex items, they are laid out along two axes:
@@ -292,6 +469,24 @@ One issue that arises when you have a fixed width or height in your layout is th
 ```
 
 We now have multiple rows. Each row has as many flexbox children fitted into it as is sensible. Any overflow is moved down to the next line.
+
+### Flexbox property
+
+The flex CSS shorthand property sets how a flex item will grow or shrink to fit the space available in its flex container.
+
+- `flex-grow`
+
+The flex-grow CSS property sets the flex grow factor of a flex item's main size.
+
+This property specifies how much of the remaining space in the flex container should be assigned to the item (the flex grow factor).
+
+- `flex-shrink`
+
+The flex-shrink CSS property sets the flex shrink factor of a flex item. If the size of all flex items is larger than the flex container, items shrink to fit according to flex-shrink.
+
+- `flex-basis`
+
+The flex-basis CSS property sets the initial main size of a flex item. It sets the size of the content box unless otherwise set with box-sizing.
 
 ## Grid 
 
@@ -399,3 +594,177 @@ For instance, if flex-direction is row (default):
 - center; Align children vertically centered (amaze!)
 - baseline; Aligned children vertically so their baselines align (doesn't really work)
 - stretch; Force children to be height of container (great for columns)
+
+## Center elements
+
+[How to center anything with CSS](https://www.freecodecamp.org/news/how-to-center-anything-with-css-align-a-div-text-and-more/)
+
+### Margin Auto
+
+Use the shorthand margin property with the value 0 auto to center block-level elements like a div horizontally:
+
+```css
+.box{
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+  /* 
+  You need to define the size of the element to center the element. You only center horizontally.
+  */
+}
+
+```
+### Textalign Center
+
+To center text or links horizontally, just use the text-align property with the value center:
+
+```css
+.box{
+  height: 100px;
+  line-height: 100px; /* Center vertically */
+  text-align: center; /* Center content */
+}
+```
+
+### Position absolute
+
+For a long time this was the go-to way to center things vertically. For this method you must know the height of the element you want to center.
+
+First, set the position property of the parent element to relative.
+
+Then for the child element, set the position property to absolute and top to 50%:
+
+```css
+.box{
+  position: relative;
+  height: 100px;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%, -50%);
+}
+
+```
+
+### Flexbox center
+
+Flexbox is the most modern way to center things on the page, and makes designing responsive layouts much easier than it used to be. However, it's not fully supported in some legacy browsers like Internet Explorer.
+
+To center an element horizontally with Flexbox, just apply display: flex and justify-content: center to the parent element:
+
+```css
+  .box{
+    dsiplay:flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    flex-direction: row;
+  }
+```
+
+### Grid centered
+
+Gird is the most flexible way to center things on the page. It's not fully supported in some legacy browsers like Internet Explorer.
+
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSOJFdmlcGc3MmGNGy8rxKItnefERVp4LTIGLZcRxfEHdmxpOjCTuKZyljSDkCLtAxYKgY&usqp=CAU" style="height:100px">
+
+```css
+  .grid{
+    display:grid;
+  }
+  .grid-item{
+    align-self: center; /* Cross axis */
+    justify-self: center; /* Main axis */ 
+  }
+```
+
+## Responsive Design
+
+[Mozilla Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_design)
+
+The term responsive design was coined by Ethan Marcotte in 2010 and described the use of three techniques in combination.
+
+### Media Queries
+
+[MediaQueries Code](media-queries/index.html) / [MediaQueries Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/Media_queries)
+
+Media queries let you adapt your site or app depending on the presence or value of various device characteristics and parameters.
+
+They are a key component of responsive design. For example, a media query can shrink the font size on small devices, increase the padding between paragraphs when a page is viewed in portrait mode, or bump up the size of buttons on touchscreens.
+
+For example, the following media query tests to see if the current web page is being displayed as screen media (therefore not a printed document) and the viewport is at least 800 pixels wide. The CSS for the .container selector will only be applied if these two things are true.
+
+```css
+@media screen and (min-width: 800px) {
+  .container {
+    margin: 1em 2em;
+  }
+}
+```
+
+You can add multiple media queries within a stylesheet, tweaking your whole layout or parts of it to best suit the various screen sizes. The points at which a media query is introduced, and the layout changed, are known as breakpoints.
+
+### Using min- and max- to match value ranges
+
+Many of the media features outlined in the previous section — including `width`, `height`, color and color-index — can be prefixed with `min`- or `max`- to express minimum or maximum constraints.
+
+### Flexible grids
+
+Responsive sites don't just change their layout between breakpoints, they are built on flexible grids. A flexible grid means that you don't need to target every possible device size that there is, and build a pixel perfect layout for it.
+
+By using a flexible grid, you only need to add in a breakpoint and change the design at the point where the content starts to look bad. For example, if the line lengths become unreadably long as the screen size increases, or a box becomes squashed with two words on each line as it narrows.
+
+### Modern layout technologies
+
+Modern layout methods such as Multiple-column layout, Flexbox, and Grid are responsive by default. They all assume that you are trying to create a flexible grid and give you easier ways to do so.
+
+#### Flexbox
+
+[Flexbox](#flexbox)
+
+In Flexbox, flex items will shrink and distribute space between the items according to the space in their container, as their initial behavior. By changing the values for `flex-grow` and `flex-shrink` you can indicate how you want the items to behave when they encounter more or less space around them.
+
+#### Grid
+
+[Grid](#Grid)
+
+In CSS Grid Layout the `fr` unit allows the distribution of available space across grid tracks. The next example creates a grid container with three tracks sized at `1fr`. This will create three column tracks, each taking one part of the available space in the container. You can find out more about this approach to create a grid in the Learn Layout Grids topic, under Flexible grids with the `fr` unit.
+
+```css
+
+.gallery-container{
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: 25rem;
+  grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
+  grid-auto-flow: dense; 
+}
+.card{
+  background-color: #fff;
+}
+```
+
+### Responsive Images
+
+The simple way to make images responsive. You would scale it down.
+```css
+img{
+  max-width: 100%;
+}
+```
+
+## Good practices
+
+### BEM Naming Convetion
+### Normalize CSS
+
+[Normalize.css](https://necolas.github.io/normalize.css/) makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. It solve and fix bugs between browsers.
+
+`npm install normalize.css`
+
+
+
+
+
+
