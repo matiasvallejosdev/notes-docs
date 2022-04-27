@@ -27,7 +27,7 @@ En la segunda parte has aprendido diecisiete modos concretos en que la gente ric
     - [Archivo de riqueza n. 7](#archivo-de-riqueza-n-7)
     - [Archivo de riqueza n. 8](#archivo-de-riqueza-n-8)
     - [Archivo de riqueza n. 9](#archivo-de-riqueza-n-9)
-    - [ACCIONES DE LA MENTE MILLONARIA](#acciones-de-la-mente-millonaria)
+  - [Acciones de la mente millonaria](#acciones-de-la-mente-millonaria)
 
 ## Primera parte: Tu patrón del dinero
 
@@ -276,7 +276,7 @@ Los ricos no evitan los problemas, no los esquivan y no se quejan de ellos. Los 
 El resultado final es que, si te conviertes en un experto en manejar problemas y superar cualquier obstáculo, ¿qué puede impedirte alcanzar el éxito? La respuesta es: ¡nada! Y si, nada puede detenerte, ¡te vuelves imparable. Y, si te vuelves imparable, ¿qué opciones tienes en tu vida? La respuesta es: todas las opciones. Si eres imparable, cualquier cosa y todas las cosas se hallan a tu disposición. Tú simplemente, lo eliges ¡y es tuyo! ¡Qué libertad!, ¿no?
 
 
-### ACCIONES DE LA MENTE MILLONARIA
+## Acciones de la mente millonaria
 
 1. Cada vez que te sorprendas culpando, justificando o quejándote, deslízate el dedo índice de un lado a otro del cuello, como gesto desencadenante del recuerdo de qué estás degollándote financieramente hablando. Una vez más, aun cuando este gesto puede parecer un poco grosero para hacértelo a ti mismo, no lo es más que lo que te estás haciendo al culpar, justificarte o quejarte, y al final funcionará para paliar estos destructivos hábitos.
 
