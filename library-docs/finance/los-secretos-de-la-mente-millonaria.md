@@ -24,6 +24,9 @@ En la segunda parte has aprendido diecisiete modos concretos en que la gente ric
     - [Archivo de riqueza n. 4](#archivo-de-riqueza-n-4)
     - [Archivo de riqueza n. 5](#archivo-de-riqueza-n-5)
     - [Archivo de riqueza n. 6](#archivo-de-riqueza-n-6)
+    - [Archivo de riqueza n. 7](#archivo-de-riqueza-n-7)
+    - [Archivo de riqueza n. 8](#archivo-de-riqueza-n-8)
+    - [Archivo de riqueza n. 9](#archivo-de-riqueza-n-9)
     - [ACCIONES DE LA MENTE MILLONARIA](#acciones-de-la-mente-millonaria)
 
 ## Primera parte: Tu patrón del dinero
@@ -225,6 +228,54 @@ Somos criaturas de hábito, y para vencer este o cualquier otro hábito necesita
 
 **PRINCIPIO DE RIQUEZA:** “Bendice aquello que quieras”. Filosofía Huna.
 
+### Archivo de riqueza n. 7
+
+- La gente rica se relaciona con personas positivas y prósperas.
+- La gente pobre se relaciona con personas negativas y sin éxito.
+
+Se dicen a sí mismos: “Si ellos pueden hacerlo, yo también puedo”. Como dije antes, tomando modelos de referencia es una de las principales maneras en las que aprendemos.
+
+> La energía es contagiosa: o haces más fuerte a los demás o los debilitas. Y al contrario; o la gente te afecta (te insufla vigor y optimismo) o te infecta (te contamina).
+
+Si quieres hacerte rico, deberás cambiar tu patrón interior para creer plenamente que cada centímetro de ti mismo es tan bueno como cualquier millonario multimillonario que pueda haber ahí.
+
+### Archivo de riqueza n. 8
+
+* La gente rica está dispuesta a promocionarse ella misma.
+* La gente pobre piensa de forma negativa en lo referente a la venta y la promoción.
+
+Los ricos están dispuestos a ensalzar sus virtudes y su valía ante cualquiera que tenga a bien escucharlos y, a poder ser, también harán negocios con ellos.
+
+Los ricos casi siempre son excelentes promotores, Pueden y están dispuestos a promocionar sus productos, sus servicios y sus ideas con pasión y entusiasmo. Es más: son expertos en envolver su valía de modo que resulte extremadamente atractiva.
+
+**PRINCIPIO DE RIQUEZA:** ¡Los líderes ganan una barbaridad de dinero más que los seguidores!
+
+Si crees que lo que tienes para ofrecer puede ayudar verdaderamente a la gente, es tu deber hacer que se entere el máximo número de personas posible. De este modo no sólo ayudas a la gente: ¡te haces rico!
+
+### Archivo de riqueza n. 9
+
+* La gente rica es más grande que sus problemas.
+* La gente pobre es más pequeña que sus problemas.
+
+El camino que conduce a la riqueza está erizado de trampas y escollos, y por eso precisamente la mayoría de la gente no lo toma: no quiere complicaciones, quebraderos de cabeza ni responsabilidades. En resumen, no quiere problemas.
+
+**PRINCIPIO DE RIQUEZA:** El secreto del éxito no es tratar de evitar los problemas ni deshacerte de ellos; tampoco acobardarte ante ellos. El secreto es crecer tú de forma que seas más grande que cualquier problema.
+
+Tu mundo exterior es sólo un reflejo de tu mundo interior. Si quieres realizar un cambio permanente, ¡deja de centrarte en el tamaño de tus problemas y empieza a hacerlo en el tuyo propio!
+
+**PRINCIPIO DE RIQUEZA:** Si tienes un gran problema en tu vida, significa que ¡estás siendo un persona pequeña!
+
+Uno de los recordatorios no tan sutiles que doy a los participantes en mi seminario es el siguiente: cuando te sientas como si tuvieses un gran problema, señálate a ti mismo y grita: “¡Pequeño yo, pequeño yo, pequeño yo!”. Esto te despertará de golpe y dirigirá de nuevo tu atención hacia donde corresponde: sobre ti mismo. Después, desde tu “yo superior” (en lugar de hacerlo desde tu yo víctima, basado en el ego), haz una inspiración profunda y decide ahora mismo, en este preciso momento, que serás una persona más grande y que no permitirás que ningún problema ni obstáculo te saque de tu felicidad ni de tu prosperidad.
+
+> Te repito, ¡tu riqueza puede crecer únicamente hasta donde lo hagas tu! El objetivo es que Crezcas hasta un lugar en el que puedas superar cualquier problema u obstáculo que se interponga en tu camino de crear riqueza y conservarla.
+
+> Cuanto más grandes sean los problemas que puedas resolver, mayor será el negocio que podrás manejar; cuando mayor sea la responsabilidad que puedas asumir, a más empleados podrás dirigir; cuantos, más clientes tengas, más dinero podrás manejar y, en última instancia, más riqueza podrás administrar.
+
+Los ricos no evitan los problemas, no los esquivan y no se quejan de ellos. Los ricos son guerreros económicos. En nuestro campo de entrenamiento del Guerrero Ilustrado, la definición de guerrero que empleamos es la de “aquel que se conquista a si mismo”.
+
+El resultado final es que, si te conviertes en un experto en manejar problemas y superar cualquier obstáculo, ¿qué puede impedirte alcanzar el éxito? La respuesta es: ¡nada! Y si, nada puede detenerte, ¡te vuelves imparable. Y, si te vuelves imparable, ¿qué opciones tienes en tu vida? La respuesta es: todas las opciones. Si eres imparable, cualquier cosa y todas las cosas se hallan a tu disposición. Tú simplemente, lo eliges ¡y es tuyo! ¡Qué libertad!, ¿no?
+
+
 ### ACCIONES DE LA MENTE MILLONARIA
 
 1. Cada vez que te sorprendas culpando, justificando o quejándote, deslízate el dedo índice de un lado a otro del cuello, como gesto desencadenante del recuerdo de qué estás degollándote financieramente hablando. Una vez más, aun cuando este gesto puede parecer un poco grosero para hacértelo a ti mismo, no lo es más que lo que te estás haciendo al culpar, justificarte o quejarte, y al final funcionará para paliar estos destructivos hábitos.
@@ -258,5 +309,24 @@ Somos criaturas de hábito, y para vencer este o cualquier otro hábito necesita
 
 13. Escribe y envía una carta breve o un correo electrónico a alguien a quien sepas (no tienes por qué conocerle personalmente) que es sumamente próspero en cualquier terreno, diciéndole cuánto le admiras y le honras por sus logros.
 
+14. Ve a la biblioteca, a una librería o a Internet y léete una biografía de alguien que sea o fuese extremadamente rico y próspero. Andrew Carnigie, John D. Rockefeller, Mary Kay, Donald Trump, Waren Buffet, Jack Welch, Hill Gates y Ted Turner son unos cuantos Buenos ejemplos. Utiliza su historia para inspirarte, para aprender sus estrategias de éxito concretas y, lo más importante, para copiar su disposición mental.
 
+15. Apúrate a un club de alta categoría, ya sea de tenis, de salud, de negocios o de golf. Mézclate con gente rica en un entorno rico. O, si de ningún modo puedes permitirte apuntarte a un club de ésos, toma café o té en el hotel con más clase de tu ciudad. Acomódate en este ambiente y observa a los clientes, fijándote en que no son nada distintos a ti.
 
+16. Identifica una situación o a una persona negativa en tu vida. Retírate de esa situación o de esa relación. Si se trata de alguien de tu familia, opta por estar menos tiempo en su compañía.
+
+17. Deja de ver “telebasura” y mantente alejado de las malas noticias.
+
+18. Puntúa del 1 al 10 el producto o servicio que actualmente estás ofreciendo (o que estás planeando ofrecer) en términos de cuánto crees en su valor (el 1 es el más bajo y el 10 es el más alto). Si el resultado de tu puntuación está entre 7 y 9, haz las modificaciones oportunas a tu producto o servicio para aumentar su valor. Si es 6 menos de 6, deja de ofrecer ese producto o servicio y empieza a representar algo en lo que verdaderamente creas.
+
+19. Lee libros, escucha audios y CDś, y haz cursos sobre mercadotecnia y ventas. Conviértete en experto en estos dos campos hasta el punto de poder promocionar tu valía con éxito y con el cien por cien de integridad.
+
+20. Practica las actitudes que te convertirán en un excelente receptor. Cada vez que alguien te haga un cumplido de cualquier tipo, di, simplemente, “gracias”. No le devuelvas el cumplido a esa persona. Esto te permite recibir y poseer plenamente el cumplido en lugar de “desviarlo”, como hace la mayoría de la gente. Y proporciona también a quien hace el cumplido tener el gozo de dar el regalo sin que se lo lancen otra vez para devolvérselo.
+
+21. Cualquier —y quiero decir cualquier— cantidad de dinero que te encuentres o que recibas debería celebrarse con entusiasmo. Grita: “Soy un imán para el dinero. Gracias, gracias, gracias". Esto es válido tanto para el que te encuentres en el suelo como para el que recibas como regalo, del gobierno, como sueldo y de tu negocio o negocios. Recuerda: el universo te está ayudando. Si declaras constantemente que eres un imán para el dinero, y sobre todo si tienes la prueba, el universo dirá, simplemente “vale”, y te enviará más.
+
+22. Mímate. Al menos una vez al mes, haz algo especial que te guste a ti y que le guste a tu espíritu: recibe un masaje, una manicura, o una pedicura, asiste a una comida o a una cena extravagante, alquila un barco o una casita de fin de semana, o haz que alguien te lleve el desayuno a la cama. (Podría ser que tuvieses que negociarlo con un amigo o familiar) Haz cosas que te permitan sentirte rico y merecedor. La energía que emitas por esta clase de experiencia enviará al universo el mensaje de que vives en la abundancia, por lo que el universo hará simplemente su trabajo y dirá: “Vale” ,y seguidamente te ofrecerá oportunidades de obtener más.
+
+23. Cuando te sientas a disgusto por un “gran” problema, señálate a ti mismo y di: “¡Pequeño yo, pequeño yo!”. Luego haces una inspiración profunda y te dices a ti mismo: “Puedo manejar esto. Yo soy más grande que cualquier problema”.
+
+24. Describe por escrito un problema que estés teniendo en tu vida. A continuación, enumera diez acciones concretas que puedas emprender para resolver o, al menos, para mejorar la situación. Esto te hará pasar de pensar en el problema a pensar en la solución. Primero es muy probable que lo soluciones. Segundo, te sentirás muchísimo mejor.
