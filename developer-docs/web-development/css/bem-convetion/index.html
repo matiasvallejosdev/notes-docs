@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f3ec2c470.js" crossorigin="anonymous"></script>
+    <title>Bem Convetion</title>
+</head>
+<body>
+    <!-- 
+        When you work with bem you have: 
+            - Block: 
+            Encapsulates a standalone entity that is 
+            meaningful on its own. It's a kind of component.
+            - Element:
+            Parts of a block and have no standalone meaning. 
+            Any element is semantically tied to its block.
+            - Modifier:
+            Flags on blocks or elements. Use them to change 
+            appearance, behavior or state.
+    -->
+    <section class="section"> <!-- Block "section" -->
+        <div class="section_container"> <!-- Block "article" -->
+            <h1 class="section__tittle">📰 News</h1>
+            <div class="grid-cards">
+                <article class="card"> <!-- Element "card" -->
+                    <div class="card__thumbnail"> <!-- Element "thumbnail" -->
+                        <img class="card__img" src="https://images.hdqwalls.com/download/tesla-model-s-ii-am-1920x1080.jpg" alt=""> <!-- Element "image" -->
+                    </div>
+                    <div class="card__text"> <!-- Element "card-text" -->
+                        <h3 class="card__tittle"> <!-- Element "title" -->
+                            <a href="#" class="card__link">
+                                Lorem ipsum dolor sit amet.
+                            </a> <!-- Element "link" -->
+                        </h3>
+                        <p class="card__description"> <!-- Element "description" -->
+                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Consequatur ut unde numquam sed corrupti amet ipsa qui deserunt aliquid odio.
+                        </p>
+                    </div>
+                    <a href="#" class="button button--absolute button--contrast button--more"> <!-- Block -->
+                        <span class="button__label">See more</span>
+                        <i class="button__icon fa-solid fa-angle-right fa-lg"></i> <!-- Element "button-icon" -->
+                    </a>
+                </article>         
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <div class="section_container">
+            <h1 class="section__tittle">🎮 Videogames</h1>
+            <div class="grid-products">
+                <div class="product">
+                    <a class="button-product-fav" href="#">
+                        <i class="fa-solid fa-heart fa-lg"></i>
+                    </a>
+                    <div class="product__thumbnail">
+                        <img src="https://icon-library.com/images/products-icon-png/products-icon-png-6.jpg" alt="" class="product__img">
+                    </div>
+                    <div class="product__text">
+                        <p class="product__tittle">
+                            <a href="#" class="product__link">
+                                My Product
+                            </a>
+                        </p>
+                        <h3 class="product__price">
+                            $1.99
+                        </h3>
+                    </div>
+                    <a class="button-product-add" href="#">
+                        <i class="fa-solid fa-circle-plus fa-lg"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+</html>

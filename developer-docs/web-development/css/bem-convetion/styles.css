@@ -1,0 +1,240 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: sans-serif;
+    background-color: #f1f1f1;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    line-height: 1.75;
+    color: #343a40;
+    text-decoration: none;
+}
+
+/* START SECTIONS */
+
+.section__tittle{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.section_container{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.grid-cards{
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-rows: 20rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 40rem), 1fr));    
+}
+
+.grid-products{
+    display: grid;
+    grid-gap: 1rem;
+    grid-auto-rows: 15rem;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 12rem), 1fr));    
+}
+
+/* END SECTIONS */
+
+/* START ARTICLE BLOCK */
+
+.card{
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    position: relative;
+    gap: 1.5rem;
+}
+
+.card__img{
+    height: 100%;
+}
+
+.card__thumbnail{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: #000;
+    border-radius: 10px;
+    overflow: hidden;
+    height: 100%;
+    max-width: 25rem;
+}
+
+.card__tittle{
+    margin-bottom: 1rem;
+}
+
+.card__link{
+    font-size: 1.5rem;
+    font-weight: normal;
+    text-decoration: none;
+    color: #343a40;
+}
+
+.card__description{
+    font-size: 1rem;
+    line-height: 28px;
+    color: #6d6d6d;
+    margin-bottom: 10px;
+}
+
+.card__text{
+    flex-shrink: 2;
+}
+
+/* END ARTICLE BLOCK */
+
+/* START BLOCK BUTTONS */
+
+.button{
+    border: none;
+    min-width: 6.25rem;
+    height: 3.125rem;
+    padding: 0 30px;
+    background: #000;
+    color: white;
+    display: inline-block;
+    border-radius: 100px;
+    text-decoration: none;
+    display: inline-flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #403CC2;
+    transition: .3s ease all;
+}
+
+.button:hover{
+    background: #1b1881;
+    text-decoration: none;
+}
+
+.button__label{
+    font-weight: 600    ;
+}
+
+.button--absolute{
+    position: absolute;
+    right: 20px;
+    bottom: -25px;
+    z-index: 2;
+}
+
+.button--contrast{
+    background: #1b112b;
+}
+.button--contrast:hover{
+    background: #9364dd;
+}
+
+/* END BLOCK BUTTONS */
+
+/* START BLOCK PRODUCTS */
+
+.section__tittle{
+    font-size: 1.8rem;
+}
+
+.product{
+    position: relative;
+    background-color: #fff;
+    border-radius: 15px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.product__thumbnail{
+    display: inline-flex;
+    height: 100%;
+    margin-right: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+    justify-content: center;
+}
+
+.product__img{
+    height: 100%;
+}
+
+.product__link{
+    text-decoration: none;
+    font-size: 1.1rem;
+    color: #343a40;
+}
+
+.product__price{
+    font-size: 1.7rem;
+    font-weight: 600;
+}
+
+.button-product-add{
+    z-index: 2;
+    position: absolute;
+    bottom: 30px;
+    right: 20px;
+    color: #9364dd;
+    transition: ease .3s all;
+}
+
+.button-product-add:hover{
+    color: #211731
+}
+
+.button-product-fav{
+    z-index: 2;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    color: #343a40;
+    transition: ease .3s all;
+}
+
+.button-product-fav:hover{
+    color: #9364dd;
+}
+
+/* END BLOCK PRODUCTS */
+
+/* START MEDIA QUERIES */
+
+@media screen and (max-width: 768px){
+    .grid-cards{
+        grid-auto-rows: auto;
+    }
+    .card{
+        flex-direction: column;
+    }
+    .card:hover{
+        cursor: pointer;
+    }
+    .card__thumbnail{
+        height: 15rem;
+        width: 100%;
+    }
+    .card__link{
+        font-size: 1.3rem;
+    }
+    .card__description{
+        font-size: .9rem;
+    }
+    .button--more{
+        display: none;
+    }    
+}
+
+/* END MEDIA QUERIES */

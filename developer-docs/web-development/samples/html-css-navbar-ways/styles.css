@@ -1,0 +1,151 @@
+@font-face {
+    font-family: 'Roboto';
+    src: url('../font/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+  
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    background-color: #f1f1f1;
+}
+
+/* START HEADER SECTION */
+
+.header-container{
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: .5rem 5%;
+    flex-direction: row;
+    background-color: #fff;
+    margin-bottom: 2rem;
+}
+
+header > img{
+    height: 20px;
+}
+
+.navbar-links{
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar-links a{
+    text-decoration: none;
+}
+
+.navbar-links a{
+    transition: all 0.3s ease 0s;
+}
+
+.navbar-links a:link, .navbar-links a:visited{
+    color: rgb(48, 48, 48);
+}
+
+.navbar-links a:hover, .navbar-links a:focus{
+    color: cornflowerblue;
+}
+
+.cta button{
+    transition: all 0.3s ease-in-out;
+    padding: .5rem 1rem;
+    background-color: cornflowerblue;
+    border: none;
+    color: white;
+    border-radius: 20px;
+}
+
+.cta button:hover{
+    cursor: pointer;
+    background-color: rgb(48, 48, 48);
+}
+
+.btn-bars{
+    display: none;
+    border: none;
+    padding: .5rem;
+    background-color: inherit;
+}
+
+.btn-bars i{
+    width: 100%;
+}
+
+.btn-bars i{
+    transition: all 0.3s ease-in-out;
+    color: rgb(48, 48, 48);
+}
+
+.btn-bars i:hover{
+    color: cornflowerblue;
+    cursor: pointer;
+}
+
+.contact-me{
+    position: absolute;
+    bottom: -20px;
+    left: 0;
+    width: 100%;
+    color: white;
+    padding: .1rem;
+    display: none;
+    background-color:rgb(48, 48, 48);
+}
+
+.contact-me a{
+    text-decoration: none;
+}
+.contact-me a:link, .contact-me a:visited{
+    color: white;
+}
+
+@media screen and (max-width: 768px) {
+    .header-container{
+        padding: .5rem 5%;
+    }
+
+    .btn-bars{
+        display: block;
+    }
+
+    .cta{
+        display: none;
+    }
+
+    .header-navbar{
+        display: none;
+    }
+
+    .contact-me{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    .contact-me:hover{
+        background-color: cornflowerblue;
+    }
+}
+
+.filled{
+    background-color: #fff;
+    height: 75px;
+    width: 90%;
+    margin-top: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 4px;
+}
+
+/* END HEADER SECTION */

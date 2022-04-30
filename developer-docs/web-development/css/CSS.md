@@ -49,14 +49,17 @@ CSS can be used for very basic document text styling — for example changing th
     - [Grid centered](#grid-centered)
   - [Responsive Design](#responsive-design)
     - [Media Queries](#media-queries)
-    - [Using min- and max- to match value ranges](#using-min--and-max--to-match-value-ranges)
     - [Flexible grids](#flexible-grids)
+    - [Using min- and max- to match value ranges](#using-min--and-max--to-match-value-ranges)
     - [Modern layout technologies](#modern-layout-technologies)
       - [Flexbox](#flexbox-1)
       - [Grid](#grid-1)
     - [Responsive Images](#responsive-images)
   - [Good practices](#good-practices)
-    - [BEM Naming Convetion](#bem-naming-convetion)
+    - [Arquitecture](#arquitecture)
+    - [Methodology](#methodology)
+    - [SUIT Css](#suit-css)
+    - [BEM Css](#bem-css)
     - [Normalize CSS](#normalize-css)
 
 ## Selectors
@@ -704,16 +707,14 @@ For example, the following media query tests to see if the current web page is b
 ```
 
 You can add multiple media queries within a stylesheet, tweaking your whole layout or parts of it to best suit the various screen sizes. The points at which a media query is introduced, and the layout changed, are known as breakpoints.
-
-### Using min- and max- to match value ranges
-
-Many of the media features outlined in the previous section — including `width`, `height`, color and color-index — can be prefixed with `min`- or `max`- to express minimum or maximum constraints.
-
 ### Flexible grids
 
 Responsive sites don't just change their layout between breakpoints, they are built on flexible grids. A flexible grid means that you don't need to target every possible device size that there is, and build a pixel perfect layout for it.
 
 By using a flexible grid, you only need to add in a breakpoint and change the design at the point where the content starts to look bad. For example, if the line lengths become unreadably long as the screen size increases, or a box becomes squashed with two words on each line as it narrows.
+### Using min- and max- to match value ranges
+
+Many of the media features outlined in the previous section — including `width`, `height`, color and color-index — can be prefixed with `min`- or `max`- to express minimum or maximum constraints.
 
 ### Modern layout technologies
 
@@ -732,10 +733,10 @@ In Flexbox, flex items will shrink and distribute space between the items accord
 In CSS Grid Layout the `fr` unit allows the distribution of available space across grid tracks. The next example creates a grid container with three tracks sized at `1fr`. This will create three column tracks, each taking one part of the available space in the container. You can find out more about this approach to create a grid in the Learn Layout Grids topic, under Flexible grids with the `fr` unit.
 
 ```css
-
+/* Technic using min/max functions */
 .gallery-container{
   display: grid;
-  gap: 1rem;
+  grid-gap: 1rem;
   grid-auto-rows: 25rem;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 18rem), 1fr));
   grid-auto-flow: dense; 
@@ -745,9 +746,38 @@ In CSS Grid Layout the `fr` unit allows the distribution of available space acro
 }
 ```
 
+```css
+/* Technic using grid areas */
+.layout-container{
+  max-width: 980px;
+  margin: 20px auto;
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-rows: repeat(4,auto);
+  grid-template-area: "header header header"
+                      "content content sidebar"
+                      "widget widget sidebar"
+                      "footer footer footer";
+}
+.header-container{
+  grid-area: header;
+}
+@media screen and (max-width: 768px){
+  /* Change grid area property when the screen is smaller than 768px */
+  .layout-container{
+      grid-template-area: "header header header"
+                          "content content content"
+                          "sidebar sidebar sidebar"
+                          "widget widget widget"
+                          "footer footer footer";
+  }
+}
+```
+
 ### Responsive Images
 
 The simple way to make images responsive. You would scale it down.
+
 ```css
 img{
   max-width: 100%;
@@ -756,7 +786,43 @@ img{
 
 ## Good practices
 
-### BEM Naming Convetion
+### Arquitecture
+
+A [CSS architecture](https://cheesecakelabs.com/blog/css-architecture-first-steps/) brings reasoning to CSS authoring. Imagine it as a set of guidelines and best practices to help developers write code that’s maintainable, flexible to scale and more reusable. We achieve that by applying a modular approach, promoting organization and conveying meaning to our codebase.
+
+1. Separate and categorize your code
+2. Define your Components
+3. Apply a naming convention with a methodologies
+
+
+### Methodology
+
+It's a method to achive an objective. The objective in CSS is to order naming of the selectors and divide them by concepts.
+
+### SUIT Css
+
+It's a methodologie to use with functions and tools. The class names are based in property like color, center. Utility and components.
+
+### BEM Css
+
+[Bem Code](bem-convetion/index.html) / [Bem Methodologies](http://getbem.com/introduction/) / [Youtube Tutorial](https://youtu.be/bvnzyXGkNY4?list=PLOG7JkQSkBqY0X010vEANFeKiQCXnHj9y) / [Bem Cheat Sheet](https://9elements.com/bem-cheat-sheet/) / [Bem freecodecamp.org](https://www.freecodecamp.org/news/css-naming-conventions-that-will-save-you-hours-of-debugging-35cea737d849/)
+
+BEM stands for “Block, Element, Modifier” and is a simple but effective way to group together different components/widgets (as shown by the following visual aid).
+
+Mark McDonnell, [Maintainable CSS with BEM](https://www.integralist.co.uk/posts/bem/#4)
+
+Within each defined ‘Block’ you can have multiple ‘elements’ that make up the object, and for each element (depending on where it appears within the block) you might need to ‘modify’ the state of the element.
+
+The principles are similar to other methods of structuring CSS (OOCSS/SMACSS) but they are greatly simplified in comparison without giving up any of the architectural benefits.
+
+There are plenty of methodologies out there aiming to reduce the CSS footprint, organize cooperation among programmers and maintain large CSS codebases. This is obvious in large projects like Twitter, Facebook and Github, but other projects often grow into some “Huge CSS file” state pretty quickly.
+
+_http://getbem.com/naming/_
+Block | Element | Modifier
+---------|----------|---------
+Standalone entity that is meaningful on its own. | A part of a block that has no standalone meaning and is semantically tied to its block. | A flag on a block or element. Use them to change appearance or behavior.
+ `header`, `container`, `menu`, `article` | `menu item`, `list item`, `header`, `tittle` | `disable`, `active`, `highlighted`, `fixed`, `size`, `color yellow`
+
 ### Normalize CSS
 
 [Normalize.css](https://necolas.github.io/normalize.css/) makes browsers render all elements more consistently and in line with modern standards. It precisely targets only the styles that need normalizing. It solve and fix bugs between browsers.
