@@ -17,8 +17,6 @@ A repository of English   My english are not good enough to write this. I will t
   - [IELTS guide](notion/others/ielts-preparation.md)
 ## Library guide
 
-- grammar/
-  - [English grammar in use - Raymond Murphy](library/grammar/english-grammar-in-use-intermediate.md)
 - entertainment/
     - [Frankestein - Mary Shelly](library/entertainment/frankestein.md)
     - [The importance of being earnest - Oscar Wilde](library/entertainment/the-importance-of-being-earnest.md)
