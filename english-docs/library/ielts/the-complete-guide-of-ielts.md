@@ -96,6 +96,7 @@ In Part 3, you are assessed on your ability to express and justify opinions and 
 9. In each part of the test, it's very important to answer all of the questions as fully as possible. Make sure to expand your answer as much as possible. 
 10. It's important to have your own opinion. 
 11. Don't be afraid to disagree with the opinions of the examiner expresses. These are not necessarily what the examiner thinks or believes.
+12. Don't be worry if you see techical terms in the listening section.
 
 ### Study tips
 
@@ -156,6 +157,8 @@ You will hear a monologue in an academic context. _(e.g lecture, lecture about e
 8. You should **study the map plan or plan carefully** before you listen. Having a clear image will help you to understand the question.
 9. Before you listen **read maps several times to become familiar** with the options. If you can't decide, write down and decide later.
 10. For matching tasks like this , the topics in the questions will be discussed in the same order as they are listed. But in box you will hear different options in random order.
+11. At the start you will hear some information about the questions and about the people in the talk.
+
 
 ### Study tips
 

@@ -25,6 +25,7 @@ _directory/book-name + author markdown_
 - personal development/
   - [Liberando al gigante que llevas dentro - Anthony Robbins](personal-development/liberando-al-giante-que-llevas-dentro.md)
   - [Como ganar amigos e influir en las personas - Dale Carnege](personal-development/como-ganar-amigos-e-influir-en-las-personas.md)
+  - [Un pequeño paso puede cambiar tu vida - Robert Maurer](personal-development/un-pequeño-paso-puede-cambiar-tu-vida.md)
 - productivity/
   - [Organizate con eficacia - David Allen](productivity/organizate-con-eficacia.md)
   - [El club de las 5 am - Robin Sharma](productivity/el-club-de-las-5-am.md)
