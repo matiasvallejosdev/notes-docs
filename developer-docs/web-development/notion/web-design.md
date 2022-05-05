@@ -2,8 +2,9 @@
 
 Web Design is the process of creating a web page that is visually appealing and easy to read. It's useful to create a web page that is easy to read and easy to navigate. 
 
-## Useful
+**Useful links**
 
+- [Design Course](https://1drv.ms/u/s!AjfC66IabtcpgatWwpa9g2KcrZCwkw?e=lJk2j7)
 - [type-scale.com](https://type-scale.com/)
 - [adobe-color.com](https://color.adobe.com/create)
 - [tailwindcss.com](https://tailwindcss.com/)
@@ -22,7 +23,6 @@ Web Design is the process of creating a web page that is visually appealing and 
 ## Guide
 
 - [Web Design](#web-design)
-  - [Useful](#useful)
   - [Guide](#guide)
   - [Good Design](#good-design)
     - [Ingredients](#ingredients)

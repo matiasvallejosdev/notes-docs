@@ -48,6 +48,8 @@ CSS can be used for very basic document text styling — for example changing th
     - [Flexbox center](#flexbox-center)
     - [Grid centered](#grid-centered)
   - [Responsive Design](#responsive-design)
+    - [Fluid layouts](#fluid-layouts)
+    - [Responsive units](#responsive-units)
     - [Media Queries](#media-queries)
     - [Flexible grids](#flexible-grids)
     - [Using min- and max- to match value ranges](#using-min--and-max--to-match-value-ranges)
@@ -687,6 +689,14 @@ Gird is the most flexible way to center things on the page. It's not fully suppo
 [Mozilla Responsive Design](https://developer.mozilla.org/en-US/docs/Learn/CSS/CSS_layout/Responsive_design)
 
 The term responsive design was coined by Ethan Marcotte in 2010 and described the use of three techniques in combination.
+
+### Fluid layouts
+
+Allow the page in the current viewport. You could use unit like `vh or vm` should adapt to the viewport. Use `max-width` or `%`.
+
+### Responsive units
+
+Use `rem` unity instead of px for most length. It's easier to scale automatically.
 
 ### Media Queries
 

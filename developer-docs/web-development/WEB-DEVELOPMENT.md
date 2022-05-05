@@ -6,10 +6,12 @@
 - [css/](css/CSS.md)
 - [react-js/](react-js/REACT-JS.md)
 
-## Concepts guide
+## Notion guide
 
-- [web-design](concepts/web-design.md)
-- [ci/cd](concepts/ci-cd.md)
+- [web-design](notion/web-design.md)
+- [web-process](notion/web-process.md)
+- [api-rest](notion/api-rest.md)
+- [microservices](notion/microservices.md)
 
 ## Samples
 - [html-css-personal-web](samples/html-css-personal-web/index.html)

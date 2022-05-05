@@ -8,10 +8,10 @@
 }
 
 body{
-    background: white;
+    background: #f1f1f1;
     margin: 0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Poppins', sans-serif;
     font-weight: 400;
     line-height: 1.75;
     color: #000000;
@@ -28,7 +28,7 @@ h1, h2, h3, h4, h5 {
 
 h1 {
   margin-top: 0;
-  font-size: 4.209rem;
+  font-size: 3.49rem;
 }
 
 h2 {font-size: 3.157rem;}
@@ -40,3 +40,132 @@ h4 {font-size: 1.777rem;}
 h5 {font-size: 1.333rem;}
 
 small, .text_small {font-size: 0.75rem;}
+
+/* ---------- START CONTAINER ------------- */
+
+.container{
+  max-width: 1280px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* ----------- END CONTAINER ----------- */
+
+/* ------------ START BUTTONS ---------- */
+
+.button{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+  transition: .3s ease all;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 20px;
+  background: #e67e22;
+  color: #fff;
+  font-size: 1.1rem;
+  font-weight: 600;
+}
+
+.button:hover{
+  cursor: pointer;
+  background: #333;
+}
+
+.button--low-contrast {
+  color: #333;
+  background: #fff;
+}
+
+.button--low-contrast:hover{
+  color: #fff;
+  background: #e67e22;
+}
+
+/* ---------- END BUTTONS ------------- */
+
+/* --------- START MAIN-NAV ---------- */
+
+.header{
+  background: white;
+}
+
+.main-nav{
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main-nav__logo{
+  max-width: 10rem;
+}
+
+/* .main-nav__container{
+
+} */
+
+.main-nav__list{
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  align-items: center;
+}
+
+.main-nav__item{
+  margin-left: 1.5rem;
+}
+
+.main-nav__link:link, .main-nav__link:visited{
+  transition: .3s ease all;
+  text-decoration: none;
+  color: #333;
+  font-size: 1.05rem;
+}
+
+.main-nav__link:hover{
+  color:#e67e22;
+}
+
+.main-nav__link--selected:link, .main-nav__link--selected:visited{
+  color: #e67e22;
+}
+
+/* ------------ END MAIN-NAV -------------*/
+
+/* -------- START HERO CONTAINER ------------ */
+
+.hero-container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 90vh;
+  align-items: center;
+}
+
+.hero-container__subtitle{
+  font-size: 1.2rem;
+}
+
+.hero-container__img{
+  max-width: 35rem;
+}
+
+/* ------------ END HERO CONTAINER ------------ */
+
+/* ----------- START SUMMARY CONTENT -----------  */
+
+.summary-content__buttons{
+  display: flex;
+  justify-content: flex-start;
+  gap: 1rem;
+}
+
+.summary-img{
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+/* ----------- END SUMMARY CONTENT ----------*/
