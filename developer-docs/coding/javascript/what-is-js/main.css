@@ -1,0 +1,12 @@
+
+p{
+    margin: 0 auto;
+    width: 10%;
+    font-size: 16px;
+    padding: 1rem 2rem;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid black;
+    background: white;
+    cursor: pointer;
+}

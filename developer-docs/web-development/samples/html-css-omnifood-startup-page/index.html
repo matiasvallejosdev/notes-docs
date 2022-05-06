@@ -10,8 +10,7 @@
      <link rel="stylesheet" href="css/styles.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-     <title>Omnifood - Eat healthy live healthy</title>
+     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">     <title>Omnifood - Eat healthy live healthy</title>
  </head>
  <body>
      <div class="header">
@@ -34,7 +33,7 @@
                         <a href="your-order.html" class="main-nav__link">Your Order</a>
                     </li>
                     <li class="main-nav__item">
-                        <button class="button">
+                        <button class="button button--full">
                             <span class="button__text">Order Now</span>
                             <span class="button__emoji">🚀</span>
                         </button>
@@ -43,32 +42,53 @@
             </div>
         </div>
     </div>
-    <section class="section">
-        <div class="container hero-container">
-            <div class="summary-content">
-                <div class="summary-content__content">
-                    <h1 class="hero-container_tittle">
-                        🍔 Omnifood is a premium food delivery service
+    <section class="section section-hero">
+        <div class="container hero">
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__tittle">
+                        🍣 Omnifood is a premium food delivery service
                     </h1>
-                    <p class="hero-container__subtitle">
+                    <p class="hero__subtittle">
                         The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
                     </p>
                 </div>
-                <div class="summary-content__buttons">
-                    <button class="button button--low-contrast">
+                <div class="hero__buttons">
+                        <button class="button button--full">
+                            <span class="button__text">Order Now</span>
+                            <span class="button__emoji">🚀</span>
+                        </button>
+                    <button class="button button--outline">
                         <span class="button__text">Explore</span>
                         <span class="button__emoji">🍴</span>
                     </button>
-                    <button class="button">
-                        <span class="button__text">Order Now</span>
-                        <span class="button__emoji">🚀</span>
-                    </button>
+                </div>
+                <div class="meals-review">
+                    <div class="meals-review__container">
+                        <img src="img/customers/customer-1.jpg" alt="" class="meals-review__person">
+                        <img src="img/customers/customer-2.jpg" alt="" class="meals-review__person">
+                        <img src="img/customers/customer-3.jpg" alt="" class="meals-review__person">
+                        <img src="img/customers/customer-4.jpg" alt="" class="meals-review__person">
+                        <img src="img/customers/customer-5.jpg" alt="" class="meals-review__person">
+                        <img src="img/customers/customer-6.jpg" alt="" class="meals-review__person">
+                    </div>
+                    <div class="meals-review__text">
+                        <span class="text text--bold text--highlight">
+                            250,000+
+                        </span>
+                        <span class="text text--bold">
+                            meals delivered last year!
+                        </span>
+                    </div>
                 </div>
             </div>
-            <div class="summary-img">
-                <img src="img/hero.png" alt="Hero" class="hero-container__img">
+            <div class="hero__box-img">
+                <img src="img/hero.png" alt="Hero" class="hero__img">
             </div>
         </div>
+    </section>
+    <section class="whitespace">
+
     </section>
  </body>
  </html>

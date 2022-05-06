@@ -6,6 +6,7 @@ CSS can be used for very basic document text styling — for example changing th
 
 - [CSS MozillaDocs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [CSS DevDocs](https://devdocs.io/css/)
+
 ## Guide
 - [Cascade Style Sheet](#cascade-style-sheet)
   - [Guide](#guide)
@@ -21,7 +22,10 @@ CSS can be used for very basic document text styling — for example changing th
   - [Stling lists](#stling-lists)
   - [Layout](#layout)
     - [Building blocks](#building-blocks)
-    - [Control the position](#control-the-position)
+    - [CSS Position](#css-position)
+      - [Position static](#position-static)
+      - [Position relative](#position-relative)
+      - [Position Sticky](#position-sticky)
     - [The display property](#the-display-property)
   - [Values and units](#values-and-units)
     - [Absolute length units](#absolute-length-units)
@@ -44,7 +48,6 @@ CSS can be used for very basic document text styling — for example changing th
   - [Center elements](#center-elements)
     - [Margin Auto](#margin-auto)
     - [Textalign Center](#textalign-center)
-    - [Position absolute](#position-absolute)
     - [Flexbox center](#flexbox-center)
     - [Grid centered](#grid-centered)
   - [Responsive Design](#responsive-design)
@@ -344,25 +347,64 @@ CSS treats each HTML element as if it is in its own box. This box will either be
 <!-- Inline block -->
 <p><a>
 ```
-### Control the position
+### CSS Position
+[Position Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/position) / 
+
 If one block-level element sits inside another block-level element then the outer box is known as the containing or parent element.
 - Normal flow: all blocks within the same block-level element are known as the "parent" of the other blocks.
 ```css
-p{
+.default{
   position: static;
-  /* It's the default flow element*/
+}
+
+.relative-to-parent{
   position: relative;
-  /* This moves an element from the position it would be in normal flow, shifting it to the top, right, bottom, or left of where it would have been placed. This does not affect the position of surrounding elements; they stay in the position they would be in in normal flow. */
+  float: 100px;
 }
 ```
+
 - Out flow: all blocks within the same block-level element are known as the "child" of the other blocks.
+  
 ```css
 p{
   position: absoulte;
 }
-/* This positions the element in relation to its containing element. It is taken out of normal flow, meaning that it does not affect the position of any surrounding elements (as they simply ignore the space it would have taken up). Absolutely positioned elements move as users scroll up and down the page. */
+.box{
+  position: fixed;
+}
+.header{
+  position: sticky;
+}
+```
+
+#### Position static
+
+The element is positioned according to the normal flow of the document.
+
+#### Position relative
+
+The element will be positioned according to the normal flow of the document, but you could edit top, lef, right, bottom ind order to a##  Position absolute
+
+The element will be removed from the flow and no space will create for the element in the layout. It's a kind of ghost flow element.
+
+```css
+.box{
+  position: relative;
+  height: 100px;
+}
+
+.content{
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%, -50%);
+}
 
 ```
+#### Position Sticky
+
+A stickily positioned element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing block crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls within), at which point it is treated as "stuck" until meeting the opposite edge of its containing block.
+
+_This value always creates a new stacking context. Note that a sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism"._
 
 ### The display property
 The main methods for achieving page layout in CSS all involve specifying values for the ```display``` property. This property allows us to change the default way something displays. Everything in normal flow has a default value for ```display```; i.e., a default way that elements are set to behave. For example, the fact that paragraphs in English display one below the other is because they are styled with ```display: block```. If you create a link around some text inside a paragraph, that link remains inline with the rest of the text, and doesn't break onto a new line. This is because the ```<a>``` element is display: inline by default.
@@ -629,28 +671,6 @@ To center text or links horizontally, just use the text-align property with the 
   line-height: 100px; /* Center vertically */
   text-align: center; /* Center content */
 }
-```
-
-### Position absolute
-
-For a long time this was the go-to way to center things vertically. For this method you must know the height of the element you want to center.
-
-First, set the position property of the parent element to relative.
-
-Then for the child element, set the position property to absolute and top to 50%:
-
-```css
-.box{
-  position: relative;
-  height: 100px;
-}
-
-.content{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%, -50%);
-}
-
 ```
 
 ### Flexbox center

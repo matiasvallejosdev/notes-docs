@@ -2,6 +2,10 @@
 
 Maths repository is a collection of notes and snippets that I have written.
 
+## Directory guide
+
+[statistics/](statistics/STATISTICS.md)
+
 ## Library guide
 
 - Probability and statistics

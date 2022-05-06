@@ -158,6 +158,8 @@ You will hear a monologue in an academic context. _(e.g lecture, lecture about e
 9. Before you listen **read maps several times to become familiar** with the options. If you can't decide, write down and decide later.
 10. For matching tasks like this , the topics in the questions will be discussed in the same order as they are listed. But in box you will hear different options in random order.
 11. At the start you will hear some information about the questions and about the people in the talk.
+12. A shift in topic often indicates that moves on the next question. Use signposting words in the notes to help guide.
+13. 
 
 
 ### Study tips

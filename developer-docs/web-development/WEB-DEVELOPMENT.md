@@ -24,3 +24,4 @@
 - [html-css-components](samples/html-css-components/index.html)
 - [html-css-email-page-layout](samples/html-css-email-page-layout/index.html)
 - [html-css-js-proffessional-forms](samples/html-css-js-proffessional-forms/index.html)
+- [html-css-omnifood-startup-page](samples/html-css-omnifood-startup-page/index.html)
