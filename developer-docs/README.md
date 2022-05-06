@@ -5,5 +5,5 @@ A repository of my personal code notes with markdown and samples projects. In th
 ## Directory guide
 - [web-development/](web-development/WEB-DEVELOPMENT.md)
 - [mobile-development/](mobile-development/MOBILE-DEVELOPMENT.md)
-- [coding/](coding\CODING.md)
+- [coding/](coding/CODING.md)
 - [artificial-intelligence/](artificial-intelligence/ARTIFICIAL-INTELLIGENCE.md)
