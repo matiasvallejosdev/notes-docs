@@ -23,8 +23,12 @@ CSS can be used for very basic document text styling — for example changing th
   - [Layout](#layout)
     - [Building blocks](#building-blocks)
     - [CSS Position](#css-position)
+      - [Types of positioning](#types-of-positioning)
+      - [Positioning flow](#positioning-flow)
       - [Position static](#position-static)
       - [Position relative](#position-relative)
+      - [Position Absolute](#position-absolute)
+      - [Position Fixed](#position-fixed)
       - [Position Sticky](#position-sticky)
     - [The display property](#the-display-property)
   - [Values and units](#values-and-units)
@@ -348,10 +352,21 @@ CSS treats each HTML element as if it is in its own box. This box will either be
 <p><a>
 ```
 ### CSS Position
-[Position Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/position) / 
+[Position Mozilla](https://developer.mozilla.org/en-US/docs/Web/CSS/position) / [Position Code](position/index.html)
 
 If one block-level element sits inside another block-level element then the outer box is known as the containing or parent element.
-- Normal flow: all blocks within the same block-level element are known as the "parent" of the other blocks.
+
+#### Types of positioning
+
+- A positioned element is an element whose computed position value is either relative, absolute, fixed, or sticky. (In other words, it's anything except static.)
+- A relatively positioned element is an element whose computed position value is relative. The top and bottom properties specify the vertical offset from its normal position; the left and right properties specify the horizontal offset.
+- An absolutely positioned element is an element whose computed position value is absolute or fixed. The top, right, bottom, and left properties specify offsets from the edges of the element's containing block. 
+- A stickily positioned element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing block crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls within), at which point it is treated as "stuck" until meeting the opposite edge of its containing block.
+
+#### Positioning flow
+
+**Normal flow:** all blocks within the same block-level element are known as the "parent" of the other blocks.
+  
 ```css
 .default{
   position: static;
@@ -363,10 +378,10 @@ If one block-level element sits inside another block-level element then the oute
 }
 ```
 
-- Out flow: all blocks within the same block-level element are known as the "child" of the other blocks.
+**Out flow:** all blocks within the same block-level element are known as the "child" of the other blocks.
   
 ```css
-p{
+.bar{
   position: absoulte;
 }
 .box{
@@ -379,34 +394,28 @@ p{
 
 #### Position static
 
-The element is positioned according to the normal flow of the document.
+The element is positioned according to the [normal flow](https://developer.mozilla.org/en-US/docs/Web/CSS/position#formal_definition) of the document. It's the initial value that you apply to an element's position property. It's discrete and stay in the normal flow.
 
-#### Position relative
+#### Position relative 
 
-The element will be positioned according to the normal flow of the document, but you could edit top, lef, right, bottom ind order to a##  Position absolute
+[Relatively positioned](https://developer.mozilla.org/en-US/docs/Web/CSS/position#relative_positioning) elements are offset a given amount from their normal position within the document, but without the offset affecting other elements.
 
-The element will be removed from the flow and no space will create for the element in the layout. It's a kind of ghost flow element.
+#### Position Absolute
 
-```css
-.box{
-  position: relative;
-  height: 100px;
-}
+Elements that are relatively positioned remain in the normal flow of the document. In contrast, an element that is [absolutely positioned](https://developer.mozilla.org/en-US/docs/Web/CSS/position#absolute_positioning) is taken out of the flow; thus, other elements are positioned as if it did not exist. The absolutely positioned element is positioned relative to its nearest positioned ancestor
 
-.content{
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%, -50%);
-}
+#### Position Fixed
 
-```
+[Fixed positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/position#fixed_positioning) is similar to absolute positioning, with the exception that the element's containing block is the initial containing block established by the viewport, unless any ancestor has transform.
+
 #### Position Sticky
 
-A stickily positioned element is an element whose computed position value is sticky. It's treated as relatively positioned until its containing block crosses a specified threshold (such as setting top to value other than auto) within its flow root (or the container it scrolls within), at which point it is treated as "stuck" until meeting the opposite edge of its containing block.
+[Sticky positioning](https://developer.mozilla.org/en-US/docs/Web/CSS/position#sticky_positioning) can be thought of as a hybrid of relative and fixed positioning. A stickily positioned element is treated as relatively positioned until it crosses a specified threshold, at which point it is treated as fixed until it reaches the boundary of its parent.
 
 _This value always creates a new stacking context. Note that a sticky element "sticks" to its nearest ancestor that has a "scrolling mechanism"._
 
 ### The display property
+
 The main methods for achieving page layout in CSS all involve specifying values for the ```display``` property. This property allows us to change the default way something displays. Everything in normal flow has a default value for ```display```; i.e., a default way that elements are set to behave. For example, the fact that paragraphs in English display one below the other is because they are styled with ```display: block```. If you create a link around some text inside a paragraph, that link remains inline with the rest of the text, and doesn't break onto a new line. This is because the ```<a>``` element is display: inline by default.
 
 In addition to being able to change the default presentation by turning an item from block to inline and vice versa, there are some more involved layout methods that start out as a value of ```display```. However, when using these you will generally need to invoke additional properties. The two values most important for our discussion of layout are ```display: flex``` and ```display: grid.```

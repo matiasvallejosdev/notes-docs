@@ -1,11 +1,13 @@
 # Coding Development
 
 ## Directory guide
-- [python/](python/PYTHON.md)
-- [c-sharp/](c-sharp/C-SHARP.md)
-- [javascript/](javascript/JAVASCRIPT.md)
-- [sql-db/](sql-db/SQL-DB.md)
-- [nosql-db/](nosql-db/NOSQL-DB.md)
+- [python/](python/python.md)
+- [c-sharp/](c-sharp/c-sharp.md)
+- [javascript/](javascript/javascript.md)
+- [sql/](sql/sql.md)
+- [nosql/](nosql/no-sql.md)
+- [clean-code/](clean-code/clean-code.md)
+- [algorithms/](algorithms/algorithms.md)
 
 ## Notion Guide
 

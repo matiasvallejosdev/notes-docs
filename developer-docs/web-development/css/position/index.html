@@ -8,20 +8,56 @@
     <title>CSS Positioning</title>
 </head>
 <body>
-    <div id="output" class="output large">
-        <section id="default-example" class="default-example">
-            <div id="example-element-container">
-                <p>In this demo you can control the <code>position</code> property for the yellow box.</p>
-                <div class="box"></div>
-                <div class="box" id="example-element" style="position: static;"></div>
-                <div class="box"></div>
-                <p class="clear">To see the effect of <code>sticky</code> positioning, select the <code>position: sticky</code> option and scroll this container.</p>
-                <p>The element will scroll along with its container, until it is at the top of the container (or reaches the offset specified in <code>top</code>), and will then stop scrolling, so it stays visible.</p>
-                <p>The rest of this text is only supplied to make sure the container overflows, so as to enable you to scroll it and see the effect.</p>
-                <hr>
-                <p>Far out in the uncharted backwaters of the unfashionable end of the western spiral arm of the Galaxy lies a small unregarded yellow sun. Orbiting this at a distance of roughly ninety-two million miles is an utterly insignificant little blue green planet whose ape-descended life forms are so amazingly primitive that they still think digital watches are a pretty neat idea.</p> 
+    <div class="call-to-action"></div>
+    <div class="section">
+        <div class="container">
+            <div class="box box--light">Static</div>
+            <div class="box box--relative box--contrast">Relative</div>
+            <div class="box box--absolute box--light">
+                <span>Absolute</span>
+                <div class="box box__absolute"></div>
             </div>
-        </section>
+            <div class="box box--sticky box--contrast">Sticky</div>
+        </div>
+    </div>
+    <div class="section banner">
+    </div>
+    <div class="section header">
+        <div class="nav container">
+            <ul class="nav__list">
+                <li class="nav__elem">
+                    <a href="#" class="nav__link">Home</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div class="section">
+        <div class="container news">
+            <h1 class="container__tittle">Position Sticky</h1>
+            <div class="article">
+                <div class="article__elem">
+                    <h2 class="article__tittle">Article One</h2>
+                    <p class="article__content">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ad consequatur aperiam, totam ab officiis molestias mollitia tempora nisi quia vero dolores, unde adipisci. Enim aliquid totam quod dolore, tempora quas minima neque officia, doloribus cum non omnis ducimus. Repellendus at molestiae hic esse rerum, eos numquam nostrum voluptatem autem iusto voluptates reiciendis provident quibusdam sequi sapiente itaque delectus corrupti quaerat nobis repellat blanditiis dolorem? Iure labore ex sed enim dicta id quia? Explicabo accusamus tenetur asperiores vero incidunt? Minima, quae voluptates inventore saepe, incidunt ad id minus tempore obcaecati ipsam illo animi, voluptatibus delectus. Dolor cum hic nisi iste quasi quam ab, provident dicta! Nemo suscipit cupiditate praesentium non provident! Ipsam laborum, perferendis veritatis eum alias illum ipsum? Et, fugit? Doloremque dignissimos rerum quis. Nam, dolorem! Dolores sint quam dicta a suscipit iure adipisci, ipsum repudiandae voluptatibus officia non nam fugit facilis aliquam obcaecati placeat minus corrupti optio totam atque. Officia voluptates tenetur fugit minus laudantium ad sit modi obcaecati libero. Quidem est dolore et! Inventore, excepturi. Molestias quae quo optio maxime laborum, nostrum voluptates maiores excepturi aliquam nihil provident deserunt ducimus nulla delectus cumque labore consequatur dolor sed velit expedita beatae adipisci eum a. Alias, tenetur voluptatum reiciendis accusamus deleniti tempora illum ipsa a eaque laborum possimus nobis sapiente odio asperiores. Temporibus dicta amet eos ipsum repudiandae unde reiciendis vero accusamus possimus incidunt! Reprehenderit dignissimos soluta unde quasi, aut qui illo molestiae. Natus provident nemo aliquam corporis ipsa doloribus, sint harum! Sint necessitatibus molestias numquam vel? Eius omnis eos, dolorem illum totam iusto ducimus laborum corporis dignissimos aperiam animi tenetur repellat expedita! Vitae aspernatur mollitia vel nulla eligendi corporis qui natus maiores, labore delectus harum explicabo necessitatibus ipsa asperiores minus, voluptatum veritatis atque at aliquid ratione nostrum iusto? Nostrum, quaerat. Magni ullam cumque possimus ex accusamus dolor tempora.
+                    </p>
+                </div>
+                <div class="article__elem">
+                    <h2 class="article__tittle">Article Two</h2>
+                    <p class="article__content">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ad consequatur aperiam, totam ab officiis molestias mollitia tempora nisi quia vero dolores, unde adipisci. Enim aliquid totam quod dolore, tempora quas minima neque officia, doloribus cum non omnis ducimus. Repellendus at molestiae hic esse rerum, eos numquam nostrum voluptatem autem iusto voluptates reiciendis provident quibusdam sequi sapiente itaque delectus corrupti quaerat nobis repellat blanditiis dolorem? Iure labore ex sed enim dicta id quia? Explicabo accusamus tenetur asperiores vero incidunt? Minima, quae voluptates inventore saepe, incidunt ad id minus tempore obcaecati ipsam illo animi, voluptatibus delectus. Dolor cum hic nisi iste quasi quam ab, provident dicta! Nemo suscipit cupiditate praesentium non provident! Ipsam laborum, perferendis veritatis eum alias illum ipsum? Et, fugit? Doloremque dignissimos rerum quis. Nam, dolorem! Dolores sint quam dicta a suscipit iure adipisci, ipsum repudiandae voluptatibus officia non nam fugit facilis aliquam obcaecati placeat minus corrupti optio totam atque. Officia voluptates tenetur fugit minus laudantium ad sit modi obcaecati libero. Quidem est dolore et! Inventore, excepturi. Molestias quae quo optio maxime laborum, nostrum voluptates maiores excepturi aliquam nihil provident deserunt ducimus nulla delectus cumque labore consequatur dolor sed velit expedita beatae adipisci eum a. Alias, tenetur voluptatum reiciendis accusamus deleniti tempora illum ipsa a eaque laborum possimus nobis sapiente odio asperiores. Temporibus dicta amet eos ipsum repudiandae unde reiciendis vero accusamus possimus incidunt! Reprehenderit dignissimos soluta unde quasi, aut qui illo molestiae. Natus provident nemo aliquam corporis ipsa doloribus, sint harum! Sint necessitatibus molestias numquam vel? Eius omnis eos, dolorem illum totam iusto ducimus laborum corporis dignissimos aperiam animi tenetur repellat expedita! Vitae aspernatur mollitia vel nulla eligendi corporis qui natus maiores, labore delectus harum explicabo necessitatibus ipsa asperiores minus, voluptatum veritatis atque at aliquid ratione nostrum iusto? Nostrum, quaerat. Magni ullam cumque possimus ex accusamus dolor tempora.
+                    </p>
+                </div>
+                <div class="article__elem">
+                    <h2 class="article__tittle">Article Three</h2>
+                    <p class="article__content">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Inventore ad consequatur aperiam, totam ab officiis molestias mollitia tempora nisi quia vero dolores, unde adipisci. Enim aliquid totam quod dolore, tempora quas minima neque officia, doloribus cum non omnis ducimus. Repellendus at molestiae hic esse rerum, eos numquam nostrum voluptatem autem iusto voluptates reiciendis provident quibusdam sequi sapiente itaque delectus corrupti quaerat nobis repellat blanditiis dolorem? Iure labore ex sed enim dicta id quia? Explicabo accusamus tenetur asperiores vero incidunt? Minima, quae voluptates inventore saepe, incidunt ad id minus tempore obcaecati ipsam illo animi, voluptatibus delectus. Dolor cum hic nisi iste quasi quam ab, provident dicta! Nemo suscipit cupiditate praesentium non provident! Ipsam laborum, perferendis veritatis eum alias illum ipsum? Et, fugit? Doloremque dignissimos rerum quis. Nam, dolorem! Dolores sint quam dicta a suscipit iure adipisci, ipsum repudiandae voluptatibus officia non nam fugit facilis aliquam obcaecati placeat minus corrupti optio totam atque. Officia voluptates tenetur fugit minus laudantium ad sit modi obcaecati libero. Quidem est dolore et! Inventore, excepturi. Molestias quae quo optio maxime laborum, nostrum voluptates maiores excepturi aliquam nihil provident deserunt ducimus nulla delectus cumque labore consequatur dolor sed velit expedita beatae adipisci eum a. Alias, tenetur voluptatum reiciendis accusamus deleniti tempora illum ipsa a eaque laborum possimus nobis sapiente odio asperiores. Temporibus dicta amet eos ipsum repudiandae unde reiciendis vero accusamus possimus incidunt! Reprehenderit dignissimos soluta unde quasi, aut qui illo molestiae. Natus provident nemo aliquam corporis ipsa doloribus, sint harum! Sint necessitatibus molestias numquam vel? Eius omnis eos, dolorem illum totam iusto ducimus laborum corporis dignissimos aperiam animi tenetur repellat expedita! Vitae aspernatur mollitia vel nulla eligendi corporis qui natus maiores, labore delectus harum explicabo necessitatibus ipsa asperiores minus, voluptatum veritatis atque at aliquid ratione nostrum iusto? Nostrum, quaerat. Magni ullam cumque possimus ex accusamus dolor tempora.
+                    </p>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="section whitespace">
     </div>
 </body>
 </html>

@@ -131,3 +131,4 @@ dmypy.json
 # Ignore confidential files
 
 /travel-docs
+/global-docs

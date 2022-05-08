@@ -7,3 +7,4 @@ A repository of my personal code notes with markdown and samples projects. In th
 - [mobile-development/](mobile-development/MOBILE-DEVELOPMENT.md)
 - [coding/](coding/CODING.md)
 - [artificial-intelligence/](artificial-intelligence/ARTIFICIAL-INTELLIGENCE.md)
+- [interview/](interview/INTERVIEW.md)

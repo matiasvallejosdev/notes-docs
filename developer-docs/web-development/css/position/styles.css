@@ -1,0 +1,169 @@
+/* ------------------<>--------------------- */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ------------------<>-------------------- */
+
+/* ----------- START GLOBAL -------------- */
+.section{
+    margin-top: 1rem;
+}
+
+.whitespace{
+    background-color: white;
+    height: 100rem;
+}
+
+.container{
+    max-width: 980px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.banner{
+    margin-top: 2rem;
+    height: 10rem;
+    width: 100%;
+    background-color: beige;
+}
+
+/* ---------- END GLOBAL -------------- */
+
+/* ------------ START BOX ABSOULTE AND STATIC ------------ */
+.box{
+    width: 5rem;
+    height: 5rem;
+    text-align: center;
+}
+
+.box--light{
+    color: #333;
+    background-color: #f1f1f1;
+}
+.box--contrast{
+    color: #f1f1f1;
+    background-color: #333;
+}
+
+.box--relative{
+    /* 
+    You could positon relative in the flow of the page without 
+    affect the flow. 
+    */
+    position: relative;
+    bottom: -20px;
+}
+
+.box--absolute{
+    /* 
+    This set parent in order to use absolute positioning.
+    */
+    position: relative;
+}
+
+.box__absolute{
+    /* 
+    This is a kind of position that you could use the element
+    with the reference of the neaerest relative parent.
+    */
+    position: absolute;
+    width: 1rem;
+    height: 1rem;
+    background-color: red;
+    bottom: -5px;
+    left: -5px;
+}
+/* ------------ END BOX ABSOLUTE AND STATIC ------------ */
+
+/* ---------- START FIXED DEMO ------------- */
+/* 
+This can be used to create a "floating" element that stays 
+in the same position regardless of scrolling. 
+*/
+
+.call-to-action{
+    position: fixed;
+    width: 3rem;
+    height: 3rem;
+    background-color: burlywood;
+    bottom: 40px;
+    right: 40px;
+}
+
+.call-to-action::before{
+    position: absolute;
+    content: 'Fixed';
+    width: 3rem;
+    height: 1.5rem;
+    background-color: red;
+    top: -30px;
+    text-align: center;
+    color: white;
+}
+
+/* ----------- END FIXED DEMO ------------- */
+
+/* --------- START STICKY DEMO -------------- */
+
+/* 
+Your element will be stay fixed if only if the height of the content
+will has content.
+*/
+.header{
+    position: sticky;
+    /* 
+    When header is near of 0px of body, the header position
+    will be changed to fixed state
+     */
+    top: 0;
+    margin-top: 0;
+    background-color: burlywood;
+    padding: 1rem;
+    z-index: 9;
+}
+.nav__list{
+    list-style: none;
+}
+.nav__link:visited, .nav__link:link{
+    font-size: 1.3rem;
+    color: #f1f1f1;
+    text-decoration: none;
+}
+
+/* Define news */
+.news{
+    display: block;
+}
+.article{
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.article__elem{
+    display: flex;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+/* 
+This an example that demostrate the importance of height
+parent in order to stay fixed your element.
+*/
+.article__tittle{
+    padding: .5rem;
+    border-radius: 4px;
+    position: sticky;
+    top: 60px;
+    background-color: antiquewhite;
+}
+
+/* ---------- END STICKY DEMO ------------ */
