@@ -66,6 +66,7 @@ CSS can be used for very basic document text styling — for example changing th
     - [Responsive Images](#responsive-images)
   - [Good practices](#good-practices)
     - [Arquitecture](#arquitecture)
+    - [Viewport vs screen size](#viewport-vs-screen-size)
     - [Methodology](#methodology)
     - [SUIT Css](#suit-css)
     - [BEM Css](#bem-css)
@@ -833,6 +834,11 @@ A [CSS architecture](https://cheesecakelabs.com/blog/css-architecture-first-step
 2. Define your Components
 3. Apply a naming convention with a methodologies
 
+I would say it's the presentation of content in the most accessible manner for any viewport that accesses it. In responsive web design consolidated three existing techniques (flexible grid layout, flexible images, and media and media queries)
+
+### Viewport vs screen size
+
+Viewport relates to the content area within the browser window, excluding the toolbars, tabs, and so on. More succinctly, it relates to the area where a website actually displays. Screen size refers to the physical display area of a device.
 
 ### Methodology
 

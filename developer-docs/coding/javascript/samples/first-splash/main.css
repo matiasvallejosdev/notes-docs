@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+
+}
+
+.container{
+    padding: 3rem;
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+/* ------------ START SECTIONS ------------- */
+
+.section{
+    margin: 1rem 0rem;
+    background-color: #f1f1f1;
+}
+
+.section__tittle{
+    margin-bottom: 1.5rem;
+}
+
+.section__subtittle{
+    font-size: .9rem;
+    color: #333;
+    text-transform: uppercase;
+}
+
+/* ------------ END SECTIONS ------------- */
+
+/* --------- START GAME ----------- */
+
+.game__container{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin: 1rem 0;
+}
+
+.game__info{
+    color: #888;
+    font-style: italic;
+}
+
+.game__alert{
+    color: #444;
+    letter-spacing: -0.75px;
+}
+
+.game__result{
+    background-color: #9cf660;
+    color: green;
+}
+
+/* ----------- START BUTTON ------------- */
+
+.button{
+    font-size: 1rem;
+    height: 3rem;
+    line-height: 3rem;
+    width: 20%;
+    background-color: #000;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+.button:hover{
+    background-color: #0075ff;
+    box-shadow: 2px 0px 15px rgba(163, 163, 163, 1);
+}
+.button--text{
+    border: 1px solid #f66060;
+    background-color: inherit;
+    color: #f66060;
+}
+.button--text:hover{
+    color: white;
+    background-color: #f66060;
+    box-shadow: 2px 0px 15px rgba(163, 163, 163, 1);
+}
+/* ----------- END BUTTON ------------- */
+
+/* ----------- START MESSAGE ------------ */
+
+.message{
+    margin: 1rem 0rem;
+    padding: 1rem;
+    display: none;
+}
+.message--active{
+    display: flex;
+    align-items: center;
+    gap: .6rem;
+    width: 34%;
+    border-radius: 4px;
+}
+/* ----------- END MESSAGE ------------ */
+
+/* -------- START FORM ------------- */
+
+.form__group{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form__label{
+    padding: 1rem;
+    font-weight: 600;
+}
+
+.form__group-input{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.form__input {
+    width: 12%;
+    background-color: white;
+    border: 3px solid transparent;
+    border-radius: 3px;
+    height: 2.5rem;
+    line-height: 2.5rem;
+    padding: 0 40px 0 10px;
+    transition: .3s ease all;
+}
+
+.form__input:focus{
+    border: 3px solid #0075ff;
+    outline: none;
+    box-shadow: 3px 0px 30px rgba(163, 163, 163, 0.4);
+}
+
+.form__message{
+    background-color: #f66060;
+    color: #791e1e;
+}
+
+/* --------- END FORM ----------- */
+

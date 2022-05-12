@@ -4,12 +4,13 @@ Web Design is the process of creating a web page that is visually appealing and 
 
 **Useful links**
 
-- [Design Course](https://1drv.ms/u/s!AjfC66IabtcpgatWwpa9g2KcrZCwkw?e=lJk2j7)
+- [design-course-udemy.com](https://1drv.ms/u/s!AjfC66IabtcpgatWwpa9g2KcrZCwkw?e=lJk2j7)
 - [type-scale.com](https://type-scale.com/)
 - [adobe-color.com](https://color.adobe.com/create)
 - [tailwindcss.com](https://tailwindcss.com/)
 - [open-color.com](https://yeun.github.io/open-color/)
 - [coolors.com](https://coolors.co/)
+- [contrast-checker.com](https://coolors.co/contrast-checker/)
 - [undraw.co](https://undraw.co/)
 - [pexels.com](https://www.pexels.com/)
 - [font-awesome.com](https://fontawesome.com/icons)

@@ -212,7 +212,7 @@ Section 2 takes a closer look at your workplace survival skills. The texts here 
 
 Section 3 contains a long and more complex text on a topic of general interest. Texts could be taken from newspapers, magazine or books.
 
-**1 text on a topic of general interest from a book**, _such as newspaper, magazine or online resource._
+**1 text on a topic of general interest** _from a book, such as newspaper, magazine or online resource._
 
 ### Exam tips
 

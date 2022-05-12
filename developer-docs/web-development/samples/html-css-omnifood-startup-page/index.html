@@ -13,11 +13,9 @@
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">     <title>Omnifood - Eat healthy live healthy</title>
  </head>
  <body>
-     <div class="header">
-        <div class="container main-nav">
-            <div class="main-nav__container">
-                <img class="main-nav__logo" src="img/omnifood-logo.png" alt="Omnifood logo">
-            </div>
+     <header class="header" id="header">
+        <div class="main-nav">
+            <img class="main-nav__logo" src="img/omnifood-logo.png" alt="Omnifood logo">
             <div class="main-nav__container">
                 <ul class="main-nav__list">
                     <li class="main-nav__item">
@@ -41,7 +39,9 @@
                 </ul>
             </div>
         </div>
-    </div>
+    </header>
+    <script src="js/header.js"></script>
+
     <section class="section section-hero">
         <div class="container hero">
             <div class="hero__container">
@@ -87,6 +87,100 @@
             </div>
         </div>
     </section>
+
+    <div class="section section-featured">
+        <div class="container featured">
+            <h1 class="featured__tittle">As featured in</h1>
+            <div class="featured__content">
+                <div class="featured__logo"><img src="img/logos/techcrunch.png" alt="Logo"></div>
+                <div class="featured__logo"><img src="img/logos/business-insider.png" alt="Logo"></div>
+                <div class="featured__logo"><img src="img/logos/the-new-york-times.png" alt="Logo"></div>
+                <div class="featured__logo"><img src="img/logos/forbes.png" alt="Logo"></div>
+                <div class="featured__logo"><img src="img/logos/usa-today.png" alt="Logo"></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="section section-how">
+        <div class="container">
+            <div class="heading">
+                <span class="heading__subheading">
+                    How it works
+                </span>
+                <h2 class="heading__head">
+                    Your daily dose of health in 3 simple steps
+                </h2>
+            </div>
+            <div class="how">
+                <div class="how__elem">
+                    <div class="how__labels how__elem--first">
+                        <h1 class="how__number">01</h1>
+                        <h3 class="how__tittle">Tell us what you like (and what not)</h3>
+                        <p class="how__description">
+                            Never again waste time thinking about what to eat! 
+                            Omnifood AI will create a 100% personalized weekly meal 
+                            plan just for you. It makes sure you get all the nutrients 
+                            and vitamins you need, no matter what diet you follow!
+                        </p>
+                    </div>
+                    <a class="how__image">
+                        <div class="circle circle--big circle--shadow"></div>
+                        <div class="circle"></div>
+                        <img class="how__img" src="img/app/app-screen-1.png" alt="How 1">
+                    </a>
+                </div>
+                <div class="how__elem">
+                    <div class="how__labels">
+                        <h1 class="how__number">02</h1>
+                        <h3 class="how__tittle">Approve your weekly meal plan</h3>
+                        <p class="how__description">
+                            Approve your weekly meal plan: Once per week,
+                            approve the meal plan generated for you by Omnifood 
+                            AI. You can change ingredients, swap entire meals, 
+                            or even add your own recipes.
+                        </p>
+                    </div>
+                    <a class="how__image how__elem--first">
+                        <div class="circle circle--big circle--shadow"></div>
+                        <div class="circle"></div>
+                        <img class="how__img" src="img/app/app-screen-2.png" alt="How 1">
+                    </a>
+                </div>
+                <div class="how__elem">
+                    <div class="how__labels how__elem--first">
+                        <h1 class="how__number">03</h1>
+                        <h3 class="how__tittle">Receive meals at convenient time</h3>
+                        <p class="how__description">
+                            Best chefs in town will cook your selected meal 
+                            every day, and we will deliver it to your door
+                            whenever works best for you. You can change delivery 
+                            schedule and address daily!
+                        </p>
+                    </div>
+                    <a class="how__image">
+                        <div class="circle circle--big circle--shadow"></div>
+                        <div class="circle"></div>
+                        <img class="how__img" src="img/app/app-screen-3.png" alt="How 1">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-meals">
+        <div class="container">
+            <div class="heading">
+                <span class="heading__subheading">Meals</span>
+                <h2 class="heading__head">Omnifood AI chooses from 5,000+ recipes</h2>
+            </div>
+            <div class="meals">
+                <div class="meals__group"></div>
+                <div class="meals__group"></div>
+                <div class="meals__group meal__group--transparent"></div>
+            </div>
+        </div>
+    </section>
+
     <section class="whitespace">
 
     </section>

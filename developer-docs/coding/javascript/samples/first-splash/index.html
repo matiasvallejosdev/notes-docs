@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://kit.fontawesome.com/2f3ec2c470.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="main.css">
+  </head>
+
+  <body>
+    <div class="section">
+      <div class="container">
+        <h4 class="section__subtittle">Lucky Game</h4>
+        <h1 class="section__tittle">Number Guessing</h1>
+        
+        <div class="game">
+          <div class="game__container">
+            <p class="game__info">We have selected a random number between 1 and 100. See if you can guess it in 10 turns or fewer. We'll tell you if your guess was too high or too low.</p>
+            <div class="form">
+              <div class="form__group">
+                <label class="form__label" for="guessField">Guess Number </label>
+                <div class="form__group-input">
+                  <input type="text" id="guessField" class="form__input">
+                  <input type="submit" value="Submit guess" class="button form__sumbit">
+                  <input type="submit" value="Restart guess" class="button button--text form__reset">
+                </div>              
+              </div>
+
+              <div class="message game__alert">
+                <i class="fa-solid fa-bell fa-lg"></i>
+                <p class="game__alert-text">
+                  Was to high!
+                </p>
+              </div>
+              
+              <div class="message game__result message--active">
+                <i class="fa-solid fa-hourglass fa-lg"></i>
+                <p class="game__guesses">
+                  Welcome to guessing!
+                </p>
+              </div>
+
+              <div class="message form__message">
+                <i class="fa-solid fa-circle-exclamation fa-lg"></i>
+                <p class="form__message-text">
+                  Wrong Number!
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script src="number-guessing-game.js"></script>
+  </body>
+</html>
