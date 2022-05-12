@@ -2,13 +2,13 @@
 
 ## Directory guide
 
-- [html/](html/html.md)
-- [css/](css/css.md)
-- [react-js/](react-js/react-js.md)
-- [node-js/](react-js/node-js.md)
-- [django/](django/django.md)
-- [flask/](flask/flask.md)
-- [aws/](aws/aws.md)
+- [html/](html/HTML.md)
+- [css/](css/CSS.md)
+- [react-js/](react-js/REACT-JS.md)
+- [node-js/](react-js/NODE-JS.md)
+- [django/](django/DJANGO.md)
+- [flask/](flask/FLASK.md)
+- [aws/](aws/AWS.md)
 
 ## Notion guide
 
