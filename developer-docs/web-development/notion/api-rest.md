@@ -7,5 +7,83 @@
 - [Api Rest](#api-rest)
   - [Guide](#guide)
   - [What is an API Rest?](#what-is-an-api-rest)
+    - [HTTPStatus](#httpstatus)
+  - [What makes a good microservice?](#what-makes-a-good-microservice)
 
 ## What is an API Rest?
+
+An API Rest it is a set of rules for writing code that guides you in your decisions. It is a architecture style that allows you to create a web application that can be accessed by other applications.
+
+It useful to build API in the backend. One of the most popular competitor is GraphQL. API Rest use the HTTP protocol to communicate with the frontend. It also use JSON to send and receive data.
+
+The main advantage of API Rest is that it is easy to use and it is easy to understand. The following methods are available:
+
+- / GET (getting data)
+- / POST (postting data)
+- / PUT (updating data)
+- / DELETE (deleting data)
+
+### HTTPStatus
+
+HTTPStatus is a class that contains the status codes of the HTTP protocol.
+
+OK Status
+```python
+200 = {
+    "httpCode": 200,
+    "status": "success"
+}
+201 = {
+    "httpCode": 201,
+    "status": "created"
+}
+```
+
+Error Request
+```python
+400 = {
+    "httpCode": 400,
+    "status": "bad request"
+}
+401 = {
+    "httpCode": 401,
+    "status": "unauthorized"
+}
+403 = {
+    "httpCode": 403,
+    "status": "forbidden"
+}
+404 = {
+    "httpCode": 404,
+    "status": "not found"
+}
+405 = {
+    "httpCode": 405,
+    "status": "method not allowed"
+}
+```
+
+Server Status
+```python
+500 = {
+    "httpCode": 500,
+    "status": "internal server error"
+}
+503 = {
+    "httpCode": 503,
+    "status": "service unavailable"
+}
+```
+## What makes a good microservice?
+
+[Coupling and Cohesion in Microservices](https://priyalwalpita.medium.com/coupling-and-cohesion-in-microservices-235ed9203843f5r)
+
+- Loose coupling
+
+Change one service shouldn't require change another service. 
+
+- High cohesion
+
+Related behavior is in one place and communicate between them loosely as possible.
+
+

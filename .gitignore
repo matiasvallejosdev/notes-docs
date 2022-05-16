@@ -130,5 +130,5 @@ dmypy.json
 
 # Ignore confidential files
 
-/travel-docs
-/global-docs
+/.builder
+new-zelland-application.md

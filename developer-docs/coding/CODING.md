@@ -17,6 +17,7 @@
 - [poo](notion/poo.md)
 - [ci-cd](notion/ci-cd.md)
 - [clean-arquitecture](notion/clean-arquitecture.md)
+- [tcp-ip](notion/tcp-ip.md)
 
 ## Library guide
 

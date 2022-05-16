@@ -1,6 +1,6 @@
 # Javascript
 
-[JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) is a scripting or programming language that allows you to implement complex features on web pages. It's dynamic, object-oriented, and imperative. It's based in prototype, instance and class-based programming. 
+[JavaScript](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript) is a scripting or programming language that allows you to implement complex features on web pages. It's dynamic, [prototype-based](#object-oriented-programming), and imperative. It's based in prototype, instance and class-based programming. 
 
 It's also an [interpreted language](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript#interpreted_versus_compiled_code). JavaScript is a lightweight interpreted programming language. The web browser receives the JavaScript code in its original text form and runs the script from that.
 
@@ -8,6 +8,12 @@ It's also an [interpreted language](https://developer.mozilla.org/en-US/docs/Lea
 
 - [MDN First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps)
 - [Plurasight Basics](https://www.javascript.com/learn)
+
+**Mistakes JS:**
+- [Please stop using classes in JavaScript](https://everyday.codes/javascript/please-stop-using-classes-in-javascript/)
+- [Is JavaScript a (true) OOP language?](https://medium.com/@andrea.chiarelli/is-javascript-a-true-oop-language-c87c5b48bdf0)
+- [What's the difference between objects and classes in JavaScript?](https://www.quora.com/Whats-the-difference-between-objects-and-classes-in-JavaScript)
+
 
 ## Guide
 - [Javascript](#javascript)
@@ -24,6 +30,7 @@ It's also an [interpreted language](https://developer.mozilla.org/en-US/docs/Lea
     - [async and defer](#async-and-defer)
     - [Comments](#comments)
   - [Javascript Splash](#javascript-splash)
+    - [Enviroment](#enviroment)
     - [Variables: Let vs Const vs Var](#variables-let-vs-const-vs-var)
     - [Data Types](#data-types)
     - [Conditionals](#conditionals)
@@ -34,9 +41,17 @@ It's also an [interpreted language](https://developer.mozilla.org/en-US/docs/Lea
       - [Equal = vs == vs ===](#equal--vs--vs-)
     - [Events](#events)
     - [Loops](#loops)
+      - [While](#while)
+      - [Do While](#do-while)
+      - [For Loop](#for-loop)
     - [Arrays](#arrays)
+    - [Dictionary Objects](#dictionary-objects)
     - [Objects](#objects)
-    - [A small discussion on objects](#a-small-discussion-on-objects)
+      - [A small discussion on objects](#a-small-discussion-on-objects)
+    - [Functions](#functions-1)
+  - [Object Oriented Programming](#object-oriented-programming)
+    - [OOP and JavaScript](#oop-and-javascript)
+    - [ES6 Class keyword](#es6-class-keyword)
 
 ## Javascript Definition
 
@@ -151,7 +166,11 @@ My multiline comment here
 - [Sample Code: Guessing Game](samples/first-splash/index.html) 
 - [Sample Code](samples/first-cofla-story/problem.js)
 
-One of the hardest things to learn in programming is not the syntax you need to learn, but how to apply it to solve real world problems. You need to start thinking like a programmer — this generally involves looking at descriptions of what your program needs to do. You
+One of the hardest things to learn in programming is not the syntax you need to learn, but how to apply it to solve real world problems. You need to start thinking like a programmer — this generally involves looking at descriptions of what your program needs to do. 
+
+### Enviroment
+
+The collection of bindings and their values that exist at a given time is called the environment. When a program starts up, this environment is not empty. It always contains bindings that are part of the language standard, and most of the time, it also has bindings that provide ways to interact with the surrounding system.
 
 ### Variables: Let vs Const vs Var
 
@@ -194,10 +213,10 @@ Variables declared with the const maintain constant values. const declarations s
 
 **So just in case you missed the differences, here they are:**
 
-`var` declarations are globally scoped or function scoped while `let` and `const` are block scoped.
-`var` variables can be updated and re-declared within its scope; `let` variables can be updated but not re-declared; `const` variables can neither be updated nor re-declared.
-They are all hoisted to the top of their scope. But while `var` variables are initialized with undefined, `let` and `const` variables are not initialized.
-While `var` and `let` can be declared without being initialized, `const` must be initialized during declaration.
+- `var` declarations are globally scoped or function scoped while `let` and `const` are block scoped.
+- `var` variables can be updated and re-declared within its scope; `let` variables can be updated but not re-declared; `const` variables can neither be updated nor re-declared.
+- They are all hoisted to the top of their scope. But while `var` variables are initialized with undefined, `let` and `const` variables are not initialized.
+- While `var` and `let` can be declared without being initialized, `const` must be initialized during declaration.
 
 ### Data Types
 
@@ -224,6 +243,7 @@ foo     = true;  // foo is now a boolean
   - BigInt type
   - String type
   - Symbol type
+  - Arrays
 - **Objects** (collections of properties)
 
 ### Conditionals
@@ -231,6 +251,15 @@ foo     = true;  // foo is now a boolean
 [Conditionals Code](first-splash/conditionals.js) / [MDN Conditionals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Conditionals)
 
 [Conditionals](https://www.javascript.com/learn/conditionals) statements control behavior in JavaScript and determine whether or not pieces of code can run.
+
+Conditional execution is created with the if keyword in JavaScript. In the simple case, we want some code to be executed if, and only if, a certain condition holds
+
+```javascript
+let num = 10;
+if(num === 10){
+  console.log('num is 10')
+} // Only if num is 10 will this code run
+```
 
 _There are multiple different types of conditionals in JavaScript including:_
 
@@ -313,6 +342,8 @@ sumbit.addEventListener('click', function);
 
 ### Loops
 
+[Loops Code](first-splash/loops.js)
+
 One part of the above code that we need to take a more detailed look at is the for...of loop. Loops are a very important concept in programming, which allow you to keep running a piece of code over and over again, until a certain condition is met.
 
 ```javascript
@@ -322,9 +353,47 @@ for (const fruit of fruits) {
 }
 ```
 
+#### While
+
+Looping control flow allows us to go back to some point in the program where we were before and repeat it with our current program state. If we combine this with a binding that counts, we can do something like this:
+
+```javascript
+let number = 2;
+while(number < 12){
+  console.log(number);
+  number+=2;
+}
+
+```
+
+#### Do While
+
+A do loop is a control structure similar to a while loop. It differs only on one point: a do loop always executes its body at least once, and it starts testing whether it should stop only after that first execution. To reflect this, the test appears after the body of the loop.
+  
+```javascript
+let number = 2;
+do{
+  console.log(number);
+  number+=2;
+}while(number < 12);
+```
+
+#### For Loop
+
+Many loops follow the pattern shown in the while examples. First a “counter” binding is created to track the progress of the loop. Then comes a while loop, usually with a test expression that checks whether the counter has reached its end value.
+
+```javascript
+for(let i = 0; i < 10; i++){
+  console.log(i);
+}
+```
+
 ### Arrays
 
 [Arrays](https://www.javascript.com/learn/arrays) are container-like values that can hold other values. The values inside an array are called elements.
+
+An array is a single object that contains multiple values enclosed in square brackets and separated by commas. Try entering the following lines into your console:
+
 ```javascript
 
 // EXAMPLE
@@ -348,6 +417,24 @@ var sisters = ["Tia", "Tamera"];
 ​sisters[0];
 ```
 
+### Dictionary Objects
+
+Objects in JavaScript are quite flexible and can be used to create key-value pairs. These objects are quite similar to dictionaries and work alike.
+
+Dictionaries are commonly used as each value stored has a unique key, and through these keys, their respective values can be accessed. This allows a lot of flexibility while reading and storing data.
+
+```javascript
+
+let dict = {
+  'Name': 'John',
+  'Age': 30,
+  'City': 'New York'
+};
+
+dict['Age'] = 29;
+
+```
+
 ### Objects
 
 JavaScript objects are variables that contain multiple data values. The values within a JS object are known as properties. Objects use keys to name values, much like how is done with variables.
@@ -365,6 +452,42 @@ var course = {
 JavaScript object values are written in the format of name:value and the different pairs are separated by commas. The name:value pairs don’t have to be on different lines for the code to work, but it is much easier to read and understand the code by formatting it that way. You must also use the opening and closing curly brackets `{ }` when defining your objects.
 
 
-### A small discussion on objects
+#### A small discussion on objects
 
-This line uses the focus() method to automatically put the text cursor into the `<input>` text field as soon as the page loads, meaning that the user can start typing their first guess right away, without having to click the form field first. 
+This line uses the focus() method to automatically put the text cursor into the `<input>` text field as soon as the page loads, meaning that the user can start typing their first guess right away, without having to click the form field first.
+
+### Functions
+
+A function definition is a regular binding where the value of the binding is a function. 
+
+- A function is created with an expression that starts with the keyword function. Functions have a set of parameters (in this case, only x) and a body, which contains the statements that are to be executed when the function is called
+- A function can have multiple parameters or no parameters at all.
+
+## Object Oriented Programming
+
+JavaScript is not a class-based object-oriented language. But it still has ways of using object oriented programming ([OOP](https://www.freecodecamp.org/news/how-javascript-implements-oop/)).
+
+> [Is JavaScript Object oriented?](https://linuxhint.com/is-javascript-object-oriented/)
+
+JavaScript is not an object-oriented language, it was not designed to be one, the notion of classes is absolutely not applicable to it. While everything in JS is indeed an object, these objects are different from the ones in Java or C#. In JS, an object is simply a Map data structure with a somewhat sophisticated lookup procedure. That is it, really. And when I say everything is an object, I mean it: even functions are objects. 
+
+The most popular model of OOP is class-based. But as I mentioned, JavaScript isn't a classed-based langauge – it's is a prototype-based langauge.
+
+> A prototype-based language has the notion of a prototypical object, an object used as a template from which to get the initial properties for a new object.
+
+### OOP and JavaScript
+
+[MDN Docs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Objects/Object-oriented_programming#oop_and_javascript)
+
+First, in class-based OOP, classes and objects are two separate constructs, and objects are always created as instances of classes. Also, there is a distinction between the feature used to define a class (the class syntax itself) and the feature used to instantiate an object (a constructor). In JavaScript, we can and often do create objects without any separate class definition, either using a function or an object literal. This can make working with objects much more lightweight than it is in classical OOP.
+
+Second, although a prototype chain looks like an inheritance hierarchy and behaves like it in some ways, it's different in others. When a subclass is instantiated, a single object is created which combines properties defined in the subclass with properties defined further up the hierarchy. With prototyping, each level of the hierarchy is represented by a separate object, and they are linked together via the `__proto__` property. The prototype chain's behavior is less like inheritance and more like delegation. Delegation is a programming pattern where an object, when asked to perform a task, can perform the task itself or ask another object (its delegate) to perform the task on its behalf. In many ways, delegation is a more flexible way of combining objects than inheritance 
+
+### ES6 Class keyword
+
+With the release of ES6 in 2015, the long-awaited class keyword arrived in JavaScript. It was done as per numerous requests by the community because people were feeling uncomfortable coming from object-oriented languages. But they missed one important point.
+
+> JavaScript is not an object-oriented language. It is a prototype-based language.
+
+All of these issues can be mitigated with JS objects and prototype delegation. JS offers so much more that classes can ever do, yet most developers are blind to it. If you want to truly master JS, you need to embrace its philosophy and move away from dogmatic class-based thinking.
+
