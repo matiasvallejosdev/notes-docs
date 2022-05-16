@@ -130,5 +130,6 @@ dmypy.json
 
 # Ignore confidential files
 
+/.abstract
 /.builder
 new-zelland-application.md
