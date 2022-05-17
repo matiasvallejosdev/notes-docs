@@ -1,22 +1,22 @@
 # Solid Principles
 
-Solid principles was created by the [Martin Fowler](https://en.wikipedia.org/wiki/Martin_Fowler) in his [book](https://www.amazon.com/dp/B00BXQXZ6E). They are a set of principles that are used to develop software. It's a kind of guide that is used to develop software.
-
 **Useful links**
 
 [Solid by Leiva](https://1drv.ms/b/s!AjfC66Iabtcp0F6V4DNDBtO4kLDm)
 
-## Guide
+Tags: #tag1 #tag2 #tag3
 
-- [Solid Principles](#solid-principles)
-  - [Guide](#guide)
-  - [Single responsability principle](#single-responsability-principle)
-  - [Open / Closed](#open--closed)
-  - [Liskov Substitution Principle](#liskov-substitution-principle)
-  - [Interface Segregations](#interface-segregations)
-  - [Inverted Dependencies](#inverted-dependencies)
+**Inspired by**
+- [..]()
 
-## Single responsability principle
+**Links**
+- [..]()
+
+## Content
+
+Solid principles was created by the [Martin Fowler](https://en.wikipedia.org/wiki/Martin_Fowler) in his [book](https://www.amazon.com/dp/B00BXQXZ6E). They are a set of principles that are used to develop software. It's a kind of guide that is used to develop software.
+
+### Single responsability principle
 
 Only one thing. It could be better for testing less changes.
 
@@ -42,7 +42,7 @@ class PasswordEncoder:
         return password
 ```
 
-## Open / Closed
+### Open / Closed
 
 It's a principle developed Bertrard Mayer. Open to extensions and closed to changes. It's  useful use polimorfiism.
 
@@ -69,7 +69,7 @@ class AreaCalculator:
         return sum([rectangle.area() for rectangle in self.rectangles])
 ```
 
-## Liskov Substitution Principle
+### Liskov Substitution Principle
 
 It's a principle developed Barbara Liskov. Class father can be used in class daughter. It's refer in herence with interfaces. Methods can preserve the original behavior.
 
@@ -77,10 +77,10 @@ It's a principle developed Barbara Liskov. Class father can be used in class dau
 
 One class that inherince for class T should be able every object S with success.
 
-## Interface Segregations
+### Interface Segregations
 
 Redesign interfaces when they avoids null methods. It's better to get smaller an individual interfaces. It prevent fat interfaces.
 
-## Inverted Dependencies
+### Inverted Dependencies
 
 The most important principle of programming. High module hasn't dependece with low level module. Interfaces are created in order to supply this inversion.

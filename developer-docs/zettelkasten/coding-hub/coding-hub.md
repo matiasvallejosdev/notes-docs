@@ -3,23 +3,23 @@
 ## Content
 
 - [python/](python/python.md)
-- [c-sharp/](c-sharp/c-sharp.md)
 - [javascript/](javascript/javascript.md)
+- [c-sharp/](csharp/c-sharp.md)
 - [sql/](sql/sql.md)
-- [nosql/](nosql/no-sql.md)
-- [clean-code/](clean-code/clean-code.md)
+- [nosql/](no-sql/no-sql.md)
 - [algorithms/](algorithms/algorithms.md)
-- [data-structures/](notion/data-structures.md)
 
 ## Notion
 
-- [solid-principles](notion/solid-principles.md)
-- [semantic-versioning](notion/semantic-versioning.md)
-- [git](notion/git.md)
-- [poo](notion/poo.md)
-- [ci-cd](notion/ci-cd.md)
-- [clean-arquitecture](notion/clean-arquitecture.md)
-- [tcp-ip](notion/tcp-ip.md)
+- [data-structures](notion/20220517163158_data-structures.md)
+- [clean-code](notion/20220517164404_clean-code.md)
+- [solid-principles](notion/20220517163231_solid-principles.md)
+- [semantic-versioning](notion/20220517163221_semantic-versioning.md)
+- [git](notion/20220517163207_git.md)
+- [poo](notion/20220517163213_poo.md)
+- [ci-cd](notion/20220517163145_ci-cd.md)
+- [clean-arquitecture](notion/20220517163152_clean-arquitecture.md)
+- [tcp-ip](notion/20220517163239_tcp-ip.md)
 
 ## Library
 

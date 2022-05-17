@@ -1,24 +1,21 @@
 # Semantic Versioning
 
+Tags: #tag1 #tag2 #tag3
+
+**Inspired by**
+- [..]()
+
+**Links**
+- [Semantic Versioning](https://semver.org/)
+- [Medium article](https://medium.com/@jameshamann/a-brief-guide-to-semantic-versioning-c6055d87c90e)
+
+## Content
+
 Versioning our apps helps us keep track of what’s been added/removed at what point. It can get real hectic, real fast, especially in the early stages when you’re releasing new features and fixing bugs. You’re gonna want to reference things that have been added or things that have been fixed.
 
 You can tag your releases on Github using git tag. Essentially, you just tag a version number to a specific commit, like a merge, push it and this appears on the repository under “releases”, with any notes you’d like to add. It’s best to keep track of all these changes in a CHANGELOG, there’s a nice format to follow outlined here. 
 
-**Useful links:**
-- [Semantic Versioning](https://semver.org/)
-- [Medium article](https://medium.com/@jameshamann/a-brief-guide-to-semantic-versioning-c6055d87c90e)
-
-## Guide
-
-- [Semantic Versioning](#semantic-versioning)
-  - [Guide](#guide)
-  - [Versioning](#versioning)
-    - [Stages](#stages)
-    - [Metadata](#metadata)
-  - [Other versioning](#other-versioning)
-
-
-## Versioning 
+### Versioning 
 
 <img src="https://www.baeldung.com/wp-content/uploads/sites/4/2021/03/Screenshot-2021-03-06-at-20.27.22-2048x715-1-1536x536.png" style="height:120px">
 
@@ -44,7 +41,7 @@ For example, to mark a package as a pre-release, we must add a hyphen then the p
 
 If we want to indicate the build of that release, we can add a dot-separated identifier of the build appended after the patch (or pre-release) with a + sign. For example, 1.0.0-alpha.1+001. Build meta-data does not factor in precedence, so we can consider two versions that only differ in build number to be of the same precedence.
 
-## Other versioning
+### Other versioning
 
 - [CalVer](https://calver.org/) – this scheme relies on the date of the release. It is not as specific as the SemVer scheme but is used by projects such as Pip the Python package manager and Ubuntu
 - [Python Versioning Scheme](https://peps.python.org/pep-0440/) – a scheme defined to identify distributions of Python. The scheme uses five segments called epoch, release, pre-release, post-release, and development
