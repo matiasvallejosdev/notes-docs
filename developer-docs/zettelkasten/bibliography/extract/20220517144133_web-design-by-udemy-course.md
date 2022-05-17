@@ -1,49 +1,10 @@
-# Web Design
+# Web design process by Udemy
 
-Web Design is the process of creating a web page that is visually appealing and easy to read. It's useful to create a web page that is easy to read and easy to navigate. 
+Tags: #webdesign #webprocess
 
-**Useful links**
+Reference: [Udemy Course: Design](https://www.udemy.com/course/design-and-develop-a-killer-website-with-html5-and-css3/learn/lecture/27512356#overview)
 
-- [design-course-udemy.com](https://1drv.ms/u/s!AjfC66IabtcpgatWwpa9g2KcrZCwkw?e=lJk2j7)
-- [type-scale.com](https://type-scale.com/)
-- [adobe-color.com](https://color.adobe.com/create)
-- [tailwindcss.com](https://tailwindcss.com/)
-- [open-color.com](https://yeun.github.io/open-color/)
-- [coolors.com](https://coolors.co/)
-- [contrast-checker.com](https://coolors.co/contrast-checker/)
-- [undraw.co](https://undraw.co/)
-- [pexels.com](https://www.pexels.com/)
-- [font-awesome.com](https://fontawesome.com/icons)
-- [icons8.com](https://icons8.com/)
-- [heroicons.dev](https://heroicons.com/)
-- [onepagelove.com](https://onepagelove.com/)
-- [lanb-book.com](https://land-book.com/)
-- [awwwards.com](https://www.awwwards.com/)
-- [docspo.com](https://docspo.com/)
-
-## Guide
-
-- [Web Design](#web-design)
-  - [Guide](#guide)
-  - [Good Design](#good-design)
-    - [Ingredients](#ingredients)
-    - [Personality](#personality)
-    - [Typography](#typography)
-    - [Colors](#colors)
-    - [Images](#images)
-    - [Icons](#icons)
-    - [Shadows](#shadows)
-    - [Borders radios and checkboxes](#borders-radios-and-checkboxes)
-    - [Whitespace](#whitespace)
-    - [Visual hierarchy](#visual-hierarchy)
-    - [User experience (UX)](#user-experience-ux)
-  - [Layout patterns](#layout-patterns)
-
-## Good Design
-
-[Design Guidelines](archive/all-design-guidelines.pdf)
-
-Consistency is key to UI design as it increases products’ learnability. Good UI design comes from creating a sense of familiarity and ensuring that everything on a screen makes sense and works in ways that the user expects it to work. 
+It's an extract to develop a webpage personality and design it with that process.
 
 ### Ingredients
 
@@ -226,13 +187,8 @@ A website or application exists for a reason. A user has a goal for visiting it,
 10. Use simple words! Avoid technical jargon and “smart-sounding” words.
 11. Break up long text with sub-headings, images, block quotes, bullet points, etc.
 
-
-
-
-
 ## Layout patterns
 
 1. Use common elements adn components to convey your web design.
 2. Combine components into layouts using common layout patterns.
 3. Take all the elements and put them into a layout.
-

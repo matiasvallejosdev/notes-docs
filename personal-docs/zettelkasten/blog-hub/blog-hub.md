@@ -11,7 +11,7 @@
 - [Un dia que marca mi historia](notion/20220517130650_un-dia-que-marca-mi-historia.md)
 - [Aventura en el calafate](notion/20220517130507_aventura-en-el-calafate.md)
 - [Messi culto al esfuerzo](notion/20220517130557_messi-culto-al-esfuerzo.md)
-- [La envidia](notion/20220517130528la-envidia.md)
+- [La envidia](notion/20220517130528_la-envidia.md)
 - [Normalizar la anormalidad](notion/20220517130605_normalizar-la-anormalidad.md)
 - [Simplemente es un hermano](notion/20220517130631_simplemente-es-un-hermano.md)
 - [Nosotros somos mas](notion/20220517130617_nosotros-somos-mas.md)
