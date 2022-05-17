@@ -1,16 +1,12 @@
 # Maths Hub
 
-## Content
+**Useful links:**
 
-[statistics/](statistics/statistics.md)
+- [statistics/](statistics/statistics.md)
 
 ## Notion
 
-- [..]()
-
-## Samples
-
-- [my-sample-html](samples/my-sample/index.html)
+- [Basic statistics](notion/20220517170916_basic-statistics.md)
 
 ## Library
 

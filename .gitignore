@@ -133,3 +133,4 @@ dmypy.json
 /.abstract
 /.builder
 new-zelland-application.md
+.tmp/
