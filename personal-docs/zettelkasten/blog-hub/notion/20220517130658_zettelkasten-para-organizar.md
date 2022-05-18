@@ -4,9 +4,6 @@
 - [How to make smart notes](../../bibliography/notes/20220517122855_the-fun-efficient-note-taking-morganeua.md)
 - [Zettelkasten Template](../../bibliography/references/20220517125640_ruben-loan-template-zettelkasten.md)
 
-## Guide
-- [Formal Note](#tech-note)
-
 ## Content
 
 [What is Zettelkasten](../../bibliography/quote/20220517125618_zettelkasten-personal-tool-quote.md)
