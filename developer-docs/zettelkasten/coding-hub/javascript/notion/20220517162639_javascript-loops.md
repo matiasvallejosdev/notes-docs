@@ -6,7 +6,7 @@ Tags: #for #while #do-while
 - [..]()
 
 **Links**
-- [Loops Code](first-splash/loops.js)
+- [Loops Code](../first-splash/loops.js)
 
 ## Content
 
@@ -52,4 +52,13 @@ Many loops follow the pattern shown in the while examples. First a “counter”
 for(let i = 0; i < 10; i++){
   console.log(i);
 }
+```
+
+### Foreach
+
+The forEach() method executes a provided function once for each array element.
+
+```javascript
+const array1 = ['a', 'b', 'c'];
+array1.forEach(element => console.log(element));
 ```

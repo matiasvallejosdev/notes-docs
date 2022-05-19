@@ -1,1 +1,0 @@
-# Principios Solid - Antonio Leiva

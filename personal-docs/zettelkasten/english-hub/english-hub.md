@@ -18,7 +18,7 @@ A repository of English   My english are not good enough to write this. I will t
 
 ## Library
 
-- [Frankestein - Mary Shelly](../books-hub/notion/frankestein.md)
-- [The importance of being earnest - Oscar Wilde](../books-hub/notion/the-importance-of-being-earnest.md)
-- [English grammar in use - Raymond Murphy](../books-hub/notion/english-grammar-in-use-intermediate.md)
-- [The complete guide of IELTS - Pauline Collene](../books-hub/notion/the-complete-guide-of-ielts.md)
+- [Frankestein - Mary Shelly](../bibliography/index/notion/frankestein.md)
+- [The importance of being earnest - Oscar Wilde](../bibliography/index/notion/the-importance-of-being-earnest.md)
+- [English grammar in use - Raymond Murphy](../bibliography/index/notion/english-grammar-in-use-intermediate.md)
+- [The complete guide of IELTS - Pauline Collene](../bibliography/index/notion/the-complete-guide-of-ielts.md)

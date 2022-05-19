@@ -1,12 +1,12 @@
 # Objects
 
-Tags: #dictonaries
+**Tags:** #dictonaries
 
 **Inspired by**
 - [..]()
 
 **Links**
-- [..]()
+- https://javascript.info/object-basics
 
 ## Content
 

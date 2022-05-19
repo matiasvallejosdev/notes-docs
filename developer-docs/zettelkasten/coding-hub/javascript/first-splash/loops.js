@@ -24,6 +24,7 @@ do{
     isValue = true;
 } while(!isValue);
 
+
 console.log(myName);
 
 // For Loops
@@ -34,4 +35,13 @@ for(let i = 0; i < 10; i++){
     j += i;
 }
 console.log(j);
+
+// Foreach
+// https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/forEach
+// Foreach is used to execute a block of code a number of times.
+
+let a = ['Apple', 'Orange', 'Banana'];
+a.forEach((element)=>{
+    console.log(element);
+});
 

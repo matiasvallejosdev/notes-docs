@@ -1,12 +1,13 @@
 # Arrays
 
-Tags: #data #data-type #array
+**Tags:** #data #datatype #array 
 
 **Inspired by**
-- [..]()
+- [Variables](20220517161515_javascript-variables.md)
 
 **Links**
 - [Arrays](https://www.javascript.com/learn/arrays)
+- [Arrays Code](../first-splash/arrays.js)
 
 ## Content
 
@@ -38,3 +39,7 @@ To access one of the elements inside an array, you’ll need to use the brackets
 var sisters = ["Tia", "Tamera"];
 ​sisters[0];
 ```
+
+### Arrays Associatives
+
+It's similar to JSON data. That you could define association key-value pairs. 

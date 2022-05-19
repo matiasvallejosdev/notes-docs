@@ -1,1 +1,0 @@
-# Padre rico, Padre Pobre - Robert Kiyosaki

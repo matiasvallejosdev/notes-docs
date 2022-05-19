@@ -6,7 +6,7 @@ Tags: #datatypes
 - [Javascript Definition](20220517161029_javascript-definition.md)
 
 **Links**
-- [Data Types Code](first-splash/data-types.js) 
+- [Data Types Code](../first-splash/data-types.js)
 - [MDN Data Structures](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures)
 
 ## Content

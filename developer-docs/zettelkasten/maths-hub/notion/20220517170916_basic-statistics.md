@@ -7,6 +7,6 @@ Tags: #tag1 #tag2 #tag3
 
 **Links**
 - [escueladedatosvivos.com](https://www.escueladedatosvivos.ai)
-- [Probability and statistics IES TID](../../books-hub/notion/probability-and-statistics-tid-ies.md)
+- [Probability and statistics IES TID](../../bibliography/index/probability-and-statistics-tid-ies.mdtics-tid-ies.md)
   
 ## Content

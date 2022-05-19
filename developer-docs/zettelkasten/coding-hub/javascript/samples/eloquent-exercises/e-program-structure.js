@@ -139,4 +139,4 @@ chessboard = num =>{
     return res;
 }
 
-console.log(chessboard(5));
+console.log(chessboard(8));

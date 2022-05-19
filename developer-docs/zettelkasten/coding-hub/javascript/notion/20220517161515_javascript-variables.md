@@ -7,7 +7,7 @@ Tags: #tag1 #tag2 #tag3
 
 **Links**
 - [freeCodeCamp: let vs var vs const](https://www.freecodecamp.org/news/var-let-and-const-whats-the-difference/) 
-- [Variables Code](first-splash/variables.js)
+- [Variables Code](../first-splash/variables.js)
 
 ## Content
 

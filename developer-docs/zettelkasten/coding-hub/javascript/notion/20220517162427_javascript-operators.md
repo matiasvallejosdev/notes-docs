@@ -6,7 +6,8 @@ Tags: #operators
 - [..]()
 
 **Links**
-- [Operators Code](first-splash/operators.js)
+- [Operators Code](../first-splash/operators.js)
+- [Program Structure Exercises](../samples/eloquent-exercises/e-program-structure.js)
 
 ## Content
 

@@ -1,12 +1,12 @@
 # Events
 
-Tags: #tag1 #tag2 #tag3
+Tags: #events #buttons #eventlistener #callbacks
 
 **Inspired by**
-- [..]()
+- [First Splash](20220517161029_javascript-definition.md)
 
 **Links**
-- [..]()
+- [MDN First Splash Events](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/A_first_splash#events)
 
 ## Content
 

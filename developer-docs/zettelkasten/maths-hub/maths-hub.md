@@ -11,5 +11,5 @@
 ## Library
 
 - Probability and statistics
-  - [Probability and statistics - Paul Newman](../books-hub/notion/probability-and-statistics-tid-ies.md)
+  - [Probability and statistics - Paul Newman](../bibliography/index/probability-and-statistics-tid-ies.mdtics-tid-ies.md)
 

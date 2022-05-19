@@ -6,7 +6,7 @@ Tags: #conditionals
 - [..]()
 
 **Links**
-- [Conditionals Code](first-splash/conditionals.js) 
+- [Conditionals Code](../first-splash/conditionals.js)
 - [MDN Conditionals](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Conditionals)
 
 ## Content
