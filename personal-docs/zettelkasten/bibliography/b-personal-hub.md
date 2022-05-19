@@ -16,6 +16,8 @@ _tag/book-name + author markdown_
   - [Ego is your enemy - Ryant Holiday](index/20220519101828_ego-is-your-enemy-index.md.md)
 - Psychology/
   - [La aceptologia - Gerardo Schmelding Torres](index/20220519105424_la-aceptologia.md) 
+- Finance/
+  - [Los secretos de la mente millonaria - T. Harv Eker](index/20220519180229_los-secretos-de-la-mente-millonaria.md) 
 
 ## Resume
 

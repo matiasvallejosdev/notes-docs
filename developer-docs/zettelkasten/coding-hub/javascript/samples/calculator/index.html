@@ -7,13 +7,46 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="main.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;0,500;1,500;1,700&display=swap" rel="stylesheet">
+        <script src="https://kit.fontawesome.com/2f3ec2c470.js" crossorigin="anonymous"></script>
     </head>
     <body>
         <section class="section">
-            <div class="container">
-                
+            <div class="calculator-container container">
+                <div class="calculator">
+                    <div class="calculator__display">
+                        <div id="display" class="display__value">0</div>
+                        <div id="operation" class="display__operation"></div>
+                    </div>
+                    <div class="calculator__buttons">
+                        <div id="clear" class="button button--clear button--highlight">C</div>
+                        <div class="button button--sign button--operator">+/-</div>
+                        <div class="button button--percent button--operator">%</div>
+                        <div id="operator" class="button button--divide button--operator">/</div>
+                        <div id="number" class="button button--seven">7</div>
+                        <div id="number" class="button button--eight">8</div>
+                        <div id="number" class="button button--nine">9</div>
+                        <div id="operator" class="button button--multiply button--operator">*</div>
+                        <div id="number" class="button button--four">4</div>
+                        <div id="number" class="button button--five">5</div>
+                        <div id="number" class="button button--six">6</div>
+                        <div id="operator" class="button button--subtract button--operator">-</div>
+                        <div id="number" class="button button--one">1</div>
+                        <div id="number" class="button button--two">2</div>
+                        <div id="number" class="button button--three">3</div>
+                        <div id="number" class="button button--zero">0</div>
+                        <div id="operator" class="button button--add button--operator">+</div>
+                        <div class="button button--decimal">.</div>
+                        <div id="equal" class="button button--equals button--highlight">=</div>
+                    </div>
+                </div>
+            </div>
+            <div class="save-button">
+                <i class="fa-solid fa-floppy-disk fa-2xl"></i>
             </div>
         </section>
-        <script src="" async defer></script>
+        <script src="calculator.js"></script>
     </body>
 </html>
