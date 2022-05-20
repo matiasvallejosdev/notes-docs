@@ -7,6 +7,7 @@ Tags: #functions
 
 **Links**
 - [Functions Code](../first-splash/functions.js)
+- [Chapter 3: Eloquent Excersises](../samples/eloquent-exercises/e-ch-3-functions.js)
 
 ## Content
 

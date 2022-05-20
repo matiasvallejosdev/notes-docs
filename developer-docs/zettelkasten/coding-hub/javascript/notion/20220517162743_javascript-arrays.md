@@ -7,6 +7,7 @@
 
 **Links**
 - [Arrays](https://www.javascript.com/learn/arrays)
+- [Arrays MDN](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/Arrays#what_is_an_array)
 - [Arrays Code](../first-splash/arrays.js)
 
 ## Content
@@ -39,6 +40,10 @@ To access one of the elements inside an array, you’ll need to use the brackets
 var sisters = ["Tia", "Tamera"];
 ​sisters[0];
 ```
+
+The elements in an array are stored as the array’s properties, using numbers as property names. Because you can’t use the dot notation with numbers and usually want to use a binding that holds the index anyway, you have to use the bracket notation to get at them.
+
+Properties that contain functions are generally called methods of the value they belong to, as in “toUpperCase is a method of a string”.
 
 ### Arrays Associatives
 

@@ -7,7 +7,7 @@ Tags: #tag1 #tag2 #tag3
 
 **Links**
 - [Overview Code](../samples/what-is-js/index.html)
-- [Program Structure Exercises](../samples/eloquent-exercises/e-program-structure.js)
+- [Chapter 2: Eloquent Excersises](../samples/eloquent-exercises/e-ch-2-program-structure.js)
 
 ## Content
 

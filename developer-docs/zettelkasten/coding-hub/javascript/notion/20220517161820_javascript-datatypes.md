@@ -31,7 +31,7 @@ The set of types in the JavaScript language consists of primitive values and obj
   - Undefined type
   - Number type
   - BigInt type
-  - String type
+  - [String type](../first-splash/strings.js)
   - Symbol type
   - Arrays
 - **Objects** (collections of properties)
