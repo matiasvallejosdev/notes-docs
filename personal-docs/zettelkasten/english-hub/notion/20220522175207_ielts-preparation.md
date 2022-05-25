@@ -3,16 +3,7 @@
 IELTS is an exam that is used to assess your English proficiency. It is a test of your ability to read, write, and speak English. You can find out more about IELTS here.
 
 **Links**
-- [The Complete Guide of IELTS - Pauline Collene](../../books-hub/the-complete-guide-of-ielts.md)
-
-## Guide
-
-- [IELTS Preparation](#ielts-preparation)
-  - [Guide](#guide)
-  - [Official Application](#official-application)
-  - [Tests](#tests)
-  - [Useful Files](#useful-files)
-  - [Useful Links](#useful-links)
+- [The Complete Guide of IELTS - Pauline Collene](../../bibliography/index/the-complete-guide-of-ielts.md)
 
 
 ## Official Application
@@ -34,7 +25,7 @@ IELTS is an exam that is used to assess your English proficiency. It is a test o
 
 [Take the E2 IELTS Full Mock](https://youtu.be/NXJa7GFjY3U)
 
-
+20220522175101_ielts-preparation.md
 ## Useful Files
 
 [Ielts Information.pdf](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/71ae9345-23db-4c7a-91e1-5c9cf370bed9/Ielts_Information.pdf)

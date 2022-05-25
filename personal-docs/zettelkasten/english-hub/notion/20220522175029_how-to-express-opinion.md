@@ -1,32 +1,27 @@
-# How to express opinion
+# How to express opinion about something
 
-[VOA Learning English](https://learningenglish.voanews.com/a/how-to-express-your-opinions-in-english/4755937.html)
+**Tags:** #opinion #essentials #give
 
-## Guide
+**Inspired by**
+- [VOA Learning English](https://learningenglish.voanews.com/a/how-to-express-your-opinions-in-english/4755937.html)
 
-- [How to express opinion](#how-to-express-opinion)
-  - [Guide](#guide)
-  - [Common phrases](#common-phrases)
-    - [Add strength](#add-strength)
-    - [Formal phrases](#formal-phrases)
-    - [Asking for opinions](#asking-for-opinions)
-    - [Agreeing & disagreeing](#agreeing--disagreeing)
+## Content
 
-## Common phrases
+### Common phrases
 
 Many phrases are suitable in everyday speech and some types of writing, such as on blogs and personal websites. You have probably already seen or used some of these phrases:
 
-- I think…
-- I believe…
-- I feel…
-- In my opinion… and
-- I would say…
+  - I think…
+  - I believe…
+  - I feel…
+  - In my opinion… and
+  - I would say…
 
 For example, imagine you have your own food website. Today you’re writing or talking about the world’s best street food. You might say:
 
 _In my opinion, Bangkok has the best street food._
 
-### Add strength
+#### Add strength
 
 But suppose you wanted to make the statement stronger. You can do it by adding an adverb or adjective. For example:
 
@@ -38,7 +33,7 @@ But suppose you wanted to make the statement stronger. You can do it by adding a
 
 _In my honest opinion, Bangkok has the best street food. I have never seen more choices of what to eat – and everything I’ve tried has been delicious!_
 
-### Formal phrases
+#### Formal phrases
 
 Next, let’s look at a few phrases that are more common in formal situations. You might, for example, hear one of these at a business meeting or a conference, or in a formal paper:
 
@@ -52,7 +47,7 @@ _In my view, cruise ships should be banned. They produce massive amounts of wast
 
 Though phrases like “In my view…” are usually more formal than ones like “I think,” there is no rule for where or when you can use them. It’s often a matter of personal choice.
 
-### Asking for opinions
+#### Asking for opinions
 
 So, imagine you’ve expressed yourself. But what about the opinion of others? Often, when we express an opinion or suggestion, it’s a good idea to ask other people for theirs. Phrases like these help show our desire to hear from others:
 
@@ -66,7 +61,7 @@ _What’s your opinion on Futbol Club Barcelona? /
 How do you feel about the new art director? /
 What are your thoughts on tonight’s activities?_
 
-### Agreeing & disagreeing
+#### Agreeing & disagreeing
 
 Finally, let’s talk about agreeing and disagreeing.
 
@@ -116,3 +111,6 @@ Listen to a short exchange:
 We’re paying sky-high rents and other costs. Our business would save a lot of money by changing cities.
 
 I see what you’re saying but, in my view, now is not the right time to leave Los Angeles. The city offers too many incentives.
+
+
+

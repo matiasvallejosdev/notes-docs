@@ -1,6 +1,6 @@
-# Status and ambition
+# Status y validacion externa
 
-**Tags:** #ego #ambition #ego
+**Tags:** #ego #ambition #status #validacion
 
 **Reference:** El ego es tu enemigo (Pag. 29)
 
@@ -11,3 +11,5 @@ Nuestra arrogancia y egocentrismo son la clave de nuestro fracaso, tanto a nivel
 > Aprenderemos que aunque pensemos en grande, debemos actuar y vivir modestamente con el fin de lograr lo que buscamos. Debido a que estaremos centrados en la acción y la educación, y nos olvidaremos de la validación y la búsqueda de estatus, nuestra ambición no será grandiosa sino repetitiva, un paso tras otro, aprendiendo y creciendo, e invirtiendo en ello el tiempo necesario.
 
 Es facil sentirse comprometido, lo raro es la humildad y la conciencia en uno mismo.
+
+*Author:* Ryant Holiday

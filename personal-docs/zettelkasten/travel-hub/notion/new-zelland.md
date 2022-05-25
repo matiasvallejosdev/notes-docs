@@ -3,8 +3,7 @@
 **Links**
 - [Yo Me Animo](https://www.yomeanimo.com/)
 - [Tips to New Zelland](../../bibliography/notes/20220517122845_tips-to-new-zelland.md)
-- [New Zelland Application (Offline)](notion/new-zelland-application.md)
-
+- [New Zelland](new-zelland-application.md)
 ## Guide
 - [New Zelland](#new-zelland)
   - [Guide](#guide)

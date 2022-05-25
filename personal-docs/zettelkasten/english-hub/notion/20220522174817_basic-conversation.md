@@ -1,6 +1,10 @@
-# Basic conversation
+# Basic English Conversation
 
-## Chat 1: Greetings:
+**Tags:** #basic #essentials
+
+## Content
+
+### Chat 1: Greetings:
 
 Hey, how it's going? 
 
@@ -12,7 +16,7 @@ Can't complain
 
 I'm happy/ glaad to hear that.
 
-## Chat 2: Weather:
+### Chat 2: Weather:
 
 Lovely day, don't you think?
 
@@ -26,7 +30,7 @@ Did you order this beautiful wheater?
 
 Yes, it's a great day / nice day.
 
-## Chat 3: Today's Events:
+### Chat 3: Today's Events:
 
 What've you been up to?
 
@@ -44,7 +48,7 @@ Just hanging out with the family.
 
 Okey, that's nice.
 
-## Chat 4: Family:
+### Chat 4: Family:
 
 How is your family?
 
@@ -56,7 +60,7 @@ Everthing is great!
 
 I'm happy to hear that!
 
-## Chat 5: Hometown:
+### Chat 5: Hometown:
 
 Do you miss your hometown?
 
@@ -70,7 +74,7 @@ I came to work, travel, meet new people.
 
 I'd like to experience more of the culture here, meet new people and make new friends.
 
-## Chat 6: Events:
+### Chat 6: Events:
 
 Did you hear about the festival coming up?
 
@@ -80,7 +84,7 @@ No, i haven't heard about it. What is it about?
 
 Absolutely we should go.
 
-## Chat 7: Lastest News:
+### Chat 7: Lastest News:
 
 Did you hear what happend at that school? / Did you see that new supermarket? / Did you see that new pub?
 
@@ -88,7 +92,7 @@ Yeah, it's very sad!
 
 Yeah, it seems nice.
 
-## Chat 8: Celebrity gossip:
+### Chat 8: Celebrity gossip:
 
 Did you see what happened to that guy?
 
@@ -96,7 +100,7 @@ No, what happened?
 
 I saw that, that's seem crazy.
 
-## Chat 9: Work:
+### Chat 9: Work:
 
 How's work?
 
