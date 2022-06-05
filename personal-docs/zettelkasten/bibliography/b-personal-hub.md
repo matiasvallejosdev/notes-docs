@@ -18,6 +18,7 @@ _tag/book-name + author markdown_
   - [Como ganar amigos e influir en las personas](index/20220522142410_como-ganar-amigos-e-influir-en-las-personas.md)
 - Psychology/
   - [La aceptologia - Gerardo Schmelding Torres](index/20220519105424_la-aceptologia.md) 
+  - [Pensar rapido, Pensar despacion - Daniel Khaneman](index/20220603132543_pensa-rapido-pensar-despacio.md)
 - Finance/
   - [Los secretos de la mente millonaria - T. Harv Eker](index/20220519180229_los-secretos-de-la-mente-millonaria.md) 
   - [La via rapida del millonario - M.J. De Marco](index/20220522141903_la-via-rapida-del-millonario.md)
