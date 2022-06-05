@@ -28,4 +28,6 @@ let pokeResponse = `{
     "Type": "Pokemon", 
     "Status": 200
 }`
-console.log(JSON.parse(pokeResponse));
+let myObject = JSON.parse(pokeResponse)
+console.log(myObject);
+console.log(myObject.Status);

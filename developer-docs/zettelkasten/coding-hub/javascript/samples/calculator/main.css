@@ -58,7 +58,7 @@ body{
     gap: 1rem;
 }
 
-.calculator__display{
+.calculator__displayer{
     height: 100%;
     flex-shrink: 3;
     border: 3.5px dashed blue;
@@ -78,21 +78,24 @@ body{
     grid-gap: .5rem;
 }
 
-/* ------------ END CALCULATOR ---------- */
-
-/* ------------ START DISPLAY ---------- */
-
-.display__value{
+.calculator__display{
     font-size: 3.5rem;
     font-weight: 500;
+    width: 100%;
+    border: none;
+    text-align: right;
 }
 
-.display__operation{
+.calculator__display:focus{
+    outline: none;
+}
+
+.calculator__answer{
     color: #777;
     font-size: 1.3rem;
 }
 
-/* ------------ END DISPLAY ---------- */
+/* ------------ END CALCULATOR ---------- */
 
 /* ----------- START BUTTONS ------------ */
 
@@ -104,6 +107,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
 }
 
 .button:hover{

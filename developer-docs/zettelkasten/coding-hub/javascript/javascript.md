@@ -10,11 +10,6 @@ It's also an [interpreted language](https://developer.mozilla.org/en-US/docs/Lea
 - [Eloquent Javascript](https://eloquentjavascript.net/)
 - [Javascript Info](https://javascript.info/)
 
-**Mistakes JS:**
-- [Please stop using classes in JavaScript](https://everyday.codes/javascript/please-stop-using-classes-in-javascript/)
-- [Is JavaScript a (true) OOP language?](https://medium.com/@andrea.chiarelli/is-javascript-a-true-oop-language-c87c5b48bdf0)
-- [What's the difference between objects and classes in JavaScript?](https://www.quora.com/Whats-the-difference-between-objects-and-classes-in-JavaScript)
-
 ## Notion
 
 _Basic definition_
@@ -28,9 +23,10 @@ _Basic definition_
 - [Javascript Basic Events](notion/20220517162534_javascript-basic-events.md)
 - [Javascript Basic Math](notion/20220520150029_javascript-basic-math.md)
 - [Javascript Loops](notion/20220517162639_javascript-loops.md)
-- [JSON Data](notion/20220520165535_json-data.md)
-
+- [Javascript JSON](notion/20220520165535_json-data.md)
 _Arrays and objects_
 - [Javascript Arrays](notion/20220517162743_javascript-arrays.md)
 - [Javascript Objects](notion/20220517162919_javascript-objects.md)
 - [Javascript OOP](notion/20220517161319_javascript-oop.md)
+- [Javascript Data Structures](notion/20220526153758_javascript-data-structures.md)
+- [Javascript Higher-Order Functions](notion/20220524160754_higher-order-functions.md)

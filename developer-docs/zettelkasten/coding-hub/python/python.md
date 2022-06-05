@@ -9,6 +9,7 @@ Python is a programming language that is used to create programs, libraries, and
 ## Notion
 
 - [Python data structures](notion/20220517165636_py-data-structures.md)
+- [Python decorators](notion/20220517165636_py-decorators.md)
 
 
 

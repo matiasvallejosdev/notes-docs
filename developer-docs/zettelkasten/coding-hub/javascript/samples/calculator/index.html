@@ -16,37 +16,39 @@
         <section class="section">
             <div class="calculator-container container">
                 <div class="calculator">
-                    <div class="calculator__display">
-                        <div id="display" class="display__value">0</div>
-                        <div id="operation" class="display__operation"></div>
+                    <div class="calculator__displayer">
+                        <div id="answer" class="calculator__answer"></div>
+                        <input autofocus id="display" type="text" class="calculator__display" value="0" readonly>
+                        <!-- <div id="display" class="display__value">0</div> -->
                     </div>
                     <div class="calculator__buttons">
-                        <div id="clear" class="button button--clear button--highlight">C</div>
-                        <div class="button button--sign button--operator">+/-</div>
-                        <div class="button button--percent button--operator">%</div>
-                        <div id="operator" class="button button--divide button--operator">/</div>
-                        <div id="number" class="button button--seven">7</div>
-                        <div id="number" class="button button--eight">8</div>
-                        <div id="number" class="button button--nine">9</div>
-                        <div id="operator" class="button button--multiply button--operator">*</div>
-                        <div id="number" class="button button--four">4</div>
-                        <div id="number" class="button button--five">5</div>
-                        <div id="number" class="button button--six">6</div>
-                        <div id="operator" class="button button--subtract button--operator">-</div>
-                        <div id="number" class="button button--one">1</div>
-                        <div id="number" class="button button--two">2</div>
-                        <div id="number" class="button button--three">3</div>
-                        <div id="number" class="button button--zero">0</div>
-                        <div id="operator" class="button button--add button--operator">+</div>
-                        <div class="button button--decimal">.</div>
-                        <div id="equal" class="button button--equals button--highlight">=</div>
+                        <button id="clear" class="button button--clear button--highlight">C</butt>
+                        <button class="button button--sign button--operator">+/-</butt>
+                        <button class="button button--percent button--operator">%</butt>
+                        <button id="operator" class="button button--divide button--operator">/</butt>
+                        <button id="number" class="button button--seven">7</butt>
+                        <button id="number" class="button button--eight">8</butt>
+                        <button id="number" class="button button--nine">9</butt>
+                        <button id="operator" class="button button--multiply button--operator">*</butt>
+                        <button id="number" class="button button--four">4</butt>
+                        <button id="number" class="button button--five">5</butt>
+                        <button id="number" class="button button--six">6</butt>
+                        <button id="operator" class="button button--subtract button--operator">-</butt>
+                        <button id="number" class="button button--one">1</butt>
+                        <button id="number" class="button button--two">2</butt>
+                        <button id="number" class="button button--three">3</butt>
+                        <button id="number" class="button button--zero">0</butt>
+                        <button id="operator" class="button button--add button--operator">+</butt>
+                        <button class="button button--decimal">.</butt>
+                        <button id="equal" class="button button--equals button--highlight">=</butt>
                     </div>
                 </div>
             </div>
-            <div class="save-button">
+            <div id="download" class="save-button">
                 <i class="fa-solid fa-floppy-disk fa-2xl"></i>
             </div>
         </section>
         <script src="calculator.js"></script>
+        <script src="download.js"></script>
     </body>
 </html>

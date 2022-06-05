@@ -1,13 +1,17 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
+     <title>Omnifood &mdash; Never cook again</title>
+     <link rel="icon" type="image/png" href="img/favicon.png">
      <meta charset="UTF-8">
      <meta http-equiv="X-UA-Compatible" content="IE=edge">
      <meta name="description" content="Omnifood is a premium food delivery service with the mission to bring affordable and healthy meals to as many people as possible.">
      <meta name="keywords" content="Omnifood, food delivery, premium food, healthy food, cheap food">
      <meta name="author" content="Omnifood">
      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <script src="https://kit.fontawesome.com/2f3ec2c470.js" crossorigin="anonymous"></script>
      <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/queries.css">
      <link rel="preconnect" href="https://fonts.googleapis.com">
      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
      <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">     <title>Omnifood - Eat healthy live healthy</title>
@@ -15,53 +19,62 @@
  <body>
      <header class="header" id="header">
         <div class="main-nav">
-            <img class="main-nav__logo" src="img/omnifood-logo.png" alt="Omnifood logo">
+            <a href="#">
+                <img class="main-nav__logo" src="img/omnifood-logo.png" alt="Omnifood logo">
+            </a>
             <div class="main-nav__container">
-                <ul class="main-nav__list">
+                <ul id="main-nav-list" class="main-nav__list">
                     <li class="main-nav__item">
-                        <a href="index.html" class="main-nav__link main-nav__link--selected">Home</a>
+                        <a href="#" class="main-nav__link main-nav__link--selected">Home</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="restaurants.html" class="main-nav__link">Restaurants</a>
+                        <a href="#how-it-works" class="main-nav__link">How it works</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="cities.html" class="main-nav__link">Cities</a>
+                        <a href="#meals" class="main-nav__link">Meals</a>
                     </li>
                     <li class="main-nav__item">
-                        <a href="your-order.html" class="main-nav__link">Your Order</a>
+                        <a href="#testimonials" class="main-nav__link">Testimonials</a>
                     </li>
                     <li class="main-nav__item">
-                        <button class="button button--full">
-                            <span class="button__text">Order Now</span>
+                        <a href="#pricing" class="main-nav__link">Pricing</a>
+                    </li>
+                    <li class="main-nav__item">
+                        <a class="button button--full" href="#order">
+                            <span class="button__text">Try for free</span>
                             <span class="button__emoji">🚀</span>
-                        </button>
+                        </a>
                     </li>
                 </ul>
             </div>
+            <a href="#" class="main-nav__item main-nav__bars main-nav__bars--active" id="nav-bars">
+                <i class="fas fa-bars fa-xl"></i>
+            </a>
         </div>
     </header>
     <script src="js/header.js"></script>
+    <script src="js/nav.js"></script>
 
     <section class="section section-hero">
         <div class="container hero">
             <div class="hero__container">
                 <div class="hero__content">
                     <h1 class="hero__tittle">
-                        🍣 Omnifood is a premium food delivery service
+                        Omnifood is a premium food delivery service
                     </h1>
                     <p class="hero__subtittle">
                         The smart 365-days-per-year food subscription that will make you eat healthy again. Tailored to your personal tastes and nutritional needs. We have delivered 250,000+ meals last year!
                     </p>
                 </div>
                 <div class="hero__buttons">
-                        <button class="button button--full">
-                            <span class="button__text">Order Now</span>
-                            <span class="button__emoji">🚀</span>
-                        </button>
-                    <button class="button button--outline">
+                    <a class="button button--full" href="#order">
+                        <span class="button__text">Order Now</span>
+                        <span class="button__emoji">🚀</span>
+                    </a>
+                    <a class="button button--outline" href="#meals">
                         <span class="button__text">Explore</span>
                         <span class="button__emoji">🍴</span>
-                    </button>
+                    </a>
                 </div>
                 <div class="meals-review">
                     <div class="meals-review__container">
@@ -101,7 +114,7 @@
         </div>
     </div>
 
-    <section class="section section-how">
+    <section class="section section-how" id="how-it-works">
         <div class="container">
             <div class="heading">
                 <span class="heading__subheading">
@@ -167,22 +180,580 @@
         </div>
     </section>
 
-    <section class="section section-meals">
+    <section class="section section-meals" id="meals">
         <div class="container">
             <div class="heading">
                 <span class="heading__subheading">Meals</span>
                 <h2 class="heading__head">Omnifood AI chooses from 5,000+ recipes</h2>
             </div>
             <div class="meals">
-                <div class="meals__group"></div>
-                <div class="meals__group"></div>
-                <div class="meals__group meal__group--transparent"></div>
+                <div class="meals__group meals__group--selectable">
+                    <div class="meal">
+                        <div class="meal__thumbnail">
+                            <img class="meal__img" src="img/meals/meal-1.jpg" alt="Meal 1">
+                        </div>
+                        <div class="meal__labels">
+                            <div class="tags">
+                                <div class="tags__elem tags__elem--green">Vegetarian</div>
+                            </div>
+                            <h4 class="meal__tittle">Japanase Gyozas</h4>
+                            <div class="meal__container">
+                                <div class="meal__label">
+                                    <i class="meal__icon fa-solid meal__icon fa-fire fa-lg"></i>
+                                    <span class="meal__text">
+                                        <b>650</b> Calories
+                                    </span>
+                                </div>
+                                <div class="meal__label">
+                                    <i class="meal__icon fa-solid meal__icon fa-utensils fa-lg"></i>
+                                    <span class="meal__text">
+                                        NutriScore <b>74</b>
+                                    </span>
+                                </div>
+                                <div class="meal__label">
+                                    <i class="meal__icon fa-solid fa-star fa-lg"></i>
+                                    <span class="meal__text">
+                                        <b>4.9</b> rating (537)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="meals__group meals__group--selectable">
+                    <div class="meal">
+                        <div class="meal__thumbnail">
+                            <img class="meal__img" src="img/meals/meal-2.jpg" alt="Meal 1">
+                        </div>
+                        <div class="meal__labels">
+                            <div class="tags">
+                                <div class="tags__elem tags__elem--light-green">Vegan</div>
+                                <div class="tags__elem tags__elem--yellow">Paleo</div>
+                            </div>
+                            <h4 class="meal__tittle">Avocado Salad</h4>
+                            <div class="meal__container">
+                                <div class="meal__label">
+                                    <i class="meal__icon fa-solid meal__icon fa-fire fa-lg"></i>
+                                    <span class="meal__text">
+                                        <b>400</b> Calories
+                                    </span>
+                                </div>
+                                <div class="meal__label">
+                                    <i class="meal__icon fa-solid meal__icon fa-utensils fa-lg"></i>
+                                    <span class="meal__text">
+                                        NutriScore <b>92</b>
+                                    </span>
+                                </div>
+                                <div class="meal__label">
+                                    <i class="meal__icon fa-solid fa-star fa-lg"></i>
+                                    <span class="meal__text">
+                                        <b>4.8</b> rating (441)
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="meals__group meal__group--transparent">
+                    <div class="diet">
+                        <h4 class="diet__tittle">
+                            Works with any diet:
+                        </h4>
+                        <ul class="listed">
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="diet__text">Vegan</span> 
+                            </li>
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="listed__text">Vegetarian</span> 
+                            </li>
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="listed__text">Pescatarian</span> 
+                            </li>
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="listed__text">Gluten-free</span> 
+                            </li>
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="listed__text">Lactose-free</span> 
+                            </li>
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="listed__text">Keto</span> 
+                            </li>
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="listed__text">Paleo</span> 
+                            </li>
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="listed__text">Low FODMAP</span> 
+                            </li>
+                            <li class="listed__elem">
+                                <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                                <span class="listed__text">Kid-friendly</span> 
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="meals-more">
+                <a class="button button--text">
+                    <span class="button__text">See all recipes</span>
+                    <span class="button__emoji">🍣</span>
+                </a>
             </div>
         </div>
     </section>
 
-    <section class="whitespace">
-
+    <section class="section section-testimonials" id="testimonials">
+        <div class="testimonials">
+            <div class="heading heading--start">
+                <span class="heading__subheading">
+                    Testimonials
+                </span>
+                <h2 class="heading__head">
+                    Once you try, you can't go back
+                </h2>
+            </div>
+            <div class="testimonials__container">
+                <div class="testimonials__group">
+                    <div class="testimonials__thumbnail">
+                        <img class="testimonials__img img--hover img--hover" src="img/customers/dave.jpg" alt="Testimonial 1">
+                    </div>
+                    <p class="testimonials__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quasi in odio voluptas sequi reiciendis atque voluptatem rerum animi laudantium!
+                    </p>
+                    <div class="testimonials__author">
+                       -- Dave Bryson
+                    </div>
+                </div>
+                <div class="testimonials__group">
+                    <div class="testimonials__thumbnail">
+                        <img class="testimonials__img img--hover img--hover" src="img/customers/steve.jpg" alt="Testimonial 2">
+                    </div>
+                    <p class="testimonials__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quasi in odio voluptas sequi reiciendis atque voluptatem rerum animi laudantium!
+                    </p>
+                    <div class="testimonials__author">
+                       -- Steve Harrison
+                    </div>
+                </div>
+                <div class="testimonials__group">
+                    <div class="testimonials__thumbnail">
+                        <img class="testimonials__img img--hover" src="img/customers/ben.jpg" alt="Testimonial 3">
+                    </div>
+                    <p class="testimonials__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quasi in odio voluptas sequi reiciendis atque voluptatem rerum animi laudantium!
+                    </p>
+                    <div class="testimonials__author">
+                       -- Ben Washington
+                    </div>
+                </div>
+                <div class="testimonials__group">
+                    <div class="testimonials__thumbnail">
+                        <img class="testimonials__img img--hover" src="img/customers/hannah.jpg" alt="Testimonial 4">
+                    </div>
+                    <p class="testimonials__text">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus, quasi in odio voluptas sequi reiciendis atque voluptatem rerum animi laudantium!
+                    </p>
+                    <div class="testimonials__author">
+                       -- Hannah Monthana
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="gallery">
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-1.jpg" alt="Gallery 1">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-2.jpg" alt="Gallery 2">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-3.jpg" alt="Gallery 3">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-4.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-5.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-6.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-7.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-8.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-9.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-10.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-11.jpg" alt="Gallery 4">
+            </div>
+            <div class="gallery__item">
+                <img class="gallery__img img--hover" src="img/gallery/gallery-12.jpg" alt="Gallery 4">
+            </div>
+        </div>
     </section>
+
+    <section class="section section-pricing" id="pricing">
+        <div class="container">
+            <div class="heading heading--start">
+                <span class="heading__subheading">
+                    Pricing
+                </span>
+                <h2 class="heading__head">
+                    Eating well without breaking the bank
+                </h2>
+            </div>
+            <div class="pricing">
+                <div class="pricing__elem pricing__elem--outline">
+                    <div class="pricing__tittle">
+                        <span class="heading__subheading">
+                            Starter
+                        </span>
+                        <h2 class="heading__head heading__head--big">
+                            $399
+                        </h2>
+                        <span class="heading__description">
+                            per month. That's just $13 per meall
+                        </span>
+                    </div>
+                    <ul class="pricing__list listed">
+                        <li class="listed__elem">
+                            <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                            <span class="diet__text">1 meal per day</span> 
+                        </li>
+                        <li class="listed__elem">
+                            <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                            <span class="listed__text">Order from 11am to 9pm</span> 
+                        </li>
+                        <li class="listed__elem">
+                            <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                            <span class="listed__text">Deliver is free</span> 
+                        </li>
+                        </li>
+                        <li class="listed__elem">
+                            <i class="listed__icon fa-solid fa-xmark fa-lg"></i>
+                            <span class="listed__text">Can't download recipes</span> 
+                        </li>
+                    </ul>
+                    <div class="pricing__action">
+                        <a class="button button--text" href="#meals">
+                            <span class="button__text">Start eating well</span>
+                        </a>
+                    </div>
+                </div>
+                <div class="pricing__elem pricing__elem--complete">
+                    <div class="pricing__tittle">
+                        <span class="heading__subheading">
+                            Complete
+                        </span>
+                        <h2 class="heading__head heading__head--big">
+                            $649
+                        </h2>
+                        <span class="heading__description">
+                            per month. That's just $11 per meall
+                        </span>
+                    </div>
+                    <ul class="pricing__list listed">
+                        <li class="listed__elem">
+                            <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                            <span class="diet__text">2 meal per day</span> 
+                        </li>
+                        <li class="listed__elem">
+                            <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                            <span class="listed__text">Order 24/7</span> 
+                        </li>
+                        <li class="listed__elem">
+                            <i class="listed__icon fa-solid fa-check fa-lg"></i>
+                            <span class="listed__text">Deliver is free</span> 
+                        </li>
+                        </li>
+                        <li class="listed__elem">
+                            <i class="listed__icon fa-solid fa-xmark fa-lg"></i>
+                            <span class="listed__text">Full access to recipes</span> 
+                        </li>
+                    </ul>
+                    <div class="pricing__action">
+                        <a class="button button--full button--square" href="#meals">
+                            <span class="button__text">Start eating well</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="pricing__terms">
+                Prices include all applicable taxes. You can cancel at any time. Both plans include the following:
+            </div>
+            <div class="features">
+                <div class="features__elem">
+                    <div class="features__icon">
+                        <i class="fa-xl fa-solid fa-infinity fa-lg"></i>
+                    </div>
+                    <div class="features__text">
+                        <span class="features__subheading">
+                            Never cook again!
+                        </span>
+                        <span class="features__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ipsam.
+                        </span>
+                    </div>
+                </div>
+                <div class="features__elem">
+                    <div class="features__icon">
+                        <i class="fa-xl fa-solid fa-hands-clapping fa-lg"></i>
+                    </div>
+                    <div class="features__text">
+                        <span class="features__subheading">
+                            Local and organic
+                        </span>
+                        <span class="features__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ipsam.
+                        </span>
+                    </div>
+                </div>
+                <div class="features__elem">
+                    <div class="features__icon">
+                        <i class="fa-xl fa-solid fa-recycle fa-lg"></i>
+                    </div>
+                    <div class="features__text">
+                        <span class="features__subheading">
+                            No waste
+                        </span>
+                        <span class="features__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ipsam.
+                        </span>
+                    </div>
+                </div>
+                <div class="features__elem">
+                    <div class="features__icon">
+                        <i class="fa-xl fa-solid fa-pause fa-lg"></i>
+                    </div>
+                    <div class="features__text">
+                        <span class="features__subheading">
+                            Pause anytime
+                        </span>
+                        <span class="features__description">
+                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit, ipsam.
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section section-call" id="order">
+        <div class="container">
+            <div class="cta">
+                <div class="cta__action">
+                    <div class="cta__heading heading heading--start">
+                        <span class="cta__subtittle heading__subheading">
+                            Contact us
+                        </span>
+                        <h2 class="cta__tittle heading__head">
+                            Get your first meal for free!
+                        </h2>
+                    </div>
+                    <p class="cta__text">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam illum distinctio eligendi non maiores nisi.
+                    </p>
+                    <form action="" method="POST" class="form" id="form">
+                        <!-- Group name -->
+                        <div class="form__group" id="group__name">
+                            <label class="form__label" for="name">Full Name</label>
+                            <div class="form__group-input">
+                                <input class="form__input" type="text" name="name" id="name" placeholder="Full Name">
+                                <i class="form__validation-state fa-solid fa-circle-xmark"></i>
+                            </div>
+                            <p class="form__input-error">
+                                The full name need to have more than 5 characters.
+                            </p>
+                        </div>
+                        
+                        <!-- Group email -->
+                        <div class="form__group" id="group__email">
+                            <label for="email" class="form__label">Email</label>
+                            <div class="form__group-input">
+                                <input type="email" name="email" id="email" class="form__input" placeholder="myemail@email.com">
+                                <i class="form__validation-state fa-solid fa-circle-xmark"></i>
+                            </div>
+                            <p class="form__input-error">
+                                The email is not valid.
+                            </p>
+                        </div>
+
+                        <!-- Group phone -->
+                        <div class="form__group" id="group__phone">
+                            <label for="phone" class="form__label">Phone</label>
+                            <div class="form__group-input">
+                                <input type="text" name="phone" id="phone" class="form__input" placeholder="3492561233">
+                                <i class="form__validation-state fa-solid fa-circle-xmark"></i>
+                            </div>
+                            <p class="form__input-error">
+                                The phone must be between 7 and 20 characters long.
+                            </p>
+                        </div>
+
+                        <!-- Group Send -->
+                        <div class="form__group form__group-btn-send">
+                            <p class="form__message-success" id="form__message-success">
+                                The form has been successfully sent.
+                            </p>
+                            <button type="submit" class="form__btn-send" id="btn-send">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="cta__image">
+                    <!-- <img clas="cta__img" src="img/eating.jpg" alt="Personm eating healthy food"> -->
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="section footer">
+        <div class="container footer__container">
+            <div class="footer__elem">
+                <div class="footer__image">
+                    <img class="footer__logo" src="img/omnifood-logo.png" alt="Logo">
+                </div>
+                <ul class="social">
+                    <li class="social__elem">
+                        <a href="#">
+                            <i class="social__icon fa-xl fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li class="social__elem">
+                        <a href="#">
+                            <i class="social__icon fa-xl fa-brands fa-instagram"></i>
+                        </a>
+                    </li>
+                    <li class="social__elem">
+                        <a href="#">
+                            <i class="social__icon fa-xl fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                </ul>
+                <div class="footer__copyright">
+                    <span class="footer__text">
+                        Copyright 2017 by Omnifood
+                    </span>
+                    <span class="footer__text">
+                        Inc. All rights reserved.
+                    </span>
+                </div>
+            </div>
+            <div class="footer__elem">
+                <span class="footer__tittle">
+                    Contact us
+                </span>
+                <ul class="footer__list">
+                    <li>
+                        <span class="footer__text">
+                            623 Main st.
+                        </span>
+                        <span class="footer__text">
+                            California, 91789.
+                        </span>
+                    </li>
+                    <li>
+                        <span class="footer__text">
+                            +12 345 678 901
+                        </span>
+                        <span class="footer__text">
+                            hello@omnifood.com
+                        </span>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__elem">
+                <span class="footer__tittle">
+                    Account
+                </span>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            Create Account
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            Sign in
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            IOS app
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            Android App
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__elem">
+                <span class="footer__tittle">
+                    Company
+                </span>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            About Omnifood
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            For Business
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            Coooking partners
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            Careers
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__elem">
+                <span class="footer__tittle">
+                    Resources
+                </span>
+                <ul class="footer__list">
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            Recipe directory
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            Help center
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="footer__text footer__link">
+                            Privacy & terms
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/form.js"></script>
  </body>
  </html>

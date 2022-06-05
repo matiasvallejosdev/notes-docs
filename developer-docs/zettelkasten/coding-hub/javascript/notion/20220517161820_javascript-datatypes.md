@@ -35,3 +35,4 @@ The set of types in the JavaScript language consists of primitive values and obj
   - Symbol type
   - Arrays
 - **Objects** (collections of properties)
+  - Lists

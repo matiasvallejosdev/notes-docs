@@ -38,7 +38,7 @@ More definitions in example of [functions](20220517162304_javascript-functions.m
 
 ### Arrow functions
 
-[Difference between arrow functions and functions](../../../bibliography/notes/20220518155951_la-diferencia-entre-functions-y-arrow-function.md)
+- [Difference between arrow functions and functions](../../../bibliography/notes/20220518155951_la-diferencia-entre-functions-y-arrow-function.md)
 
 The arrow comes after the list of parameters and is followed by the function’s body. It expresses something like “this input (the parameters) produces this result (the body)”.
 
@@ -82,4 +82,3 @@ Recursion is not always just an inefficient alternative to looping. Some problem
 ### Growing functions
 
 There are two more or less natural ways for functions to be introduced into programs. Good naming and clear naming are good practices in order to indicate a clear concept wraped.
-

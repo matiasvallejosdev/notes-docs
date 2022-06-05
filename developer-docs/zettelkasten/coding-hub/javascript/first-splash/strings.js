@@ -1,18 +1,18 @@
-// Strings and their properties
+// !Strings and their properties
 // https://eloquentjavascript.net/04_data.html#h_mT4YQfwHp6
 
-// Converting number to string
+// *Converting number to string
 let myString = 10;
 console.log(typeof (myString.toString()));
 
-// Finding the length of a string
+// *Finding the length of a string
 let myName = 'Matias';
 console.log(myName.length);
 
-// Last character
+// *Last character
 console.log(myName[myName.length - 1]);
 
-// Testing if a string contains a substring
+// *Testing if a string contains a substring
 console.log(myName.includes("Mat"));
 console.log(myName.includes("Em"));
 
@@ -22,34 +22,36 @@ console.log(myName.includes("Em"));
 console.log(myName.startsWith('Mat'));
 console.log(myName.endsWith('as'));
 
-// Finding the position of a substring in a string
+// *Finding the position of a substring in a string
 let pos = myName.indexOf('a');
 console.log(pos);
 console.log(myName[pos]);
 
-// Extracting a substring from a string
+// *Extracting a substring from a string
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/slice
 let extract = myName.slice(2,4);
 console.log(extract);
 
-// Changing case
+// *Changing case
 console.log(myName.toLowerCase());
 console.log(myName.toUpperCase());
 
-// Updating parts of a string
+// *Updating parts of a string
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String/replaceAll
 console.log(myName.replace('M','X'));
 
+// * Trimming whitespace
 // The trim method removes whitespace
 console.log("  okay  ".trim());
 console.log(String(1).padStart(3, "0"));
 
+// *Splitting a string into an array
 /*
 You can split a string on every occurrence of another string 
 with split and join it again with join.
 */
-let name =  "L O L A";
-let extractArray = name.split(" ");
+let lolaName =  "L O L A";
+let extractArray = lolaName.split(" ");
 console.log(extractArray);
 
 let returnString = extractArray.join("");

@@ -6,6 +6,7 @@ CSS can be used for very basic document text styling — for example changing th
 
 - [CSS MozillaDocs](https://developer.mozilla.org/en-US/docs/Web/CSS)
 - [CSS DevDocs](https://devdocs.io/css/)
+- [Use CSS to solve common problems](https://developer.mozilla.org/en-US/docs/Learn/CSS/Howto)
 
 ## Notion
 

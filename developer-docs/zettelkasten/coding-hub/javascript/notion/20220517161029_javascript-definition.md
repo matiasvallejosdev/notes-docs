@@ -113,3 +113,14 @@ A multi-line comment is written between the strings /* and */, e.g.
 My multiline comment here
 */
 ```
+
+### These topics are enough to learn JS
+
+- [Variables](20220517161515_javascript-variables.md)
+- [Functions](20220517162304_javascript-functions.md)
+- [Data Types](20220517161820_javascript-datatypes.md)
+- [Objects](20220517162919_javascript-objects.md)
+- [Loops](20220517162639_javascript-loops.md)
+- [Arrays](20220517162743_javascript-arrays.md)
+- Callbacks
+- Closures
