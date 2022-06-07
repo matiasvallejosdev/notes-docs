@@ -13,7 +13,7 @@ _index-name + reference_
 _tag/book-name + author markdown_
 
 - Personal development/
-  - [Ego is your enemy - Ryant Holiday](index/20220519101828_el-ego-es-tu-enemigo.md)
+  - [Ego is your enemy - Ryant Holiday](index/20220519101828_el-ego-es-tu-enemigo-ryant-holiday.md)
   - [Un pequeño paso para cambiar tu vida - Robet Maurer](index/20220522120010_kaizen-un-pequeño-paso-puede-cambiar-tu-vida.md)
   - [Como ganar amigos e influir en las personas](index/20220522142410_como-ganar-amigos-e-influir-en-las-personas.md)
 - Psychology/

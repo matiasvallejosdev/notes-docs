@@ -18,3 +18,4 @@
 - [Nosotros somos mas](notion/20220517130617_nosotros-somos-mas.md)
 - [Personal development](notion/personal-development.md)
 - [Zettelkasten](notion/20220517130658_zettelkasten-para-organizar.md)
+- [Aprneder y conocerse](notion/20220607105838_aprender-y-conocerte.md)
