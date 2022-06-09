@@ -9,6 +9,8 @@
 - [Eloquent Higorder](https://eloquentjavascript.net/05_higher_order.html)
 - [Highorder Code](../first-splash/high-order-functions.js)
 - [Eloquent Javascript Examples](../samples/eloquent-exercises/e-ch-5-high-order-functions.js)
+- [Chapter 5: Eloquent Excersises](../samples/eloquent-exercises/e-ch-5-high-order-functions.js)
+
 
 ## Content
 

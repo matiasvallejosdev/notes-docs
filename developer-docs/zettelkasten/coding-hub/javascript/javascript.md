@@ -30,3 +30,13 @@ _Arrays and objects_
 - [Javascript OOP](notion/20220517161319_javascript-oop.md)
 - [Javascript Data Structures](notion/20220526153758_javascript-data-structures.md)
 - [Javascript Higher-Order Functions](notion/20220524160754_higher-order-functions.md)
+
+## Samples
+
+- [cofla-story](samples/cofla-story/)
+- [eloquent-exercises](samples/eloquent-exercises/)
+- [what-is-js](samples/what-is-js/index.html)
+- [first-splash](samples/first-splash/index.html)
+- [calculator](samples/calculator/index.html)
+- [pomodoro-timer](samples/pomodoro-timer/index.html)
+- [silly-story-generator](samples/silly-story-generator/index.html)

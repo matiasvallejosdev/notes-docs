@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <title>Silly Story Generator</title>
+</head>
+<body>
+    <div class="section">
+        <div class="container silly">
+            <h1 class="silly__tittle">Silly Story Generator</h1>
+            <p class="silly__description">This page will generate a silly story for you.<br>¡Please send a story request!</p>
+            <form action="#" class="silly__form" id="silly">
+
+                <!-- Group name -->
+                <div class="silly__group" id="silly__name">
+                    <!-- <label for="name" class="silly__label">Name</label> -->
+                    <div class="silly__group-input">
+                        <input type="text" name="name" id="name" class="silly__input" placeholder="Enter your name">
+                        <p class="silly__input-error">
+                            The name to be between 3 and 20 characters long.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Group convetions -->
+                <div class="silly__group silly__group--inline" id="silly__convetion">
+                    <label class="silly__label">
+                        <input class="silly__checkbox" type="radio" id="us" name="convetion" checked>
+                        <span class="silly__checkbox-label">US</span>
+                    </label>
+                    <label class="silly__label">
+                        <input class="silly__checkbox" type="radio" id="uk" name="convetion">
+                        <span class="silly__checkbox-label">UK</span>
+                    </label>
+                </div>
+                                
+                <!-- Group send -->
+                <div class="silly__group silly__group-sumbit" id="silly__sumbit">
+                    <button id="generate-story" class="silly__btn">Generate Story</button>
+                    <p id="form__success" class="silly__message silly__message--success">
+                        The story has been generated successfully.
+                    </p>
+                    <p id="form__error" class="silly__message silly__message--error">
+                        The story can't be generated.
+                    </p>
+                </div>
+            </form>
+        </div>
+
+        <div class="container silly silly--result silly--disable" id="silly__result">
+            <p class="silly__result">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere id ipsa accusantium, vero fugit voluptate cumque iusto cupiditate a! Impedit aut quibusdam numquam? Incidunt in, sed quaerat eaque animi vero ratione! Eveniet odit quibusdam libero voluptatem obcaecati deserunt voluptas incidunt provident, similique nisi ea aliquid. A cumque facere modi suscipit?
+            </p>
+        </div>
+
+        <div class="container silly silly--copyright">
+            Copyright &copy; 2020. All rights reserved.
+        </div>
+    </div>
+
+    <script src="js/silly.js"></script>
+</body>
+</html>
