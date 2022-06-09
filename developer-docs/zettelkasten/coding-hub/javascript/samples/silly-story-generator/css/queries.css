@@ -1,0 +1,11 @@
+/* ---- START QUERIES ------- */
+
+@media screen and (max-width: 80rem) {}
+@media screen and (max-width: 48rem) {}
+@media screen and (max-width: 30rem) {
+    .silly__button-text{
+        display: none;
+    }
+}
+
+/* ---- END QUERIES ------- */

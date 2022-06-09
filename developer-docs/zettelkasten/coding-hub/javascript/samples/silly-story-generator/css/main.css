@@ -48,10 +48,6 @@ body{
     color: #888;
 }
 
-.silly--disable{
-    display: none;
-}
-
 .silly__form{
     display: grid;
     grid-template-columns: 1fr;
@@ -163,6 +159,65 @@ body{
 
 /* ------- END SILLY ----------- */
 
+/* ------- START BUTTONS ----------- */
+
+.silly__action{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 1rem;
+    width: 90%;
+}
+
+.silly__button{
+    background-color: #fff;
+    padding: 1rem;
+    height: 100%;
+    border: 2px solid #de8787;
+}
+
+.silly__button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: .5rem;
+    text-decoration: none;
+    height: 3rem;
+}
+
+.silly__button:link, .silly__button:visited{
+    transition: ease-in-out .2s all;
+    color: #333;
+    text-decoration: none;
+}
+
+.silly__button:hover, .silly__button:active{
+    color: #fff;
+    background-color: #de8787;
+    box-shadow: 2px 0px 15px rgba(163, 163, 163, .05);
+}
+
+.silly__button:hover .silly__button-icon, .silly__button:active .silly__button-icon{
+    color: #fff;
+}
+
+.silly__button-text{
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.silly__button-icon{
+    transition: ease-in-out .2s all;
+    color: #de8787;
+}
+
+
+/* ------- END BUTTONS ----------- */
+
+/* ------- START SILLY MODIFY ----------- */
+
 .silly__group--error .silly__input-error{
     display: block;
 }
@@ -170,3 +225,9 @@ body{
 .silly__message--active{
     display: block;
 }
+
+.silly--disable{
+    display: none;
+}
+
+/* ------- END SILLY MODIFY ----------- */

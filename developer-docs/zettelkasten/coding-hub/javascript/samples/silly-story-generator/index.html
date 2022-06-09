@@ -5,7 +5,9 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/queries.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/2f3ec2c470.js" crossorigin="anonymous"></script>
     <title>Silly Story Generator</title>
 </head>
 <body>
@@ -29,11 +31,11 @@
                 <!-- Group convetions -->
                 <div class="silly__group silly__group--inline" id="silly__convetion">
                     <label class="silly__label">
-                        <input class="silly__checkbox" type="radio" id="us" name="convetion" checked>
+                        <input class="silly__checkbox" type="radio" id="uk" name="convetion" checked>
                         <span class="silly__checkbox-label">US</span>
                     </label>
                     <label class="silly__label">
-                        <input class="silly__checkbox" type="radio" id="uk" name="convetion">
+                        <input class="silly__checkbox" type="radio" id="us" name="convetion">
                         <span class="silly__checkbox-label">UK</span>
                     </label>
                 </div>
@@ -57,11 +59,31 @@
             </p>
         </div>
 
+        <div class="container silly__action silly--disable" id="action">
+            <a href="#" class="silly__button">
+                <i class="silly__button-icon fa-solid fa-share fa-lg"></i>
+                <span class="silly__button-text">Share</span>
+            </a>
+            <a href="#" class="silly__button">
+                <i class="silly__button-icon fa-solid fa-floppy-disk fa-lg"></i>
+                <span class="silly__button-text">Save</span>
+            </a>
+            <a href="#" class="silly__button">
+                <i class="silly__button-icon fa-solid fa-bookmark fa-lg"></i>
+                <span class="silly__button-text">Book</span>
+            </a>
+            <a href="#" class="silly__button">
+                <i class="silly__button-icon fa-solid fa-file-pdf"></i>
+                <span class="silly__button-text fa-lg">Doc</span>
+            </a>
+        </div>
+
         <div class="container silly silly--copyright">
             Copyright &copy; 2020. All rights reserved.
         </div>
     </div>
 
     <script src="js/silly.js"></script>
+    <script src="js/action.js"></script>
 </body>
 </html>
