@@ -13,6 +13,7 @@ It's also an [interpreted language](https://developer.mozilla.org/en-US/docs/Lea
 ## Notion
 
 _Basic definition_
+
 - [Javascript Definition](notion/20220517161029_javascript-definition.md)
 - [Javascript Enviroment](notion/20220517161658_javascript-environment.md)
 - [Javascript Datatypes](notion/20220517161820_javascript-datatypes.md)
@@ -23,12 +24,14 @@ _Basic definition_
 - [Javascript Basic Events](notion/20220517162534_javascript-basic-events.md)
 - [Javascript Basic Math](notion/20220520150029_javascript-basic-math.md)
 - [Javascript Loops](notion/20220517162639_javascript-loops.md)
-- [Javascript JSON](notion/20220520165535_json-data.md)
+
 _Arrays and objects_
+
 - [Javascript Arrays](notion/20220517162743_javascript-arrays.md)
 - [Javascript Objects](notion/20220517162919_javascript-objects.md)
 - [Javascript OOP](notion/20220517161319_javascript-oop.md)
 - [Javascript Data Structures](notion/20220526153758_javascript-data-structures.md)
+- [Javascript JSON](notion/20220520165535_json-data.md)
 - [Javascript Higher-Order Functions](notion/20220524160754_higher-order-functions.md)
 
 ## Samples
