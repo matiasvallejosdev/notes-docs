@@ -15,3 +15,7 @@ Django is a web application framework created for the Python programming languag
 - [Django views](notion/20220602100403_django-views.md)
 - [Django urls](notion/20220609094913_django-urls.md)
 - [Django templates](notion/20220609101616_django-templates.md)
+
+## Samples
+
+- [my-first-django-app](../samples/my-first-django-app/)
