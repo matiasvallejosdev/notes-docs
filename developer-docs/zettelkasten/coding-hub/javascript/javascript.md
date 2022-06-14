@@ -41,5 +41,5 @@ _Arrays and objects_
 - [what-is-js](samples/what-is-js/index.html)
 - [first-splash](samples/first-splash/index.html)
 - [calculator](samples/calculator/index.html)
-- [pomodoro-timer](samples/pomodoro-timer/index.html)
 - [silly-story-generator](samples/silly-story-generator/index.html)
+- [pomodoro-timer](samples/pomodoro-timer/index.html)

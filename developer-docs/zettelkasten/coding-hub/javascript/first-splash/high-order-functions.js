@@ -57,3 +57,21 @@ index exclusive.
 */
 let slice = [16,36,4].slice(1) + [16,36,4].slice(1,2);
 console.log(slice);
+
+// *Every
+/*
+Every array method is used to test whether all elements in
+the array pass the test implemented by the provided function.
+*/
+let every = [1,2,3,4,5]
+let checkEvery = every.every(a => a < 6);
+console.log(checkEvery);
+
+// *Some
+/*
+Some array method is used to test whether some elements in
+the array pass the test implemented by the provided function.
+*/
+let some = [1,2,3,4,5]
+let checkSome = some.some(a => a > 4);
+console.log(checkSome);

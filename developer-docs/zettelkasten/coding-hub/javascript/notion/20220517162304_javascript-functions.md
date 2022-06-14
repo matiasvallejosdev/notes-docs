@@ -36,6 +36,7 @@ Function declarations **are not part of the regular top-to-bottom flow of contro
 
 More definitions in example of [functions](20220517162304_javascript-functions.md)
 
+
 ### Arrow functions
 
 - [Difference between arrow functions and functions](../../../bibliography/notes/20220518155951_la-diferencia-entre-functions-y-arrow-function.md)
@@ -82,3 +83,11 @@ Recursion is not always just an inefficient alternative to looping. Some problem
 ### Growing functions
 
 There are two more or less natural ways for functions to be introduced into programs. Good naming and clear naming are good practices in order to indicate a clear concept wraped.
+
+### Arrow functions vs Functions
+
+[Arrow functions vs functions](../../../bibliography/notes/20220518155951_la-diferencia-entre-functions-y-arrow-function.md)
+
+Since each function has its own this binding, whose value depends on the way it is called, you cannot refer to the this of the wrapping scope in a regular function defined with the function keyword.
+
+Arrow functions are different—they do not bind their own this but can see the this binding of the scope around them.

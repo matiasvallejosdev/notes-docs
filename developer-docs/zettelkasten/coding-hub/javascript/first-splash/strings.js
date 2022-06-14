@@ -59,3 +59,9 @@ console.log(returnString.charAt(0).toUpperCase() + returnString.slice(1).toLower
 
 // A string can be repeated with the repeat method
 console.log("Lo".repeat(2));
+
+// *Concat
+/* 
+Concat is a method that takes an array of strings and returns a new string.
+*/
+console.log("Hello".concat(" ", "World"));
