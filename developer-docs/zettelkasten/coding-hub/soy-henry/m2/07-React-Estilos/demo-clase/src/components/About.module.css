@@ -1,0 +1,42 @@
+.main{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 100%;
+    max-width: 1100px;
+    margin: 4rem auto;
+    gap: 3rem;
+    align-items: center;
+    justify-content: end;
+}
+
+.main > p{
+    font-family: 'Rubik', sans-serif;
+    font-size: 1.5rem;
+    color: whitesmoke;
+
+}
+
+
+.btn {
+   padding: 10px 25px;
+   text-align: center;
+   border: 1px solid whitesmoke;
+   font-weight: 400;
+   transition: 0.5s;
+   background-color: transparent;
+   color: white;            
+   box-shadow: 0 0 10px rgb(255, 255, 255);
+   border-radius: 10px;
+   width: fit-content;
+   min-width: 10rem;
+   height: fit-content;
+   cursor: pointer;
+   
+ }
+
+ .btn:hover {
+   color: #fff;
+   background-color: rgba(141, 141, 141, 0.247);
+   box-shadow: 0 0 5px rgba(0, 0, 0, 0.452);
+ }
+

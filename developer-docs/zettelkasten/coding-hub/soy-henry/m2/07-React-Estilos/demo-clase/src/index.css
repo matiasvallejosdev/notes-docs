@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+.layout{
+    display:grid;
+    height: 100%;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: 6rem 1fr 8rem;
+    position: relative;
+
+}
+
+
+.divBg{
+    height: 100vh;
+    width: 100%;
+    position: absolute;
+    background: linear-gradient(180deg, rgba(31,31,31,0.48783263305322133) 0%, rgba(24,24,24,1) 100%);
+    z-index: -1;
+
+    
+}
+
+.layout > header{
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+    
+    /* display: flex;
+    align-items: center;
+    justify-content: space-between; */
+    position: relative;
+}
+
+.layout > header > img{
+    height: 3.5rem;
+    width: 3.5rem;
+    margin: 0.5rem;
+    object-fit: contain;
+    position: absolute;
+    left: 0;
+}
+

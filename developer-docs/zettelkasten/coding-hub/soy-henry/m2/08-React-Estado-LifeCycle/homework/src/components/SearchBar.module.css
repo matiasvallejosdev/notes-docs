@@ -1,0 +1,13 @@
+.btn{
+    padding: 5px;
+    border: 1px solid chartreuse;
+    border-radius: 6px;
+    background-color: transparent;
+    color: chartreuse;
+    font-weight: bold;
+    margin-left: 1rem;
+}
+
+.int{
+    border-radius: 10px;
+}

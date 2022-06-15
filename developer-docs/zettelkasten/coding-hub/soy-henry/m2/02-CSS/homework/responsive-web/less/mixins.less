@@ -1,0 +1,22 @@
+// Mixins acá
+.myBtn(@bg-color, @font-color){
+    background-color: @bg-color;
+    color: @font-color;
+    display: inline-block;
+    padding: 10px;
+    border-radius: 4px;
+    font-size: 15px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: @font-color;
+        color: @bg-color;
+    }
+}
+
+.flex(@direction: row, @justify: center, @align: center){
+    display: flex;
+    flex-direction: @direction;
+    justify-content: @justify;
+    align-items: @align;
+}

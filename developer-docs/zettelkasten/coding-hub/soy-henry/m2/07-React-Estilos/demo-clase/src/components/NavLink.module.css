@@ -1,0 +1,15 @@
+
+
+.navLink{
+    text-decoration: none;
+    color: white;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    cursor: pointer;
+    
+
+}
+
+.navLink + .navLink{
+    margin-left: 4rem;
+}

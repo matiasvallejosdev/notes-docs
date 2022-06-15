@@ -1,0 +1,11 @@
+.contenedor input{
+    background-color: rgba(0, 0, 0, 0.116);
+    border: none;
+    padding: 5px;
+}
+.btn{
+    background: tomato;
+    border: none;
+    color: white;
+    padding: 5px;
+}

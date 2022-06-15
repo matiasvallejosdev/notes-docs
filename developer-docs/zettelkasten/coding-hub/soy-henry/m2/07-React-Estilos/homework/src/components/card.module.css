@@ -1,0 +1,31 @@
+.contenedor{
+    border: rgba(63, 63, 63, 0.507) solid 1px;
+    background-color: rgba(0, 0, 0, 0.116);
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 175px;
+    position: relative;
+    border-radius: 8px;
+    box-shadow: 8px 5px 5px rgba(68, 68, 68, 0.466);; 
+}
+.infoCont{
+    display: flex;
+    justify-content: space-around;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.infoCont img{
+   color: black;
+}
+.btn{
+    height: min-content;
+    width: min-content;
+    background-color: rgb(221, 52, 52);
+    position: absolute;
+    right: 0;
+    border: none;
+    margin-right: 5px;
+    margin-top: 5px;
+    color: white;
+}

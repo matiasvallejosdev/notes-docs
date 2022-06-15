@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AJAX</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script><!--this is a link -->
+    
+
+</head>
+<body>
+    <button id="btn">Click me</button>
+    <ul id="list"></ul>
+
+    <script>
+        var btn = $('#btn');
+        var id = 0;
+
+        btn.click(()=>{
+            $.get(
+                "https://jsonplaceholder.typicode.com/posts/" + ++id,
+                (data,status) =>{
+                    console.log({data,status});
+                    var li = document.createElement(li);
+                    li.innerText = data.title;
+                    $('#list').append(li);
+                }
+            ).fail((error)=>{
+                if(error.status === 404) alert("Requested URL not found.")
+                else console.error(error);
+            });
+        });
+
+    </script>
+    
+</body>
+</html>

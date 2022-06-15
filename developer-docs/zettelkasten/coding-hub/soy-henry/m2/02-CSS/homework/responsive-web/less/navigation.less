@@ -1,0 +1,53 @@
+// Código de Nav acá
+nav{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: @nav-bg;
+
+   h2{
+    margin: 2rem 0rem;
+   }
+
+    ul{
+        display: flex;
+        font-size: 1.8rem;
+        font-weight: 590;
+        margin-bottom: 1rem;
+
+        li + li{
+            margin-left: 2rem;
+        }
+
+        li{
+            cursor: pointer;
+            position: relative;
+
+            &::after{
+                transition: 0.4s;
+                content:"";
+                position: absolute;
+                border-bottom: 3px solid rgb(194, 194, 194);
+                border-top-left-radius: 3px;
+                border-top-right-radius: 3px;
+                top: 140%;
+                right: 50%;
+                left: 50%;
+                width: 0%;
+            }
+
+            &:hover{
+                color: @ebony-clay;
+                &::after{
+
+                    left: 0%;
+                    right: 0%;
+                    width: 100%;
+                }
+            }
+        }
+
+    }
+
+    border-bottom: 2px solid @nav-border;
+}
