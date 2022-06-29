@@ -3,22 +3,98 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="css/main.css">
+        <script src="https://kit.fontawesome.com/2f3ec2c470.js" crossorigin="anonymous"></script>
+        <title>Pomodoro Timer</title>
     </head>
     <body>
-        <!-- Create a classic pomodor timer using bem -->        
-        <div class="pomodoro-timer">
-            <div class="pomodoro-timer__time">
-                <div class="pomodoro-timer__time-value">
-                    <span class="pomodoro-timer__time-value-minutes">00</span>
-                    <span class="pomodoro-timer__time-value-colon">:</span>
-                    <span class="pomodoro-timer__time-value-seconds">00</span>
+        <div class="container">
+            <div class="header">
+                <div class="header__brand">
+                    <i class="fa-solid fa-brain header__logo fa-lg"></i>
+                    <h5 class="header__tittle">
+                        Pomofocus
+                    </h5>
+                </div>
+                <nav class="navigation">
+                    <ul class="navigation__list">
+                        <li class="navigation__elem">
+                            <a href="#" class="button button--semi">
+                                <i class="fa-solid fa-chart-simple button__icon"></i>
+                                <span class="button__text">
+                                    Report
+                                </span>
+                            </a>
+                        </li>
+                        <li class="navigation__elem">
+                            <a href="#" class="button button--semi">
+                                <i class="fa-solid fa-gear button__icon"></i>
+                                <span class="button__text">
+                                    Settings
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+        <div class="section">
+            <div class="container">
+                <div class="pomodoro">
+                    <div class="pomodoro__tabs">
+                        <a href="#" class="button button--transparent button--selected">
+                            <span class="button__text">
+                                Pomodoro
+                            </span>
+                        </a>
+                        <a href="#" class="button button--transparent">
+                            <span class="button__text">
+                                Short break
+                            </span>
+                        </a>
+                        <a href="#" class="button button--transparent">
+                            <span class="button__text">
+                                Long break
+                            </span>
+                        </a>
+                    </div>
+                    <div class="timer">
+                        <h1 class="timer__value" id="timer-value">
+                            00:00
+                        </h1>
+                    </div>
+                    <div class="pomodoro__action">
+                        <button class="button" type="sumbit" id="btn-pomodoro">
+                            <h5 id="btn-pomodoro-text">Start</h5>
+                        </button>
+                        <div class="pomodoro__next">
+                            <button class="button button--icon button--hidden" type="sumbit" id="btn-next">
+                                <i class="fa-solid fa-forward-step fa-2x"></i>
+                            </button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
-        <script src="script.js" ></script>
+        <div class="settings">
+            <div class="form__group" id="group__work">
+                <label class="form__label" for="work">Work time</label>
+                <input class="form__input" type="number" name="work" id="work" value="60">
+            </div>
+            <div class="form__group" id="group__short">
+                <label class="form__label" for="short">Break time</label>
+                <input class="form__input" type="number" name="short" id="short" value="15">
+            </div>
+            <div class="form__group" id="group__long">
+                <label class="form__label" for="long">Long time</label>
+                <input class="form__input" type="number" name="long" id="long" value="30">
+            </div>
+        </div>
+        <script type="module" src="js/pomodoro.js" ></script>
     </body>
 </html>

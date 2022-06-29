@@ -1,0 +1,13 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+<h1>Create new list</h1>
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" value="Sumbit">Sumbit List</button>
+</form>
+
+{% endblock content %}
+

@@ -16,18 +16,26 @@ let myJson = {
 }
 
 // Parse data object to JSON string
+// When you convert a JavaScript object to a string
+// It get out functions to convert to JSON
+// and it converts the object properties to a string
+
 let myJsonString = JSON.stringify(myJson);
 console.log(myJsonString);
 
 // Parse JSON string to data object
+// It convert each key value pairs into a
+// JavaScript object 
+
 let myObjectJson = JSON.parse(myJsonString);
 console.log(myObjectJson.status);
 
 let pokeResponse = `{
     "Name": "Pokeball", 
-    "Type": "Pokemon", 
-    "Status": 200
+    "Type": "Ball", 
+    "Status": 200,
+    "Description": "OK"
 }`
 let myObject = JSON.parse(pokeResponse)
 console.log(myObject);
-console.log(myObject.Status);
+console.log(`Name: ${myObject.Name} with type ${myObject.Type}`);

@@ -1,0 +1,54 @@
+{
+    "1": {
+        "id": 1,
+        "name": "Bulbasaur"
+    },
+    "10": {
+        "id": 10,
+        "name": "Caterpie"
+    },
+    "100": {
+        "id": 100,
+        "name": "Voltorb"
+    },
+    "101": {
+        "id": 101,
+        "name": "Electrode"
+    },
+    "102": {
+        "id": 102,
+        "name": "Exeggcute"
+    },
+    "103": {
+        "id": 103,
+        "name": "Exeggutor"
+    },
+    "104": {
+        "id": 104,
+        "name": "Cubone"
+    },
+    "105": {
+        "id": 105,
+        "name": "Marowak"
+    },
+    "106": {
+        "id": 106,
+        "name": "Hitmonlee"
+    },
+    "107": {
+        "id": 107,
+        "name": "Hitmonchan"
+    },
+    "108": {
+        "id": 108,
+        "name": "Lickitung"
+    },
+    "109": {
+        "id": 109,
+        "name": "Koffing"
+    },
+    "11": {
+        "id": 11,
+        "name": "Metapod"
+    }
+}

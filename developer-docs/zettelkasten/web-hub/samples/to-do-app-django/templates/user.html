@@ -1,0 +1,10 @@
+<div>
+    {% if user.is_authenticated %}
+        <p> Hello {{user|upper}}, hope have a good day!
+    {%else%}
+        <p>You need to login to manage your tasks! <a href="/admin"><i>Enter now</i></a></p>
+    {% endif %}
+</div>
+
+<h1>Minimalistic</h1>
+<p>The site where you manage your daily tasks</p>

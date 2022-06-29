@@ -1,9 +1,6 @@
 # Javascript Definition
 
-Tags: #tag1 #tag2 #tag3
-
-**Inspired by**
-- [..]()
+Tags: #javascript-intro #js-enviroment #js-definition
 
 **Links**
 - [Overview Code](../samples/what-is-js/index.html)

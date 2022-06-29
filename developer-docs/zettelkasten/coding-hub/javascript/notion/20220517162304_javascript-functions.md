@@ -57,9 +57,24 @@ If you write an = operator after a parameter, followed by an expression, the val
 
 ### Closures
 
-[CLOSURES en JavaScript: Qué son y cómo funcionan](../../../bibliography/notes/20220518164948_closures-javascript-que-son-y-como-funcionan.md)
+- [CLOSURES en JavaScript: Qué son y cómo funcionan](../../../bibliography/notes/20220518164948_closures-javascript-que-son-y-como-funcionan.md)
+- [Closures Code](../first-splash/closures.js)
 
-The ability to treat functions as values, combined with the fact that local bindings are re-created every time a function is called.
+The ability to treat functions as values, combined with the fact that local bindings are re-created every time a function is called. Closures is when a function "remembers" the variables outside of it, even if you pass it that function elsewhere. 
+
+```javascript
+
+function ask(question){
+  setTimeout(() => {
+    console.log(question);
+  }, 2000);
+}
+
+```
+
+This is usually done using nested functions where the outer function exits and either returns a function, or declares a function which outlives it. This inner function then has references to the variables and parameters declared within the outer function, even though those variables are no longer in scope.
+
+This has many useful applications, such as currying, simulating private data, and greatly reducing the need for global variables.
 
 ### Recursion
 

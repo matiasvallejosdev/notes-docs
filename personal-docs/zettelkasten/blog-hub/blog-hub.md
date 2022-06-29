@@ -13,6 +13,7 @@
 - [Aventura en el calafate](notion/20220517130507_aventura-en-el-calafate.md)
 - [Messi culto al esfuerzo](notion/20220517130557_messi-culto-al-esfuerzo.md)
 - [La envidia](notion/20220517130528_la-envidia.md)
+- [Envidia y ego](notion/20220616122936_envidia-y-ego.md)
 - [Normalizar la anormalidad](notion/20220517130605_normalizar-la-anormalidad.md)
 - [Simplemente es un hermano](notion/20220517130631_simplemente-es-un-hermano.md)
 - [Nosotros somos mas](notion/20220517130617_nosotros-somos-mas.md)

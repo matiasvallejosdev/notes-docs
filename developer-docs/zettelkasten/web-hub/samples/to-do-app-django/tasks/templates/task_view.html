@@ -1,0 +1,45 @@
+{%extends 'base.html'%}
+
+{% block content %}
+
+<h1>{{title}}</h1>
+<form method="POST" id="new" name="new">
+    {% csrf_token %}
+    {{form.as_p}}
+    <button type="submit" value="Submit">Submit Task</button>
+</form>
+<br>
+<div style="display: grid; grid-template-column: 1fr; grid-template-row: auto; grid-gap: 1rem;">
+    {% for task in tasks %}
+    <div style="display: flex; flex-direction: column; gap: .3rem;">
+        <div style="display: flex; gap: 1rem; align-items: center;">          
+            {% if task.is_complete %}
+                <strike style="margin: 0; font-size: 1.05rem">{{task.content}}</strike>
+            {% else %}
+                <p style="margin: 0; font-size: 1.05rem">{{task.content}}</p>
+            {% endif %}
+
+            <a href="/tasks/edit/{{task.id}}">
+                <i class="fa-regular fa-pen-to-square"></i>
+                <span>Edit</span>
+            </a>
+            <a href="/tasks/delete/{{task.id}}">
+                <i class="fa-solid fa-trash"></i>
+                <span>Delete</span>
+            </a>
+            <form id="completeForm" method="POST" name="completeForm">
+                {% csrf_token %}
+                {% if task.is_complete %}
+                    <input type ="checkbox" name="complete" onchange="document.getElementById('completeForm').submit()" checked></input>
+                {% else %}
+                    <input type ="checkbox" name="complete" onchange="document.getElementById('completeForm').submit()"></input>    
+                {% endif %}               
+            </form>
+        </div>
+        <p style="margin:0; padding: 0; font-weight: bold; font-size: .8rem; color: #888;">{{ task.created_at|date:'Y-m-d H:i' }}</p>
+        <p style="margin:0; padding: 0; font-weight: bold; font-size: .8rem;">{{task.task_list}}</p>
+    </div>
+    {% endfor %}
+</div>
+
+{% endblock content %}

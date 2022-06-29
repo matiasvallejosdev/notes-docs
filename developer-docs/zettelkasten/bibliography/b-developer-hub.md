@@ -16,7 +16,3 @@ _tag/book-name + author markdown_
   - [Cracking Coding Interview - Gayle Laakmann McDowell](index/20220519111530_cracking-coding-interview.md)
 - Probability and statistics
   - [Probability and Statistics](index/20220519111825_probability-and-statistics-tid-ies.md)
-
-## Resume
-
-_tag/resume-name + author markdown_

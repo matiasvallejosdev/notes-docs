@@ -14,9 +14,9 @@
 
 ### Arrays
 
-Arrays are container-like values that can hold other values. The values inside an array are called elements.
+Arrays are container-like values that can hold other values. The values inside an array are called elements. 
 
-An array is a single object that contains multiple values enclosed in square brackets and separated by commas. Try entering the following lines into your console:
+An array is a **single object** that contains multiple values enclosed in square brackets and separated by commas. Try entering the following lines into your console:
 
 ```javascript
 

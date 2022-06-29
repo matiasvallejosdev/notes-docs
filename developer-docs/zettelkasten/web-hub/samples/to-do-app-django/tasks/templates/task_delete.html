@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block content%}
+    <h1>{{task.content}}</h1>
+    <p>{{ task.created_at|date:'Y-m-d H:i' }}</p>
+    <form method="POST"> 
+        {% csrf_token %}
+        <h3> Do you want to delete this task?</h3>
+        <p>
+            <input type="submit" value="Yes"/>
+            <a href="../">Cancel</a>
+        </p>
+    </form>
+{% endblock content%}
