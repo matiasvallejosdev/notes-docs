@@ -3,41 +3,45 @@
 {% block content %}
 
 <h1>{{title}}</h1>
-<form method="POST" id="new" name="new">
+<form action="" method="POST" id="new" name="new-task">
     {% csrf_token %}
     {{form.as_p}}
-    <button type="submit" value="Submit">Submit Task</button>
+    <input type="submit" value="Submit" name="new-task-submit"></input>
 </form>
 <br>
-<div style="display: grid; grid-template-column: 1fr; grid-template-row: auto; grid-gap: 1rem;">
+<div style="display: grid; grid-template-columns: 1fr; grid-template-row: auto; grid-gap: 1rem; align-items: center; grid-gap: 2rem;">
     {% for task in tasks %}
-    <div style="display: flex; flex-direction: column; gap: .3rem;">
-        <div style="display: flex; gap: 1rem; align-items: center;">          
+    {% comment %} <input value='1' type ="checkbox" name="select-task"></input>     {% endcomment %}
+    <div style="display: flex; flex-direction: column; gap: .3rem; justify-items: center;" id="task-{{task.id}}">
+        <div style="display: flex; gap: 1rem; align-items: center;">
+            <form action="" id="completeTask{{task.id}}" method="POST" name="completeTask{{task.id}}">
+                {% csrf_token %}
+                <input type="hidden" name="id" value="{{task.id}}"></input>
+                <input type='hidden' value='0' name='complete-task-submit'>
+                {% if task.is_complete %}
+                <input value='1' checked type ="checkbox" name="complete-task-submit" onchange="document.getElementById('completeTask{{task.id}}').submit()"></input>    
+                {% else %}
+                <input value='1' type ="checkbox" name="complete-task-submit" onchange="document.getElementById('completeTask{{task.id}}').submit()"></input>    
+                {% endif %}               
+            </form>          
             {% if task.is_complete %}
                 <strike style="margin: 0; font-size: 1.05rem">{{task.content}}</strike>
             {% else %}
                 <p style="margin: 0; font-size: 1.05rem">{{task.content}}</p>
             {% endif %}
-
+            
+            <p style="margin:0; padding: 0; font-weight: bold; font-size: .8rem;">{{task.task_list}}</p>
+            <p style="margin:0; padding: 0; font-weight: bold; font-size: .8rem; color: #888;">{{ task.created_at|date:'Y-m-d H:i' }}</p>
+            
             <a href="/tasks/edit/{{task.id}}">
                 <i class="fa-regular fa-pen-to-square"></i>
-                <span>Edit</span>
+                {% comment %} <span>Edit</span> {% endcomment %}
             </a>
             <a href="/tasks/delete/{{task.id}}">
                 <i class="fa-solid fa-trash"></i>
-                <span>Delete</span>
+                {% comment %} <span>Delete</span> {% endcomment %}
             </a>
-            <form id="completeForm" method="POST" name="completeForm">
-                {% csrf_token %}
-                {% if task.is_complete %}
-                    <input type ="checkbox" name="complete" onchange="document.getElementById('completeForm').submit()" checked></input>
-                {% else %}
-                    <input type ="checkbox" name="complete" onchange="document.getElementById('completeForm').submit()"></input>    
-                {% endif %}               
-            </form>
         </div>
-        <p style="margin:0; padding: 0; font-weight: bold; font-size: .8rem; color: #888;">{{ task.created_at|date:'Y-m-d H:i' }}</p>
-        <p style="margin:0; padding: 0; font-weight: bold; font-size: .8rem;">{{task.task_list}}</p>
     </div>
     {% endfor %}
 </div>

@@ -47,17 +47,17 @@
             <div class="container">
                 <div class="pomodoro">
                     <div class="pomodoro__tabs">
-                        <a href="#" class="button button--transparent button--selected">
+                        <a href="#" class="button button--transparent button--selected" id="tab">
                             <span class="button__text">
                                 Pomodoro
                             </span>
                         </a>
-                        <a href="#" class="button button--transparent">
+                        <a href="#" class="button button--transparent" id="tab">
                             <span class="button__text">
                                 Short break
                             </span>
                         </a>
-                        <a href="#" class="button button--transparent">
+                        <a href="#" class="button button--transparent" id="tab">
                             <span class="button__text">
                                 Long break
                             </span>
@@ -93,6 +93,10 @@
             <div class="form__group" id="group__long">
                 <label class="form__label" for="long">Long time</label>
                 <input class="form__input" type="number" name="long" id="long" value="30">
+            </div>
+            <div class="form__group" id="group__long-interval">
+                <label class="form__label" for="long-interval">Long Break Interval</label>
+                <input class="form__input" type="number" name="long-interval" id="long-interval" value="4">
             </div>
         </div>
         <script type="module" src="js/pomodoro.js" ></script>

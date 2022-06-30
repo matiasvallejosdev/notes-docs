@@ -1,5 +1,8 @@
+:root{
+    --background: #d95550
+}
+
 *{
-    --background: #d95550;
     box-sizing: border-box;
     scroll-behavior: smooth;
 }

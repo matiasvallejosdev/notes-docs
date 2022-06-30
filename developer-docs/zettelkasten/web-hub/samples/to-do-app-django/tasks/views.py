@@ -5,26 +5,34 @@ from .models import List, Task
 
 # Import forms models
 from .forms import ListForm, TaskFormSimple, TaskFormComplete
+    
 
 def task_view(request, *args, **kwargs):
     lst = List.objects.all()
-    tasks = Task.objects.all().order_by('-created_at')
-    
+    tasks = Task.objects.all().order_by('-created_at').order_by('is_complete')
     form = TaskFormSimple(request.POST or None)
     
-    print(request.POST)
-    if 'complete' in request.POST:
-        print('Complete was edit')
-        print(request)
-        # return redirect('../')
-    elif 'new' in request.POST:    
-        print('Complete was edit')
+    if 'complete-task-submit' in request.POST:
+        print('[POST] Checkbox Operation')
+        is_checked = request.POST.get('complete-task-submit')
+        id = request.POST.get('id')
+        task = get_object_or_404(Task, id=id)
+    
+        if '1' == is_checked[0]:
+            task.is_complete = True 
+            print('{task} is completed'.format(task=str(task)))
+        else:
+            task.is_complete = False 
+            print('{task} is not completed'.format(task=str(task)))
+        task.save()
+        return redirect('./#task-{id}'.format(id=task.id))
+    
+    if 'new-task-submit' in request.POST:    
+        print('[POST] New Task Operation')
         if form.is_valid():
             form.save()
-            form = TaskFormSimple(request.POST or None)
             return redirect("./")
         
-    
     context = {
         'title': 'Your tasks',
         'form': form,
@@ -40,10 +48,27 @@ def task_by_list(request, *args, **kwargs):
     tasks = Task.objects.all()
     form = TaskFormSimple(request.POST or None)
     
-    if form.is_valid():
-        form.save()
-        form = TaskFormSimple(request.POST or None)
-        return redirect("./")
+    if 'complete-task-submit' in request.POST:
+        print('[POST] Checkbox Operation')
+        is_checked = request.POST.get('complete-task-submit')
+        id = request.POST.get('id')
+        task = get_object_or_404(Task, id=id)
+    
+        if '1' == is_checked[0]:
+            task.is_complete = True 
+            print('{task} is completed'.format(task=str(task)))
+        else:
+            task.is_complete = False 
+            print('{task} is not completed'.format(task=str(task)))
+        task.save()
+        return redirect('./#task-{id}'.format(id=task.id))
+    
+    if 'new-task-submit' in request.POST:    
+        print('[POST] New Task Operation')    
+        if form.is_valid():
+            form.save()
+            form = TaskFormSimple(request.POST or None)
+            return redirect("./")
     
     if list_requested != '':
         tasks = tasks.filter(task_list__name = str(list_requested))    
