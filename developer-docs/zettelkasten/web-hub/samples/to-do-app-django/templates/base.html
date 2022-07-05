@@ -52,21 +52,12 @@ only using templates.
             padding: 1rem;
         }
         .layout--highlight{
-            background-color: #f1f1f1;
+            background-color: #fafafa;
         }
     </style>
 </head>
 <body>
-    <div class=layout>
-        <div class="layout__elem layout--highlight">
-            {%include 'user.html'%}
-            {%include 'navbar.html'%}
-            {%include 'list_view.html'%}
-        </div>
-        <div class="layout__elem">
-            {% block content %}
-            {% endblock %}
-        </div>
-    </div>
+    {% block page %}
+    {% endblock page %}
 </body>
 </html>

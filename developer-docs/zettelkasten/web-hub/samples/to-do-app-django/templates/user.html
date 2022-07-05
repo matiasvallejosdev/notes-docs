@@ -1,8 +1,9 @@
 <div>
     {% if user.is_authenticated %}
         <p> Hello {{user|upper}}, hope have a good day!
+        <p><a href="/users/logout/">Sign out</a></p>
     {%else%}
-        <p>You need to login to manage your tasks! <a href="/admin"><i>Enter now</i></a></p>
+        <p>You need to login to manage your tasks! <a href="/users/login/"><i>Enter now</i></a></p>
     {% endif %}
 </div>
 

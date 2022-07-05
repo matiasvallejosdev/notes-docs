@@ -1,7 +1,15 @@
 {%extends 'base.html'%}
 
-{% block content %}
-<h1>Simple, shareable todo lists.</h1>
+{% block page %}
+
+{%include 'user.html'%}
+<div style="display: flex; flex-direction: row; gap: 1rem; padding: 1rem 0;">
+    <ul style="display: flex; list-style: none; padding: 0; margin: 0; gap: 1.1rem; flex-direction: column;">
+        {%include 'navbar.html'%}
+    </ul>
+</div>
+
+<h2>Simple, shareable todo lists.</h2>
 <p>
     Writing your daily tasks on a list can help you increase productivity and decrease stress. To-do lists enable you to segment your goals into achievable 
     activities and complete large projects by breaking them into smaller assignments. Recording tasks can allow you to better manage your time and encourages 
@@ -16,17 +24,17 @@
     and, accomplishments, while having an overall positive effect on your career. Below are some benefits of setting up a daily to-do list:
 </p>
 
-<h3>Increases productivity</h3>
+<h2>Increases productivity</h2>
 <p>
     At work and at home, having a to-do list may help you prioritize your work and personal tasks. This allows you to organize and complete the most crucial tasks first. 
     To-do lists can be used to improve time management because all of your tasks are laid out clearly in advance. You can more easily decide what to do after you complete 
     a task and move on to the next item on the list.
 </p>
 
-<h3>Provides motivation</h3>
+<h2>Provides motivation</h2>
 <p>
     Too many tasks to remember can be overwhelming, but with the proper motivation, you can accomplish more and reduce stress. Having a to-do list makes 
     it easier to organize everything that you want to accomplish in the day so that you can start fresh the next. Physically crossing items off a list can also increase motivation.
 </p>
 
-{% endblock content %}
+{% endblock page %}

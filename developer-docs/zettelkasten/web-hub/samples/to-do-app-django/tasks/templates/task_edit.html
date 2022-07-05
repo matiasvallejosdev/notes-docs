@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{%extends 'navigation_page.html'%}
 
 {% block content %}
 
@@ -6,7 +6,7 @@
 <form method="POST">
     {% csrf_token %}
     {{form.as_p}}
-    <button type="submit" value="Sumbit">Sumbit List</button>
+    <button type="submit" value="Sumbit">Sumbit Changes</button>
 </form>
 
 {% endblock content %}

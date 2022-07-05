@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block page %}
+<h1>Register</h1>
+<p>The simplest way to keep track of the stuff you want to do.</p>
+        
+<form method="POST">
+    {% csrf_token %}
+    {{form.as_p}}
+    <input type="submit" value="Register">
+</form>
+
+<p>Already have an account?<a href="/users/login/">Register Now</a></p>
+{% endblock page %}
