@@ -23,4 +23,4 @@ Django is a web application framework created for the Python programming languag
 ## Samples
 
 - [my-first-django-app](../samples/my-first-django-app/)
-- [to-do-app-django](../samples/to-do-app-django)
+- [to-do-app-django](../samples/to-do-app-django/)

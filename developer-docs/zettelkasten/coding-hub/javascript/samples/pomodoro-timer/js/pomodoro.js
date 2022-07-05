@@ -32,21 +32,19 @@ class Pomodoro{
             } 
         }
     }
-    resetState(){
+    resetCycle(renderButton){
         this.state.currentState = 0;
         this.state.remaining = 0;
         this.state.interval = 0;
-        this.state.running = false;
+        this.stopInterval(renderButton);
     }
-    nextState(skipRemaining = false){  
+    nextState(renderButton, renderTimer, skipRemaining = false){
         if(skipRemaining){
             this.state.remaining = 0;
             if(this.state.currentState == 2){
-                this.resetState();
+                this.resetCycle(renderButton);
             }
-            
-            console.log((this.state.interval % 2) == 0);
-            
+                        
             if((this.state.interval % 2) == 0){
                 // Work state
                 this.state.currentState = 0;
@@ -59,7 +57,7 @@ class Pomodoro{
                 }
             }
         }
-        return this.createInterval();
+        return this.createInterval(renderButton, renderTimer);
     }
     decideTime(){
         if(!this.state.remaining <= 0){
@@ -70,45 +68,52 @@ class Pomodoro{
             switch(this.state.currentState){
                 case 0: // Pomodoro work
                     return parseInt(this.settings.work); 
-                    break; 
                 case 1: // Short break
                     return parseInt(this.settings.short);
-                    break; 
                 case 2: // Long break
                     return parseInt(this.settings.long);
-                    break; 
             }
         }
     }
     startInterval() {
-        if(this.state.running){
-            this.stopInterval();
-        }
-
         console.log("-----------Interval was initialized!-----------------");
         this.state.running = true;
         this.state.interval += 1;
     }
-    createInterval(interval = 1000){
-
+    delaySeconds(n){
+        return new Promise(function(resolve){
+            setTimeout(resolve,n*1000);
+        });
+    }
+    createInterval(renderButton ,renderTimer, interval = 1000){
+        if(this.state.running){
+            this.stopInterval(renderButton);
+        }
         this.startInterval();
         
         console.log("Pomotime selected is " + this.decideTime());
         this.printState();
 
+        // Get countdown next difference
         var countDownDate = new Date();
         countDownDate.setSeconds(countDownDate.getSeconds() + this.decideTime());
 
+        // Get today's date and time
+        var now = new Date().getTime();
+        var step = Timer.countDownStep(now, countDownDate)
+        
+        // Render html
+        renderButton(this.state.running);
+        renderTimer(step.minutes, step.seconds);
+
+        this.delaySeconds(1);
         return new Promise((result)=> {
             this.interval = setInterval(() =>{
-                // Get today's date and time
-                var now = new Date().getTime();
-                var step = Timer.countDownStep(now, countDownDate)
+                now = new Date().getTime();
+                step = Timer.countDownStep(now, countDownDate)
                 
                 // Print html
-                var m = step.minutes < 10 ? "0" + step.minutes : step.minutes;
-                var s = step.seconds < 10 ? "0" + step.seconds : step.seconds;
-                timerValue.innerHTML = m + ":" + s;
+                renderTimer(step.minutes, step.seconds)
                 
                 // Save remaining time distance
                 this.state.remaining = step.distance;
@@ -116,17 +121,19 @@ class Pomodoro{
                 // If the count down is finished, write some text
                 if (step.distance <= 1) {
                     this.state.remaining = 0;
-                    this.stopInterval();
+                    this.stopInterval(renderButton);
                     result(this.state)
                 }
                 
             }, interval);
         });
     }
-    stopInterval(){
+    stopInterval(renderButton){
         console.log("-----------Interval was interrupted with a remaining of " + this.state.remaining + "!-----------------" );
         this.state.running = false;
         clearInterval(this.interval);
+        renderButton(this.state.running);
+        this.delaySeconds(1);
     }
     get getSettings(){
         return this.settings;
@@ -158,7 +165,7 @@ pomodoroButton.addEventListener('click', () =>{
     if(!pomodoro.state.running){
         pomodoro.setSettings = getSettings();
         
-        pomodoro.nextState(false)
+        pomodoro.nextState(renderButton, renderTimer, false)
         .then(() => console.log(`Interval was finished!`));
         renderState(pomodoro.state.currentState)
         
@@ -166,17 +173,32 @@ pomodoroButton.addEventListener('click', () =>{
         nextButton.classList.remove('button--hidden');
     } 
     else {
-        pomodoro.stopInterval();
+        pomodoro.stopInterval(renderButton);
         buttonText.innerHTML = "Start";
         nextButton.classList.add('button--hidden');
     }
 });
 
 nextButton.addEventListener('click', () => {
-    pomodoro.nextState(true)
-    .then(() => console.log(`Step was finished!`));
+    pomodoro.nextState(renderButton, renderTimer, true)
+        .then(() => console.log(`Step was finished!`));
     renderState(pomodoro.state.currentState)
 });
+
+function renderButton(isActive) {
+    var pomoAction = pomodoroButton.parentElement;
+    if(isActive){
+        pomoAction.classList.add('pomodoro__action--pressed')
+    } else {
+        pomoAction.classList.remove('pomodoro__action--pressed')
+    }
+}
+
+function renderTimer(minutes,seconds){
+    var m = minutes < 10 ? "0" + minutes : minutes;
+    var s = seconds < 10 ? "0" + seconds : seconds;
+    timerValue.innerHTML = m + ":" + s;
+}
 
 function renderState(state){
     console.log('Render state ' + state);

@@ -82,21 +82,45 @@
             </div>
         </div>
         <div class="settings">
-            <div class="form__group" id="group__work">
-                <label class="form__label" for="work">Work time</label>
-                <input class="form__input" type="number" name="work" id="work" value="60">
-            </div>
-            <div class="form__group" id="group__short">
-                <label class="form__label" for="short">Break time</label>
-                <input class="form__input" type="number" name="short" id="short" value="15">
-            </div>
-            <div class="form__group" id="group__long">
-                <label class="form__label" for="long">Long time</label>
-                <input class="form__input" type="number" name="long" id="long" value="30">
-            </div>
-            <div class="form__group" id="group__long-interval">
-                <label class="form__label" for="long-interval">Long Break Interval</label>
-                <input class="form__input" type="number" name="long-interval" id="long-interval" value="4">
+            <div class="settings__container">
+                <div class="">
+                    <div class="settings__elem">
+                        <h5 class="settings__label label--uppercase label--gray">
+                            Timer Settings
+                        </h5>
+                        <i class="button button--icon button--transparent button--contrast fa-solid fa-xmark fa-xl"></i>
+                    </div>
+                </div>
+                <div class="settings__group">
+                    <div class="settings__elem">
+                        <h5 class="settings__label">
+                            Time (minutes)
+                        </h5>
+
+                    </div>
+                    <div class="settings__elem">
+                        <div class="settings__input">
+                            <label class="settings__label settings__label-secondary label--gray" for="work">Work time</label>
+                            <input class="settings__input-box" type="number" name="work" id="work" value="60">
+                        </div>
+                        <div class="settings__input" id="group__short">
+                            <label class="settings__label settings__label-secondary label--gray" for="short">Break time</label>
+                            <input class="settings__input-box" type="number" name="short" id="short" value="15">
+                        </div>
+                        <div class="settings__input" id="group__long">
+                            <label class="settings__label settings__label-secondary label--gray" for="long">Long time</label>
+                            <input class="settings__input-box" type="number" name="long" id="long" value="30">
+                        </div>
+                    </div>
+                </div>
+                <div class="settings__group">
+                    <div class="settings__elem">
+                        <h5 class="settings__label ">
+                            Long break interval
+                        </h5>
+                        <input class="settings__input-box settings__elem--small" type="number" name="long-interval" id="long-interval" value="4">
+                    </div>
+                </div>
             </div>
         </div>
         <script type="module" src="js/pomodoro.js" ></script>
